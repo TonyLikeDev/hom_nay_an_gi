@@ -17,3 +17,4 @@ rồi mở http://localhost:8000.
 - `about.html`: quy trình thiết kế và nguồn ảnh
 - `js/data.js`: toàn bộ dữ liệu món ăn
 - `js/app.js`: header và cách chọn món
+hello
