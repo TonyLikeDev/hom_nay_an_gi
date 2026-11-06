@@ -76,33 +76,20 @@
       .sort((a, b) => b.meals.includes(meal) - a.meals.includes(meal))
       .map((d) => d.name);
 
+    const animate = !App.reduceMotion();
     fillReel(reelCuisine, cuisineLabels);
     moveReel(reelCuisine, 1, false);
-
-    if (App.reduceMotion()) {
-      slot.dataset.cuisine = cuisine;
-      moveReel(reelCuisine, stopIndex(cuisineLabels, cuisineName), false);
-      fillReel(reelDish, dishLabels);
-      moveReel(reelDish, stopIndex(dishLabels, dish.name), false);
-      status.textContent = `${cuisineName}: ${dish.name}`;
-      await App.wait(BLINK_MS);
-      location.href = App.dishUrl(dish);
-      return;
-    }
-
     status.textContent = 'Đang quay nền ẩm thực...';
-    void reelCuisine.offsetHeight;
-    moveReel(reelCuisine, stopIndex(cuisineLabels, cuisineName), true);
-    await App.wait(SPIN_MS);
+    moveReel(reelCuisine, stopIndex(cuisineLabels, cuisineName), animate);
+    if (animate) await App.wait(SPIN_MS);
 
     // Chỉ nạp cuộn món sau khi cuộn ẩm thực dừng, nếu không sẽ lộ kết quả.
     slot.dataset.cuisine = cuisine;
     status.textContent = `${cuisineName}! Đang chọn món...`;
     fillReel(reelDish, dishLabels);
     moveReel(reelDish, 1, false);
-    void reelDish.offsetHeight;
-    moveReel(reelDish, stopIndex(dishLabels, dish.name), true);
-    await App.wait(SPIN_MS);
+    moveReel(reelDish, stopIndex(dishLabels, dish.name), animate);
+    if (animate) await App.wait(SPIN_MS);
 
     status.textContent = `Hôm nay ăn ${dish.name}!`;
     slot.classList.add('is-blinking');

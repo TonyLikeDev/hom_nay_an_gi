@@ -58,5 +58,5 @@ const App = (() => {
 
   renderChrome();
 
-  return { getMeal, randomItem, wait, reduceMotion, getLast, setLast, pickDish, photo, dishUrl, mapsUrl };
+  return { getMeal, randomItem, wait, reduceMotion, setLast, pickDish, photo, dishUrl, mapsUrl };
 })();

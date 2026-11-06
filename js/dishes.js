@@ -1,7 +1,6 @@
 /* Trang Tất cả món ăn: lưới món và bộ lọc theo ẩm thực, bữa ăn. */
 (() => {
   const grid = document.getElementById('dish-grid');
-  const empty = document.getElementById('empty');
   const count = document.getElementById('count');
   const filters = { cuisine: 'all', meal: 'all' };
 
@@ -19,7 +18,6 @@
       (filters.meal === 'all' || d.meals.includes(filters.meal)));
 
     count.textContent = `(${dishes.length})`;
-    empty.hidden = dishes.length > 0;
     grid.innerHTML = dishes.map((d) => {
       const meals = d.meals.map((m) => FOOD.MEALS[m].label).join(', ');
       return `<li><a class="dish" data-cuisine="${d.cuisine}" href="${App.dishUrl(d)}">
@@ -37,10 +35,6 @@
     document.querySelectorAll(`.pill[data-group="${pill.dataset.group}"]`).forEach((p) =>
       p.setAttribute('aria-pressed', p === pill));
     render();
-  });
-
-  document.getElementById('clear-filters').addEventListener('click', () => {
-    document.querySelectorAll('.pill[data-value="all"]').forEach((p) => p.click());
   });
 
   render();

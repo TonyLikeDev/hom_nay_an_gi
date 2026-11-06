@@ -11,12 +11,12 @@
   const meal = App.getMeal();
 
   let pool = FOOD.DISHES;
-  let spinId = 0;
 
   function show(dish) {
     const mealKey = dish.meals.includes(meal) ? meal : dish.meals[0];
     document.body.dataset.cuisine = dish.cuisine;
     document.title = `${dish.name} | Hôm nay ăn gì?`;
+    if (qDish) history.replaceState(null, '', App.dishUrl(dish));
     $('dish-photo').src = App.photo(dish, 1200, 900);
     $('dish-photo').alt = dish.name;
     $('dish-meta').textContent = `${FOOD.CUISINES[dish.cuisine].name} · ${FOOD.MEALS[mealKey].label}`;
@@ -35,11 +35,12 @@
   }
 
   async function spin() {
-    const id = ++spinId;
+    if (card.classList.contains('is-spinning')) return;
     const dish = App.pickDish(pool);
     if (App.reduceMotion()) return show(dish);
 
     new Image().src = App.photo(dish, 1200, 900);   // tải sẵn để ảnh hiện ngay khi dừng
+    if (!qCuisine) delete document.body.dataset.cuisine;
     card.classList.remove('is-bounce');
     card.classList.add('is-spinning');
     $('dish-meta').textContent = 'Đang quay...';
@@ -48,7 +49,6 @@
     for (const ms of SCHEDULE) {
       $('dish-name').textContent = App.randomItem(pool.filter((d) => d.name !== $('dish-name').textContent)).name;
       await App.wait(ms);
-      if (id !== spinId) return;
     }
 
     card.classList.remove('is-spinning');

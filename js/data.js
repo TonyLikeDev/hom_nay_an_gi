@@ -1,10 +1,10 @@
 /* Dữ liệu dùng chung: khung giờ bữa ăn, 6 nền ẩm thực, 30 món ăn. */
 const FOOD = {
   MEALS: {
-    sang: { label: 'Sáng', time: '05:00 - 10:29', greet: 'Chào buổi sáng!', sub: 'Đến giờ ăn sáng rồi. Để tụi mình chọn giúp bạn nhé.' },
-    trua: { label: 'Trưa', time: '10:30 - 15:59', greet: 'Chào buổi trưa!', sub: 'Đến giờ ăn trưa rồi. Để tụi mình chọn giúp bạn nhé.' },
-    toi: { label: 'Tối', time: '16:00 - 21:59', greet: 'Chào buổi tối!', sub: 'Đến giờ ăn tối rồi. Để tụi mình chọn giúp bạn nhé.' },
-    khuya: { label: 'Khuya', time: '22:00 - 04:59', greet: 'Khuya rồi nhỉ?', sub: 'Vẫn còn đói à? Để tụi mình chọn giúp bạn nhé.' },
+    sang: { label: 'Sáng', greet: 'Chào buổi sáng!', sub: 'Đến giờ ăn sáng rồi. Để tụi mình chọn giúp bạn nhé.' },
+    trua: { label: 'Trưa', greet: 'Chào buổi trưa!', sub: 'Đến giờ ăn trưa rồi. Để tụi mình chọn giúp bạn nhé.' },
+    toi: { label: 'Tối', greet: 'Chào buổi tối!', sub: 'Đến giờ ăn tối rồi. Để tụi mình chọn giúp bạn nhé.' },
+    khuya: { label: 'Khuya', greet: 'Khuya rồi nhỉ?', sub: 'Vẫn còn đói à? Để tụi mình chọn giúp bạn nhé.' },
   },
 
   CUISINES: {

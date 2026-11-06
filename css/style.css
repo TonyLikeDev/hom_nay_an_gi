@@ -337,7 +337,7 @@ body[data-cuisine] { background: var(--soft); }
 .result__desc { max-width: 42ch; margin-top: 1rem; color: var(--muted); font-size: 1.125rem; }
 .result__actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
 
-.result.is-spinning .result__actions { visibility: hidden; }
+.result.is-spinning .result__actions { opacity: 0; pointer-events: none; }
 .result.is-spinning .result__photo img { opacity: 0; }
 .result.is-bounce { animation: bounce .3s ease-out; }
 @keyframes bounce {
