@@ -1,5 +1,9 @@
 /* Trang chủ: lời chào theo giờ và ba cuộn ảnh món hợp với bữa hiện tại. */
 (() => {
+  if (new URLSearchParams(location.search).get('theme') === 'que-trua') {
+    location.replace('que-trua.html');
+    return;
+  }
   const mealKey = App.getMeal();
   const meal = FOOD.MEALS[mealKey];
   document.getElementById('greet').textContent = meal.greet;

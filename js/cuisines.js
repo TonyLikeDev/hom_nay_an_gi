@@ -27,7 +27,11 @@
   }).join('') + `<button class="surprise" id="open-slot" type="button">
       <span class="surprise__name">Bất ngờ đi!</span>
       <span class="surprise__desc">Không chọn được? Để máy quay giúp bạn cả nền ẩm thực lẫn món ăn.</span>
-    </button>`;
+    </button>
+    <a class="surprise surprise--oracle" href="que-trua.html">
+      <span class="surprise__name">Gieo quẻ!</span>
+      <span class="surprise__desc">Nhấn vào lọ xăm để lắc rơi ra một thẻ quẻ may mắn và biết ngay hôm nay ăn món gì.</span>
+    </a>`;
 
   const fillReel = (reel, labels) => {
     reel.innerHTML = Array(REPEATS).fill(labels).flat().map((label) => `<li>${label}</li>`).join('');

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gieo quẻ chọn món | Hôm nay ăn gì?</title>
+  <meta name="description" content="Nhấn vào lọ quẻ để lắc và đón một thẻ quẻ may mắn gợi ý món ăn cho bữa hôm nay.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23C2410C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/que-trua.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+  <header class="site-header wrap" data-header></header>
+
+  <main id="main" class="page wrap">
+    <div class="fortune-header">
+      <div>
+        <h1>Gieo quẻ chọn món</h1>
+        <p class="lead" id="fortune-lead">Chạm vào lọ quẻ để lắc đều — một thẻ xăm sẽ rớt ra và chỉ điểm món ngon hợp vía hôm nay.</p>
+      </div>
+      <button type="button" class="btn sound-pill" id="sound-toggle" aria-pressed="true">
+        <span id="sound-text">Âm thanh: Bật</span>
+      </button>
+    </div>
+
+    <div class="filters" aria-label="Bộ lọc lọ quẻ">
+      <div class="filters__row" id="fortune-cuisine" role="group" aria-label="Lọc theo ẩm thực"></div>
+      <div class="filters__row" id="fortune-meal" role="group" aria-label="Lọc theo bữa ăn"></div>
+    </div>
+
+    <section class="fortune-arena" aria-label="Khu vực gieo quẻ">
+      <!-- Cột trái: Lọ quẻ tương tác -->
+      <div class="jar-card" id="jar-stage" data-state="idle">
+        <div class="jar-card__top">
+          <span class="jar-badge" id="jar-step-badge">Sẵn sàng gieo quẻ</span>
+          <span class="jar-count">Đã gieo: <strong id="jar-count">0</strong> quẻ</span>
+        </div>
+
+        <div class="jar-scene" id="jar-trigger" role="button" tabindex="0" aria-label="Nhấn vào lọ quẻ để lắc và rút quẻ">
+          <!-- Hiệu ứng hào quang nhẹ phía sau lọ -->
+          <div class="jar-glow" aria-hidden="true"></div>
+
+          <!-- Cái lọ quẻ & bó thẻ xăm bên trong -->
+          <div class="jar-vessel" id="jar-vessel">
+            <!-- Bó 7 thẻ xăm nhô lên từ miệng lọ -->
+            <div class="jar-sticks" aria-hidden="true">
+              <div class="jar-stick" style="--i:0; --rot:-14deg; --x:-54px; --y:14px"><span>壹</span></div>
+              <div class="jar-stick" style="--i:1; --rot:-9deg;  --x:-36px; --y:4px"><span>貳</span></div>
+              <div class="jar-stick" style="--i:2; --rot:-4deg;  --x:-18px; --y:10px"><span>參</span></div>
+              <div class="jar-stick" style="--i:3; --rot:1deg;   --x:0px;   --y:0px"><span>肆</span></div>
+              <div class="jar-stick" style="--i:4; --rot:5deg;   --x:18px;  --y:8px"><span>伍</span></div>
+              <div class="jar-stick" style="--i:5; --rot:10deg;  --x:36px;  --y:3px"><span>陸</span></div>
+              <div class="jar-stick" style="--i:6; --rot:15deg;  --x:54px;  --y:13px"><span>柒</span></div>
+            </div>
+
+            <!-- Thân lọ quẻ bằng SVG đồng điệu màu sắc với trang -->
+            <svg class="jar-body-svg" viewBox="0 0 240 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Miệng lọ phía sau -->
+              <ellipse cx="120" cy="36" rx="76" ry="18" class="jar-svg-mouth-back"/>
+              <!-- Thân ống tre -->
+              <path d="M44 36 C44 120, 40 190, 52 248 C56 264, 84 272, 120 272 C156 272, 184 264, 188 248 C200 190, 196 120, 196 36 Z" class="jar-svg-body"/>
+              <!-- Các nan tre dọc -->
+              <line x1="74" y1="48" x2="78" y2="266" class="jar-svg-rib"/>
+              <line x1="104" y1="52" x2="106" y2="270" class="jar-svg-rib"/>
+              <line x1="136" y1="52" x2="134" y2="270" class="jar-svg-rib"/>
+              <line x1="166" y1="48" x2="162" y2="266" class="jar-svg-rib"/>
+              <!-- Đai lọ trên & dưới -->
+              <path d="M45 78 Q120 94 195 78 L195 94 Q120 110 45 94 Z" class="jar-svg-band"/>
+              <path d="M47 210 Q120 226 193 210 L191 226 Q120 242 49 226 Z" class="jar-svg-band"/>
+              <!-- Viền miệng lọ phía trước -->
+              <path d="M44 36 C44 46, 78 54, 120 54 C162 54, 196 46, 196 36" class="jar-svg-rim"/>
+              <!-- Nhãn thắt giữa thân lọ -->
+              <rect x="86" y="112" width="68" height="84" rx="10" transform="rotate(0 120 154)" class="jar-svg-plaque"/>
+              <text x="120" y="148" text-anchor="middle" class="jar-svg-title">QUẺ</text>
+              <text x="120" y="174" text-anchor="middle" class="jar-svg-sub">THỰC</text>
+            </svg>
+          </div>
+
+          <!-- Thanh thẻ quẻ văng/rớt ra ngoài khi lắc xong -->
+          <div class="dropped-stick" id="dropped-stick" aria-hidden="true">
+            <span class="dropped-stick__tip" id="dropped-stick-num">08</span>
+            <span class="dropped-stick__label" id="dropped-stick-rank">THƯỢNG CÁT</span>
+          </div>
+        </div>
+
+        <p class="jar-hint" id="jar-status" aria-live="polite">
+          Nhấn trực tiếp vào <strong>lọ quẻ</strong> hoặc bấm nút bên dưới để lắc.
+        </p>
+
+        <div class="jar-actions">
+          <button type="button" class="btn btn--primary btn--lg" id="btn-shake">
+            Lắc lọ quẻ
+          </button>
+        </div>
+      </div>
+
+      <!-- Cột phải: Thẻ quẻ & Món ăn hiện ra sau khi rớt quẻ -->
+      <div class="fortune-output" id="fortune-output">
+        <!-- Trạng thái chờ ban đầu -->
+        <div class="fortune-placeholder" id="fortune-placeholder">
+          <span class="fortune-placeholder__icon" aria-hidden="true">🥢</span>
+          <h2>Chưa có quẻ nào được rút</h2>
+          <p>Hãy chọn khung giờ hoặc nền ẩm thực bạn thích, rồi nhấn vào chiếc lọ bên cạnh. Một thẻ quẻ sẽ rớt ra cùng món ăn dành riêng cho bạn!</p>
+        </div>
+
+        <!-- Kết quả quẻ & món ăn (ẩn cho tới khi quẻ rớt ra) -->
+        <article class="fortune-result" id="fortune-result" hidden>
+          <!-- Phần Tờ Xăm / Lời Quẻ -->
+          <div class="fortune-slip">
+            <div class="fortune-slip__header">
+              <span class="fortune-slip__num" id="slip-num">QUẺ SỐ 08</span>
+              <span class="fortune-slip__rank" id="slip-rank">THƯỢNG CÁT · ĐẮC VỊ</span>
+            </div>
+            <blockquote class="fortune-slip__poem" id="slip-poem"></blockquote>
+            <p class="fortune-slip__advice" id="slip-advice"></p>
+          </div>
+
+          <!-- Phần Món Ăn Ứng Với Quẻ -->
+          <div class="fortune-dish">
+            <a class="fortune-dish__photo" id="dish-link" href="#">
+              <img id="dish-photo" src="" alt="" width="800" height="600">
+            </a>
+            <div class="fortune-dish__body">
+              <p class="result__meta" id="dish-meta"></p>
+              <h2 class="fortune-dish__name" id="dish-name"></h2>
+              <p class="fortune-dish__desc" id="dish-desc"></p>
+              <div class="result__actions">
+                <a class="btn btn--primary btn--lg" id="btn-maps" href="#" target="_blank" rel="noopener noreferrer">Tìm quán gần đây</a>
+                <button class="btn btn--lg" id="btn-again" type="button">Gieo lại quẻ khác</button>
+                <a class="btn btn--lg" id="btn-detail" href="#">Xem trang món</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/que-trua.js"></script>
+</body>
+</html>

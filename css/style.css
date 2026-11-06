@@ -265,6 +265,14 @@ h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
 .surprise:active { transform: scale(.98); }
 .surprise__name { font: 800 clamp(2rem, 5vw, 3.5rem)/1.1 var(--font-display); letter-spacing: -.02em; }
 .surprise__desc { max-width: 40ch; font-size: 1.0625rem; line-height: 1.4; }
+.surprise--oracle {
+  border: 2px solid var(--accent);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+}
+.surprise--oracle .surprise__name { color: var(--accent); }
+.surprise--oracle .surprise__desc { color: var(--muted); }
 
 /* ---------- Máy quay xèng ---------- */
 .slot {

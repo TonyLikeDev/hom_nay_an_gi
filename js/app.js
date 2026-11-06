@@ -2,6 +2,7 @@
 const App = (() => {
   const LAST_KEY = 'hnag:last-dish';
   const NAV = [
+    { href: 'que-trua.html', label: 'Gieo quẻ' },
     { href: 'cuisines.html', label: 'Ẩm thực' },
     { href: 'dishes.html', label: 'Tất cả món ăn' },
     { href: 'about.html', label: 'Giới thiệu' },
