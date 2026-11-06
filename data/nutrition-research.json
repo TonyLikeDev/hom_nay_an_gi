@@ -1,0 +1,197 @@
+{
+  "checkedAt": "2026-11-02",
+  "policy": {
+    "low-sugar": {
+      "solidMaxGPer100g": 5,
+      "liquidMaxGPer100ml": 2.5,
+      "source": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en"
+    },
+    "low-energy": {
+      "solidMaxKcalPer100g": 40,
+      "liquidMaxKcalPer100ml": 20,
+      "source": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en"
+    },
+    "low-carb": {
+      "enabled": false,
+      "reason": "Không có định nghĩa thống nhất cho từng món. Không dùng ngưỡng của chế độ ăn cả ngày cho một món.",
+      "source": "https://www.gov.uk/government/publications/sacn-report-lower-carbohydrate-diets-for-type-2-diabetes"
+    }
+  },
+  "profiles": [
+    {
+      "dishId": "ca-phe-dac-san",
+      "scope": "Chỉ cà phê đen pha nước, không đường, sữa, kem hay siro.",
+      "sourceLabel": "University of Rochester Medical Center",
+      "source": "https://www.urmc.rochester.edu/encyclopedia/content?contentid=14209-1&contenttypeid=76",
+      "serving": "1 cốc 8 US fl oz (khoảng 237 ml)",
+      "values": {
+        "energyKcal": 2.37,
+        "sugarsG": 0,
+        "carbohydrateG": 0
+      },
+      "reviews": [
+        {
+          "key": "low-sugar",
+          "basis": "Nguồn ghi 0 g đường/cốc; dưới ngưỡng 2,5 g/100 ml cho đồ uống."
+        },
+        {
+          "key": "low-energy",
+          "basis": "2,37 kcal/8 US fl oz, xấp xỉ 1 kcal/100 ml; dưới ngưỡng 20 kcal/100 ml."
+        }
+      ],
+      "foodForm": "liquid",
+      "servingQuantity": 236.588,
+      "servingUnit": "ml",
+      "dataNote": "Số liệu tham khảo do University of Rochester Medical Center công bố; các giá trị 0 có thể đã làm tròn."
+    },
+    {
+      "dishId": "bo-bit-tet",
+      "scope": "Chỉ thịt bò vai nạc nướng nguyên vị, không sốt, đường ướp, bánh mì hay khoai ăn kèm.",
+      "sourceLabel": "USDA ARS · Retail Beef Cuts, Release 3.01 (2013), trang 31",
+      "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Beef/Retail_Beef_Cuts03.pdf#page=34",
+      "serving": "100 g thịt bò vai nạc nướng (shoulder steak, boneless, select; NDB 13946)",
+      "values": {
+        "energyKcal": 169,
+        "sugarsG": 0,
+        "carbohydrateG": 0
+      },
+      "reviews": [
+        {
+          "key": "low-sugar",
+          "basis": "Nguồn ghi 0 g đường/100 g thịt nạc nướng; dưới ngưỡng 5 g/100 g cho thức ăn rắn."
+        }
+      ],
+      "foodForm": "solid",
+      "servingQuantity": 100,
+      "servingUnit": "g",
+      "dataNote": "USDA ghi đường và carbohydrate bằng 0 theo mã nguồn 7 (assumed zero); năng lượng theo mã 4 (imputed). Không phải xét nghiệm phần ăn tại quán."
+    },
+    {
+      "dishId": "risotto-nam",
+      "scope": "Chỉ phiên bản Mushroom risotto của Diabetes UK: gạo risotto, nấm, Parmesan và sữa chua Hy Lạp 0% béo, theo đúng công thức nguồn; không tính món kèm.",
+      "sourceLabel": "Diabetes UK · Mushroom risotto",
+      "source": "https://www.diabetes.org.uk/living-with-diabetes/recipes/mushroom-risotto",
+      "serving": "1 phần thành phẩm 306 g (công thức chia 3 phần)",
+      "values": {
+        "energyKcal": 282,
+        "sugarsG": 5.8,
+        "carbohydrateG": 49.4
+      },
+      "reviews": [
+        {
+          "key": "low-sugar",
+          "basis": "5,8 g đường/306 g thành phẩm ≈ 1,90 g/100 g, dưới ngưỡng 5 g/100 g. Nguồn cũng công bố Low sugar. Không có nghĩa là ít carbohydrate hay ít năng lượng."
+        }
+      ],
+      "foodForm": "solid",
+      "servingQuantity": 306,
+      "servingUnit": "g",
+      "dataNote": "Số liệu cho toàn bộ phần risotto của công thức Diabetes UK, không gồm gợi ý ăn kèm. 49,4 g carbohydrate và 282 kcal/phần; không suy số liệu sang phiên bản khác hoặc món tại quán."
+    }
+  ],
+  "notAssignedExamples": [
+    {
+      "dishId": "bruschetta",
+      "reason": "Alberta Health Services chỉ tính hỗn hợp cà chua, không gồm bánh mì; không khớp công thức hiện có.",
+      "source": "https://www.albertahealthservices.ca/assets/info/nutrition/if-nfs-tomato-bruschetta.pdf"
+    },
+    {
+      "dishId": "xoi-xoai",
+      "reason": "Công thức web đã điều chỉnh nguyên liệu/khẩu phần; không chuyển số liệu công thức khác sang."
+    }
+  ],
+  "limitations": "Đây là đối chiếu dữ liệu tham khảo cho phiên bản được mô tả, không phải xét nghiệm món tại quán, xác nhận toàn bộ quán hay lời khuyên giảm cân.",
+  "followUpReview": {
+    "checkedAt": "2026-11-02",
+    "scope": "Đợt tìm bổ sung có mục tiêu; không phải đã tìm hết mọi nguồn cho cả 105 món. Các món chưa có profile tiếp tục để trống.",
+    "addedDishIds": [
+      "risotto-nam"
+    ],
+    "decisions": [
+      {
+        "dishId": "risotto-nam",
+        "status": "assigned-reference-variant",
+        "source": "https://www.diabetes.org.uk/living-with-diabetes/recipes/mushroom-risotto",
+        "reason": "Có công thức cùng loại món, khẩu phần thành phẩm 306 g, đường 5,8 g và đủ dữ liệu đối chiếu; chỉ áp dụng đúng phiên bản nguồn."
+      },
+      {
+        "dishId": "pho-bo",
+        "status": "not-assigned",
+        "source": "https://www.diabetes.org.uk/guide-to-diabetes/recipes/pho",
+        "reason": "Công thức Pho của Diabetes UK dùng thịt gà, không khớp phở bò trong danh mục."
+      },
+      {
+        "dishId": "pho-bo",
+        "status": "not-assigned",
+        "source": "https://www.canada.ca/en/health-canada/services/food-guide/eating-support/kitchen/recipes/pho-beef-noodle-soup.html",
+        "reason": "Có công thức phở bò nhưng chưa xác nhận được bảng dinh dưỡng kèm khối lượng thành phẩm để áp dụng tiêu chí mỗi 100 g."
+      },
+      {
+        "dishId": "tom-yum",
+        "status": "not-assigned",
+        "source": "https://assets.heartfoundation.org.nz/documents/teacher-tools/recipes/veg-tom-yum-soup-recipe.pdf",
+        "reason": "Nguồn là Tom Yum rau và đậu phụ kèm mì; món hiện có mô tả Tom Yum tôm. Không khớp biến thể; không có bảng số liệu cần thiết."
+      },
+      {
+        "dishId": "ca-ri-xanh",
+        "status": "not-assigned",
+        "source": "https://www.bda.uk.com/static/d5830977-1ded-44b6-a122bbb5c6fd0dfa/BDA165ThaiGreenCurry.pdf",
+        "reason": "Có số liệu cho phiên bản gà với đậu và cốt dừa giảm béo, không khớp gà/cà tím hiện có. Không tự coi rau hay cốt dừa các loại là tương đương."
+      },
+      {
+        "dishId": "mi-y-carbonara",
+        "status": "not-assigned",
+        "source": "https://www.diabetes.org.uk/guide-to-diabetes/recipes/spaghetti-carbonara",
+        "reason": "Phiên bản điều chỉnh dùng tỏi tây, giăm bông và sữa chua; không dùng để xác nhận carbonara hiện tại."
+      },
+      {
+        "dishId": "lasagna",
+        "status": "not-assigned",
+        "source": "https://www.diabetes.org.uk/guide-to-diabetes/recipes/vegetarian-lasagne",
+        "reason": "Lasagne chay khác món hiện có là lasagna sốt thịt bò và sốt kem."
+      },
+      {
+        "dishId": "lasagna",
+        "status": "not-assigned",
+        "source": "https://www.bhf.org.uk/-/media/files/information-and-support/hm_aut2022_download.pdf",
+        "reason": "Nguồn Low-fat lasagne có công bố Low sugar nhưng chưa xác nhận khối lượng thành phẩm từng phần; không tự cộng khối lượng nguyên liệu sống để thay thế."
+      },
+      {
+        "dishId": "burger",
+        "status": "not-assigned",
+        "source": "https://www.diabetes.org.uk/guide-to-diabetes/recipes/beefburger",
+        "reason": "Có số liệu cho burger bò 5% béo với bánh nguyên cám và rau, nhưng danh mục gắn burger Bikini Bottom Express, chưa rõ loại nhân/bánh/sốt; không gán từ công thức nơi khác."
+      },
+      {
+        "dishId": "bruschetta",
+        "status": "not-assigned",
+        "source": "https://www.mayoclinic.org/healthy-lifestyle/recipes/tomato-basil-bruschetta/rcp-20049992",
+        "reason": "Công thức khác với định lượng trên web; thông tin theo phần không đủ để xác nhận lượng đường trên 100 g của công thức hiện tại."
+      },
+      {
+        "dishId": "bruschetta",
+        "status": "not-assigned",
+        "source": "https://www.albertahealthservices.ca/assets/info/nutrition/if-nfs-tomato-bruschetta.pdf",
+        "reason": "Bảng chỉ tính topping cà chua; không gồm bánh mì, nên không gán cho món hoàn chỉnh."
+      },
+      {
+        "dishId": "sushi",
+        "status": "not-assigned",
+        "source": "https://www.northumbria.nhs.uk/media-centre/news-and-blogs/blogs/watch-outhidden-sugars-about-mouthcare-lead-dental-nurse-and-trainer-paula-darkin",
+        "reason": "Nguồn cảnh báo cơm sushi có thể thêm đường, không phải bảng dinh dưỡng cho phiên bản sushi trong danh mục."
+      },
+      {
+        "dishId": "com-chien-duong-chau",
+        "status": "not-assigned",
+        "source": "https://food-nutrition.canada.ca/cnf-fce/serving-portion?id=7192",
+        "reason": "Mục thực phẩm cơm chiên không thịt không khớp cơm chiên Dương Châu. Không chuyển số liệu giữa hai món."
+      },
+      {
+        "dishId": "xoi-xoai",
+        "status": "not-assigned",
+        "source": "https://www.bbcgoodfood.com/recipes/sticky-rice-mango",
+        "reason": "Công thức frontend có định lượng chỉnh sửa, xoài/kem dừa dạng khoảng; chưa có khối lượng thành phẩm và bảng dinh dưỡng tương ứng."
+      }
+    ]
+  }
+}

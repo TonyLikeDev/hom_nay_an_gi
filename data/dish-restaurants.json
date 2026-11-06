@@ -1,0 +1,758 @@
+{
+  "reviewedAt": "2026-11-02",
+  "note": "Editorial links based on explicitly named offerings; not live menu or stock verification.",
+  "links": [
+    {
+      "dishId": "pho-bo",
+      "restaurantId": "dn-053",
+      "type": "dish",
+      "offering": "Phở bò tái lăn"
+    },
+    {
+      "dishId": "banh-mi",
+      "restaurantId": "dn-030",
+      "type": "dish",
+      "offering": "Bánh mì thịt nguội chả"
+    },
+    {
+      "dishId": "banh-mi",
+      "restaurantId": "dn-031",
+      "type": "dish",
+      "offering": "Bánh mì chả bò"
+    },
+    {
+      "dishId": "banh-mi",
+      "restaurantId": "dn-032",
+      "type": "dish",
+      "offering": "Bánh mì"
+    },
+    {
+      "dishId": "banh-mi",
+      "restaurantId": "dn-084",
+      "type": "dish",
+      "offering": "Bánh mì chả bò"
+    },
+    {
+      "dishId": "banh-xeo",
+      "restaurantId": "dn-006",
+      "type": "dish",
+      "offering": "Bánh xèo, nem lụi"
+    },
+    {
+      "dishId": "banh-xeo",
+      "restaurantId": "dn-065",
+      "type": "dish",
+      "offering": "Bánh xèo tôm nhảy"
+    },
+    {
+      "dishId": "banh-xeo",
+      "restaurantId": "dn-098",
+      "type": "dish",
+      "offering": "Bánh xèo"
+    },
+    {
+      "dishId": "pizza-margherita",
+      "restaurantId": "dn-013",
+      "type": "related",
+      "offering": "Pizza phô mai tươi; chưa xác nhận Margherita"
+    },
+    {
+      "dishId": "pizza-margherita",
+      "restaurantId": "dn-068",
+      "type": "related",
+      "offering": "Pizza củi; chưa xác nhận Margherita"
+    },
+    {
+      "dishId": "mi-y-carbonara",
+      "restaurantId": "dn-068",
+      "type": "related",
+      "offering": "Pasta Ý; chưa xác nhận Carbonara"
+    },
+    {
+      "dishId": "mi-quang",
+      "restaurantId": "dn-001",
+      "type": "dish",
+      "offering": "Mì Quảng",
+      "evidence": "Mì Quảng 1A (Mì quảng tôm thịt)"
+    },
+    {
+      "dishId": "mi-quang",
+      "restaurantId": "dn-066",
+      "type": "dish",
+      "offering": "Mì Quảng",
+      "evidence": "Mì Quảng Ếch Bếp Trang"
+    },
+    {
+      "dishId": "mi-quang",
+      "restaurantId": "dn-078",
+      "type": "dish",
+      "offering": "Mì Quảng",
+      "evidence": "Mì Quảng Giao Thủy"
+    },
+    {
+      "dishId": "mi-quang",
+      "restaurantId": "dn-093",
+      "type": "dish",
+      "offering": "Mì Quảng",
+      "evidence": "Mì Quảng Túy Loan Bà Tuyết"
+    },
+    {
+      "dishId": "bun-cha-ca",
+      "restaurantId": "dn-002",
+      "type": "dish",
+      "offering": "Bún chả cá",
+      "evidence": "Bún Chả Cá 109 (Bún chả cá thu)"
+    },
+    {
+      "dishId": "bun-cha-ca",
+      "restaurantId": "dn-003",
+      "type": "dish",
+      "offering": "Bún chả cá",
+      "evidence": "Bún Chả Cá Bà Lữ"
+    },
+    {
+      "dishId": "banh-trang-thit-heo",
+      "restaurantId": "dn-004",
+      "type": "dish",
+      "offering": "Bánh tráng cuốn thịt heo",
+      "evidence": "Bánh Tráng Thịt Heo Trần"
+    },
+    {
+      "dishId": "banh-trang-thit-heo",
+      "restaurantId": "dn-005",
+      "type": "dish",
+      "offering": "Bánh tráng cuốn thịt heo",
+      "evidence": "Bánh Tráng Thịt Heo Đại Lộc"
+    },
+    {
+      "dishId": "nem-lui",
+      "restaurantId": "dn-006",
+      "type": "dish",
+      "offering": "Nem lụi",
+      "evidence": "Bánh Xèo Bà Dưỡng (Bánh xèo, nem lụi)"
+    },
+    {
+      "dishId": "bun-mam-thit-quay",
+      "restaurantId": "dn-007",
+      "type": "dish",
+      "offering": "Bún mắm thịt quay",
+      "evidence": "Bún Mắm Vân (Bún mắm thịt quay)"
+    },
+    {
+      "dishId": "bun-bo",
+      "restaurantId": "dn-008",
+      "type": "dish",
+      "offering": "Bún bò",
+      "evidence": "Bún Bò Bà Diệu"
+    },
+    {
+      "dishId": "bun-bo",
+      "restaurantId": "dn-009",
+      "type": "dish",
+      "offering": "Bún bò",
+      "evidence": "Bún Bò Hương"
+    },
+    {
+      "dishId": "com-ga",
+      "restaurantId": "dn-010",
+      "type": "dish",
+      "offering": "Cơm gà",
+      "evidence": "Cơm Gà A Hải (Cơm gà xối mỡ)"
+    },
+    {
+      "dishId": "com-ga",
+      "restaurantId": "dn-011",
+      "type": "dish",
+      "offering": "Cơm gà",
+      "evidence": "Cơm Gà Hồng Ngọc"
+    },
+    {
+      "dishId": "pizza-pho-mai",
+      "restaurantId": "dn-013",
+      "type": "dish",
+      "offering": "Pizza phô mai tươi",
+      "evidence": "Pizza 4P's Indochina (Pizza phô mai tươi)"
+    },
+    {
+      "dishId": "bo-bit-tet",
+      "restaurantId": "dn-014",
+      "type": "dish",
+      "offering": "Bò bít tết",
+      "evidence": "Olivia's Prime Steakhouse (Bò bít tết)"
+    },
+    {
+      "dishId": "mam-com-gia-dinh",
+      "restaurantId": "dn-017",
+      "type": "dish",
+      "offering": "Mâm cơm gia đình",
+      "evidence": "Cơm Nhà Vui (Mâm cơm gia đình)"
+    },
+    {
+      "dishId": "met-cuon",
+      "restaurantId": "dn-018",
+      "type": "dish",
+      "offering": "Mẹt cuốn tổng hợp",
+      "evidence": "Bếp Cuốn Đà Nẵng (Mẹt cuốn tổng hợp)"
+    },
+    {
+      "dishId": "banh-beo",
+      "restaurantId": "dn-019",
+      "type": "dish",
+      "offering": "Bánh bèo",
+      "evidence": "Bánh Bèo Bà Bé (Bánh bèo, nậm, lọc)"
+    },
+    {
+      "dishId": "banh-nam",
+      "restaurantId": "dn-019",
+      "type": "dish",
+      "offering": "Bánh nậm",
+      "evidence": "Bánh Bèo Bà Bé (Bánh bèo, nậm, lọc)"
+    },
+    {
+      "dishId": "banh-bot-loc",
+      "restaurantId": "dn-019",
+      "type": "dish",
+      "offering": "Bánh bột lọc",
+      "evidence": "Bánh Bèo Bà Bé (Bánh bèo, nậm, lọc)"
+    },
+    {
+      "dishId": "banh-canh",
+      "restaurantId": "dn-020",
+      "type": "dish",
+      "offering": "Bánh canh",
+      "evidence": "Bánh Canh Ruộng Phương"
+    },
+    {
+      "dishId": "banh-canh",
+      "restaurantId": "dn-064",
+      "type": "dish",
+      "offering": "Bánh canh",
+      "evidence": "Bánh Canh Chờ"
+    },
+    {
+      "dishId": "oc-hut",
+      "restaurantId": "dn-021",
+      "type": "dish",
+      "offering": "Ốc hút",
+      "evidence": "Ốc Hút Hạnh (Ốc hút, mít trộn)"
+    },
+    {
+      "dishId": "oc-hut",
+      "restaurantId": "dn-055",
+      "type": "dish",
+      "offering": "Ốc hút",
+      "evidence": "Ốc Thanh (Ốc bươu trộn, ốc hút)"
+    },
+    {
+      "dishId": "oc-hut",
+      "restaurantId": "dn-063",
+      "type": "dish",
+      "offering": "Ốc hút",
+      "evidence": "Ốc Hút Chua Cay Chợ Bắc Mỹ An"
+    },
+    {
+      "dishId": "oc-hut",
+      "restaurantId": "dn-081",
+      "type": "dish",
+      "offering": "Ốc hút",
+      "evidence": "Ốc Hút Đĩa Bay / Phạm Văn Nghị"
+    },
+    {
+      "dishId": "mit-tron",
+      "restaurantId": "dn-021",
+      "type": "dish",
+      "offering": "Mít trộn",
+      "evidence": "Ốc Hút Hạnh (Ốc hút, mít trộn)"
+    },
+    {
+      "dishId": "mit-tron",
+      "restaurantId": "dn-022",
+      "type": "dish",
+      "offering": "Mít trộn",
+      "evidence": "Mít Trộn Bà Già"
+    },
+    {
+      "dishId": "ram-cuon-cai",
+      "restaurantId": "dn-023",
+      "type": "dish",
+      "offering": "Ram cuốn cải",
+      "evidence": "Ram Cuốn Cải Đào Duy Từ"
+    },
+    {
+      "dishId": "banh-trang-kep",
+      "restaurantId": "dn-024",
+      "type": "dish",
+      "offering": "Bánh tráng kẹp",
+      "evidence": "Bánh Tráng Kẹp Dì Hoa"
+    },
+    {
+      "dishId": "banh-trang-kep",
+      "restaurantId": "dn-025",
+      "type": "dish",
+      "offering": "Bánh tráng kẹp",
+      "evidence": "Bánh Tráng Kẹp Dì Hoàng"
+    },
+    {
+      "dishId": "yaourt-muoi",
+      "restaurantId": "dn-026",
+      "type": "dish",
+      "offering": "Yaourt muối",
+      "evidence": "Yaourt Muối Cô Tuyết (Chân cầu Trần Thị Lý)"
+    },
+    {
+      "dishId": "che-sau-rieng",
+      "restaurantId": "dn-027",
+      "type": "dish",
+      "offering": "Chè sầu riêng",
+      "evidence": "Chè Liên (Chè sầu riêng Đà Nẵng)"
+    },
+    {
+      "dishId": "che-dau",
+      "restaurantId": "dn-028",
+      "type": "dish",
+      "offering": "Chè đậu",
+      "evidence": "Chè Xuân Trang (Chè đậu, chè thập cẩm)"
+    },
+    {
+      "dishId": "che-thap-cam",
+      "restaurantId": "dn-028",
+      "type": "dish",
+      "offering": "Chè thập cẩm",
+      "evidence": "Chè Xuân Trang (Chè đậu, chè thập cẩm)"
+    },
+    {
+      "dishId": "kem-bo",
+      "restaurantId": "dn-029",
+      "type": "dish",
+      "offering": "Kem bơ",
+      "evidence": "Kem Bơ Cô Vân (Chợ Bắc Mỹ An / Cồn)"
+    },
+    {
+      "dishId": "kem-bo",
+      "restaurantId": "dn-062",
+      "type": "dish",
+      "offering": "Kem bơ",
+      "evidence": "Kem Bơ Cô Vân - Chợ Bắc Mỹ An"
+    },
+    {
+      "dishId": "banh-kem",
+      "restaurantId": "dn-034",
+      "type": "dish",
+      "offering": "Bánh kem",
+      "evidence": "Tiệm Bánh MiaCake (Bánh kem, su kem)"
+    },
+    {
+      "dishId": "banh-kem",
+      "restaurantId": "dn-083",
+      "type": "dish",
+      "offering": "Bánh kem",
+      "evidence": "Tiệm Bánh Vani Bakery (Bánh kem tươi, tiramisu)"
+    },
+    {
+      "dishId": "banh-su-kem",
+      "restaurantId": "dn-034",
+      "type": "dish",
+      "offering": "Bánh su kem",
+      "evidence": "Tiệm Bánh MiaCake (Bánh kem, su kem)"
+    },
+    {
+      "dishId": "croissant",
+      "restaurantId": "dn-035",
+      "type": "dish",
+      "offering": "Croissant",
+      "evidence": "Bonjour Resto' Bakery (Croissant, Tiramisu)"
+    },
+    {
+      "dishId": "tiramisu",
+      "restaurantId": "dn-035",
+      "type": "dish",
+      "offering": "Tiramisu",
+      "evidence": "Bonjour Resto' Bakery (Croissant, Tiramisu)"
+    },
+    {
+      "dishId": "tiramisu",
+      "restaurantId": "dn-083",
+      "type": "dish",
+      "offering": "Tiramisu",
+      "evidence": "Tiệm Bánh Vani Bakery (Bánh kem tươi, tiramisu)"
+    },
+    {
+      "dishId": "bong-lan-trung-muoi",
+      "restaurantId": "dn-036",
+      "type": "dish",
+      "offering": "Bông lan trứng muối",
+      "evidence": "Napom's Bakery (Bánh bông lan trứng muối)"
+    },
+    {
+      "dishId": "ca-phe-cot-dua",
+      "restaurantId": "dn-037",
+      "type": "dish",
+      "offering": "Cà phê cốt dừa",
+      "evidence": "Cộng Cà Phê (Cà phê cốt dừa)"
+    },
+    {
+      "dishId": "ca-phe-dac-san",
+      "restaurantId": "dn-038",
+      "type": "dish",
+      "offering": "Cà phê đặc sản",
+      "evidence": "Wonderlust Danang (Specialty Coffee & Bánh)"
+    },
+    {
+      "dishId": "ca-phe-dac-san",
+      "restaurantId": "dn-040",
+      "type": "dish",
+      "offering": "Cà phê đặc sản",
+      "evidence": "43 Factory Coffee Roaster"
+    },
+    {
+      "dishId": "ca-phe-dac-san",
+      "restaurantId": "dn-071",
+      "type": "dish",
+      "offering": "Cà phê đặc sản",
+      "evidence": "Dune45 Specialty Coffee"
+    },
+    {
+      "dishId": "nuoc-mia-sau-rieng",
+      "restaurantId": "dn-041",
+      "type": "dish",
+      "offering": "Nước mía sầu riêng",
+      "evidence": "Nước Mía Bà Diệu (Nước mía sầu riêng)"
+    },
+    {
+      "dishId": "lau-nam-chay",
+      "restaurantId": "dn-042",
+      "type": "dish",
+      "offering": "Lẩu nấm chay",
+      "evidence": "Chay An Lạc Tâm (Lẩu nấm, cơm chay)"
+    },
+    {
+      "dishId": "com-chay",
+      "restaurantId": "dn-042",
+      "type": "dish",
+      "offering": "Cơm chay",
+      "evidence": "Chay An Lạc Tâm (Lẩu nấm, cơm chay)"
+    },
+    {
+      "dishId": "com-chay",
+      "restaurantId": "dn-043",
+      "type": "dish",
+      "offering": "Cơm chay",
+      "evidence": "Chay Hương Sen (Cơm chay, bún, mì)"
+    },
+    {
+      "dishId": "com-chay",
+      "restaurantId": "dn-102",
+      "type": "dish",
+      "offering": "Cơm chay",
+      "evidence": "Chay Tâm Đức (Cơm chay tự chọn, bún riêu chay)"
+    },
+    {
+      "dishId": "bun-chay",
+      "restaurantId": "dn-043",
+      "type": "dish",
+      "offering": "Bún chay",
+      "evidence": "Chay Hương Sen (Cơm chay, bún, mì)"
+    },
+    {
+      "dishId": "mi-chay",
+      "restaurantId": "dn-043",
+      "type": "dish",
+      "offering": "Mì chay",
+      "evidence": "Chay Hương Sen (Cơm chay, bún, mì)"
+    },
+    {
+      "dishId": "banh-canh-cua",
+      "restaurantId": "dn-051",
+      "type": "dish",
+      "offering": "Bánh canh cua",
+      "evidence": "Bánh Canh Cua Quân"
+    },
+    {
+      "dishId": "bun-hai-san",
+      "restaurantId": "dn-052",
+      "type": "dish",
+      "offering": "Bún hải sản bề bề",
+      "evidence": "Bún Hải Sản Bề Bề"
+    },
+    {
+      "dishId": "bach-tuoc-nuong",
+      "restaurantId": "dn-054",
+      "type": "dish",
+      "offering": "Bạch tuộc nướng",
+      "evidence": "Chợ Đêm Sơn Trà (Bạch tuộc nướng, xiên que)"
+    },
+    {
+      "dishId": "xien-que",
+      "restaurantId": "dn-054",
+      "type": "dish",
+      "offering": "Xiên que",
+      "evidence": "Chợ Đêm Sơn Trà (Bạch tuộc nướng, xiên que)"
+    },
+    {
+      "dishId": "oc-buou-tron",
+      "restaurantId": "dn-055",
+      "type": "dish",
+      "offering": "Ốc bươu trộn",
+      "evidence": "Ốc Thanh (Ốc bươu trộn, ốc hút)"
+    },
+    {
+      "dishId": "ca-phe-bo",
+      "restaurantId": "dn-057",
+      "type": "dish",
+      "offering": "Cà phê bơ",
+      "evidence": "Trình Cà Phê (Cà phê bơ)"
+    },
+    {
+      "dishId": "cinnamon-roll",
+      "restaurantId": "dn-058",
+      "type": "dish",
+      "offering": "Cinnamon roll",
+      "evidence": "Jeremy's Kitchen (Bánh ngọt kiểu Mỹ, Cinnamon roll)"
+    },
+    {
+      "dishId": "goi-cuon-chay",
+      "restaurantId": "dn-060",
+      "type": "dish",
+      "offering": "Gỏi cuốn chay",
+      "evidence": "Chay Phúc An (Không gian thiền, gỏi cuốn chay)"
+    },
+    {
+      "dishId": "burger",
+      "restaurantId": "dn-067",
+      "type": "dish",
+      "offering": "Burger",
+      "evidence": "Bikini Bottom Express (Burger & Brunch kiểu Mỹ)"
+    },
+    {
+      "dishId": "pizza-cui",
+      "restaurantId": "dn-068",
+      "type": "dish",
+      "offering": "Pizza lò củi",
+      "evidence": "L'Italiano Restaurant (Pizza củi, Pasta Ý)"
+    },
+    {
+      "dishId": "pasta-y",
+      "restaurantId": "dn-068",
+      "type": "dish",
+      "offering": "Pasta Ý",
+      "evidence": "L'Italiano Restaurant (Pizza củi, Pasta Ý)"
+    },
+    {
+      "dishId": "tacos",
+      "restaurantId": "dn-069",
+      "type": "dish",
+      "offering": "Tacos",
+      "evidence": "Tacos Đà Nẵng - Poca Taco"
+    },
+    {
+      "dishId": "bagel",
+      "restaurantId": "dn-070",
+      "type": "dish",
+      "offering": "Bagel",
+      "evidence": "The Hideout Cafe (Bagel, sinh tố bowl)"
+    },
+    {
+      "dishId": "smoothie-bowl",
+      "restaurantId": "dn-070",
+      "type": "dish",
+      "offering": "Smoothie bowl",
+      "evidence": "The Hideout Cafe (Bagel, sinh tố bowl)"
+    },
+    {
+      "dishId": "smoothie-bowl",
+      "restaurantId": "dn-072",
+      "type": "dish",
+      "offering": "Smoothie bowl",
+      "evidence": "Roots Plant-Based Cafe (Smoothie bowl, Burger chay)"
+    },
+    {
+      "dishId": "burger-chay",
+      "restaurantId": "dn-072",
+      "type": "dish",
+      "offering": "Burger chay",
+      "evidence": "Roots Plant-Based Cafe (Smoothie bowl, Burger chay)"
+    },
+    {
+      "dishId": "banh-dap",
+      "restaurantId": "dn-075",
+      "type": "dish",
+      "offering": "Bánh đập",
+      "evidence": "Bánh Đập & Hến Xào Châu Thị Vĩnh Tế"
+    },
+    {
+      "dishId": "hen-xao",
+      "restaurantId": "dn-075",
+      "type": "dish",
+      "offering": "Hến xào",
+      "evidence": "Bánh Đập & Hến Xào Châu Thị Vĩnh Tế"
+    },
+    {
+      "dishId": "banh-canh-ca-loc",
+      "restaurantId": "dn-076",
+      "type": "dish",
+      "offering": "Bánh canh cá lóc",
+      "evidence": "Bánh Canh Cá Lóc Thanh Hương"
+    },
+    {
+      "dishId": "bo-ne",
+      "restaurantId": "dn-077",
+      "type": "dish",
+      "offering": "Bò né",
+      "evidence": "Bò Né Khanh (Bò né 3 ngon, ốp la pate)"
+    },
+    {
+      "dishId": "chao-vit",
+      "restaurantId": "dn-079",
+      "type": "dish",
+      "offering": "Cháo vịt",
+      "evidence": "Cháo Vịt Hải (Gỏi vịt trộn, cháo đậu xanh)"
+    },
+    {
+      "dishId": "goi-vit",
+      "restaurantId": "dn-079",
+      "type": "dish",
+      "offering": "Gỏi vịt",
+      "evidence": "Cháo Vịt Hải (Gỏi vịt trộn, cháo đậu xanh)"
+    },
+    {
+      "dishId": "chao-dau-xanh",
+      "restaurantId": "dn-079",
+      "type": "dish",
+      "offering": "Cháo đậu xanh",
+      "evidence": "Cháo Vịt Hải (Gỏi vịt trộn, cháo đậu xanh)"
+    },
+    {
+      "dishId": "pha-lau",
+      "restaurantId": "dn-080",
+      "type": "dish",
+      "offering": "Phá lấu",
+      "evidence": "Phá Lấu Sài Gòn Sinh (Phá lấu bánh mì)"
+    },
+    {
+      "dishId": "cut-lon-xao-me",
+      "restaurantId": "dn-082",
+      "type": "dish",
+      "offering": "Cút lộn xào me",
+      "evidence": "Cút Lộn Xào Me Cô Thảo"
+    },
+    {
+      "dishId": "rau-ma-sau-rieng",
+      "restaurantId": "dn-087",
+      "type": "dish",
+      "offering": "Rau má sầu riêng",
+      "evidence": "Rau Má Mix Đà Nẵng (Rau má sầu riêng, đậu xanh)"
+    },
+    {
+      "dishId": "rau-ma-dau-xanh",
+      "restaurantId": "dn-087",
+      "type": "dish",
+      "offering": "Rau má đậu xanh",
+      "evidence": "Rau Má Mix Đà Nẵng (Rau má sầu riêng, đậu xanh)"
+    },
+    {
+      "dishId": "bun-mam-chay",
+      "restaurantId": "dn-088",
+      "type": "dish",
+      "offering": "Bún mắm chay",
+      "evidence": "Chay Thúy (Bún mắm chay, bánh lọc chay)"
+    },
+    {
+      "dishId": "banh-loc-chay",
+      "restaurantId": "dn-088",
+      "type": "dish",
+      "offering": "Bánh lọc chay",
+      "evidence": "Chay Thúy (Bún mắm chay, bánh lọc chay)"
+    },
+    {
+      "dishId": "be-thui",
+      "restaurantId": "dn-090",
+      "type": "dish",
+      "offering": "Bê thui Cầu Mống",
+      "evidence": "Bê Thui Cầu Mống Bà Ngọc"
+    },
+    {
+      "dishId": "be-thui",
+      "restaurantId": "dn-091",
+      "type": "dish",
+      "offering": "Bê thui Cầu Mống",
+      "evidence": "Bê Thui Cầu Mống Rô"
+    },
+    {
+      "dishId": "banh-kho-me",
+      "restaurantId": "dn-092",
+      "type": "dish",
+      "offering": "Bánh khô mè",
+      "evidence": "Bánh Khô Mè Bà Liễu Mẹ (Đặc sản Cẩm Lệ)"
+    },
+    {
+      "dishId": "goi-ca-nam-o",
+      "restaurantId": "dn-094",
+      "type": "dish",
+      "offering": "Gỏi cá Nam Ô",
+      "evidence": "Gỏi Cá Nam Ô Thanh Hương (Gỏi cá khô & ướt)"
+    },
+    {
+      "dishId": "goi-ca-nam-o",
+      "restaurantId": "dn-095",
+      "type": "dish",
+      "offering": "Gỏi cá Nam Ô",
+      "evidence": "Gỏi Cá Nam Ô Vinh"
+    },
+    {
+      "dishId": "trung-chen-nuong",
+      "restaurantId": "dn-096",
+      "type": "dish",
+      "offering": "Trứng chén nướng",
+      "evidence": "Chợ Đêm Hòa Khánh (Trứng chén nướng, chân gà)"
+    },
+    {
+      "dishId": "chan-ga",
+      "restaurantId": "dn-096",
+      "type": "dish",
+      "offering": "Chân gà",
+      "evidence": "Chợ Đêm Hòa Khánh (Trứng chén nướng, chân gà)"
+    },
+    {
+      "dishId": "lau-bo",
+      "restaurantId": "dn-097",
+      "type": "dish",
+      "offering": "Lẩu bò",
+      "evidence": "Lẩu Bò Sáu Hưng"
+    },
+    {
+      "dishId": "nuoc-ep",
+      "restaurantId": "dn-101",
+      "type": "dish",
+      "offering": "Nước ép",
+      "evidence": "Nước Ép & Sinh Tố Cô Bông"
+    },
+    {
+      "dishId": "sinh-to",
+      "restaurantId": "dn-101",
+      "type": "dish",
+      "offering": "Sinh tố",
+      "evidence": "Nước Ép & Sinh Tố Cô Bông"
+    },
+    {
+      "dishId": "bun-rieu-chay",
+      "restaurantId": "dn-102",
+      "type": "dish",
+      "offering": "Bún riêu chay",
+      "evidence": "Chay Tâm Đức (Cơm chay tự chọn, bún riêu chay)"
+    },
+    {
+      "dishId": "lau-ga-la-e",
+      "restaurantId": "dn-104",
+      "type": "dish",
+      "offering": "Lẩu gà lá é",
+      "evidence": "Lẩu Gà Lá É Tao Ngộ (Chi nhánh Cẩm Lệ)"
+    },
+    {
+      "dishId": "kem-xoi-dua",
+      "restaurantId": "dn-105",
+      "type": "dish",
+      "offering": "Kem xôi dừa",
+      "evidence": "Kem Xôi Dừa Mã Lai"
+    }
+  ]
+}

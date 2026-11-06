@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thông tin quán | Hôm nay ăn gì?</title>
+  <meta name="description" content="Thông tin địa điểm, món liên quan và hướng dẫn tìm quán.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23C2410C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+  <header class="site-header wrap" data-header></header>
+
+  <main id="main" class="page wrap venue-page">
+    <nav class="venue-breadcrumb" aria-label="Đường dẫn"><a href="restaurants.html">Quán ăn</a><span aria-hidden="true">/</span><span id="venue-breadcrumb-name">Thông tin địa điểm</span></nav>
+    <p id="venue-status" role="status" aria-live="polite">Đang tải thông tin quán…</p>
+    <section class="empty" id="venue-error" hidden><h1 id="venue-error-title">Chưa tải được quán</h1><p id="venue-error-text">Vui lòng thử lại.</p><div class="venue-actions"><button class="btn" id="venue-retry" type="button">Thử lại</button><a class="btn" href="restaurants.html">Khám phá quán ăn</a></div></section>
+    <div id="venue-content" hidden>
+      <section class="venue-hero" aria-labelledby="venue-name"><div id="venue-photo"></div><div class="venue-hero__info"><h1 id="venue-name"></h1><p class="venue-category" id="venue-category"></p><p class="venue-address" id="venue-address"></p><div class="dish__meals" id="venue-meals" aria-label="Bữa ăn gợi ý"></div><p class="venue-meal-note">Bữa gợi ý, không phải giờ mở cửa.</p><div class="venue-actions" id="venue-actions"></div><p class="venue-truth-note">Địa chỉ, thực đơn và giá cần kiểm tra lại trước khi ghé.</p></div></section>
+      <div class="venue-columns"><section class="venue-dishes" aria-labelledby="venue-dishes-title"><h2 id="venue-dishes-title">Chọn món cho lần ghé này</h2><p id="venue-dishes-note">Các món được liên kết trong danh mục; chưa phải thực đơn đầy đủ hay xác nhận còn bán.</p><ul class="venue-dish-list" id="venue-dishes"></ul><p id="venue-dishes-empty" hidden>Chưa có món được liên kết riêng với địa điểm này. Bạn có thể xem website quán nếu có hoặc kiểm tra thực đơn trước khi ghé.</p><p id="venue-dishes-error" hidden>Chưa tải đủ liên kết món. Vui lòng tải lại trang để thử lại.</p></section>
+      <aside class="venue-visit" aria-labelledby="venue-visit-title"><h2 id="venue-visit-title">Trước khi ghé</h2><dl id="venue-facts"></dl><h3>Đặt món</h3><p>Chưa có liên kết GrabFood hoặc ShopeeFood được xác nhận cho địa điểm này.</p><details class="venue-photo-source"><summary>Nguồn ảnh và thông tin</summary><div id="venue-source"></div><p>Địa điểm có thể là quán, chuỗi hoặc khu chợ. Thông tin hiện có chưa xác nhận tình trạng hoạt động của từng chi nhánh.</p></details></aside></div>
+      <section class="venue-related" id="venue-related" aria-labelledby="venue-related-title" hidden><div class="venue-section-heading"><div><h2 id="venue-related-title">Thêm một vài lựa chọn</h2><p id="venue-related-note"></p></div><a href="restaurants.html">Khám phá tất cả →</a></div><ul class="restaurant-grid" id="venue-related-grid"></ul></section>
+    </div>
+    <noscript><p>Bật JavaScript để xem thông tin địa điểm.</p></noscript>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__main">
+        <div class="site-footer__intro">
+          <a class="logo" href="index.html">Hôm nay ăn gì?</a>
+          <p>Một chút gợi ý, thêm vị cho mỗi ngày.</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Điều hướng cuối trang">
+          <a href="cuisines.html">Khám phá ẩm thực</a>
+          <a href="dishes.html">Tất cả món ăn</a>
+          <a href="restaurants.html">Quán ăn</a>
+          <a href="favorites.html">Yêu thích</a>
+          <a href="about.html">Về tụi mình</a>
+          <a href="about.html#sources">Nguồn ảnh</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Hôm nay ăn gì? · Nhóm 3</p>
+        <p>Đồ án Advanced Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/restaurant-ui.js"></script>
+  <script src="js/nutrition.js"></script>
+  <script src="js/restaurant.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "hom-nay-an-gi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/app.js",
+    "dev": "node --watch --env-file-if-exists=.env server/app.js",
+    "test": "node scripts/test-mysql.mjs --suite",
+    "db:check": "node scripts/import-mysql.mjs --dry-run",
+    "db:setup": "node --env-file-if-exists=.env scripts/import-mysql.mjs --apply-schema",
+    "db:import": "node --env-file-if-exists=.env scripts/import-mysql.mjs",
+    "test:db": "node scripts/test-mysql.mjs",
+    "admin:create": "node --env-file-if-exists=.env scripts/create-admin.mjs",
+    "build:vercel": "node scripts/build-vercel.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@vercel/functions": "^3.10.6",
+    "better-auth": "^1.7.16",
+    "mysql2": "^3.24.6"
+  }
+}

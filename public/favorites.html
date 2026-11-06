@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yêu thích | Hôm nay ăn gì?</title>
+  <meta name="description" content="Lưu các món muốn thử và quán muốn ghé trên trình duyệt của bạn.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23C2410C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+  <header class="site-header wrap" data-header></header>
+
+  <main id="main" class="page wrap favorites-page"><h1>Để dành cho lần tới</h1><p class="catalog-intro">Những món muốn thử, những quán muốn ghé. Danh sách chỉ lưu trên trình duyệt này, chưa đồng bộ giữa các thiết bị.</p><div class="favorites-tabs" role="group" aria-label="Loại yêu thích"><button class="pill" data-favorite-tab="all" aria-pressed="true">Tất cả</button><button class="pill" data-favorite-tab="dishes" aria-pressed="false">Món ăn <span id="favorite-dish-count"></span></button><button class="pill" data-favorite-tab="restaurants" aria-pressed="false">Quán ăn <span id="favorite-restaurant-count"></span></button></div><p id="favorites-status" role="status" aria-live="polite"></p><section class="empty" id="favorites-empty" hidden><h2>Chưa có gì để dành</h2><p>Bấm biểu tượng trái tim ở món hoặc quán bạn thích để lưu vào đây.</p><div class="venue-actions"><a class="btn btn--primary" href="dishes.html">Khám phá món ăn</a><a class="btn" href="restaurants.html">Tìm quán ăn</a></div></section><section id="favorite-dishes-section"><h2>Món muốn thử</h2><ul class="dish-grid" id="favorite-dishes"></ul></section><section id="favorite-restaurants-section"><h2>Quán muốn ghé</h2><p id="favorite-restaurants-status"></p><button class="btn" id="favorites-retry" hidden>Thử tải lại quán</button><ul class="restaurant-grid" id="favorite-restaurants"></ul></section></main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__main">
+        <div class="site-footer__intro">
+          <a class="logo" href="index.html">Hôm nay ăn gì?</a>
+          <p>Một chút gợi ý, thêm vị cho mỗi ngày.</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Điều hướng cuối trang">
+          <a href="cuisines.html">Khám phá ẩm thực</a>
+          <a href="dishes.html">Tất cả món ăn</a>
+          <a href="restaurants.html">Quán ăn</a>
+          <a href="favorites.html">Yêu thích</a>
+          <a href="about.html">Về tụi mình</a>
+          <a href="about.html#sources">Nguồn ảnh</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Hôm nay ăn gì? · Nhóm 3</p>
+        <p>Đồ án Advanced Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+<script src="js/data.js"></script><script src="js/favorites.js"></script><script src="js/app.js"></script><script src="js/restaurant-ui.js"></script><script src="js/recipes.js"></script><script src="js/nutrition.js"></script><script src="js/favorites-page.js"></script></body></html>

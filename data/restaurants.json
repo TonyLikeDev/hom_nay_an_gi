@@ -1,0 +1,2864 @@
+{
+  "sourceFile": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+  "importedAt": "2026-11-02",
+  "areaNote": "Đà Nẵng — khu vực suy ra từ tên và địa chỉ trong file, chưa chuẩn hóa từng địa chỉ.",
+  "restaurants": [
+    {
+      "id": "dn-001",
+      "sourceNumber": 1,
+      "name": "Mì Quảng 1A (Mì quảng tôm thịt)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (40k - 60k)",
+      "priceTier": "Bình dân",
+      "address": "1A Hải Phòng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 2
+      }
+    },
+    {
+      "id": "dn-002",
+      "sourceNumber": 2,
+      "name": "Bún Chả Cá 109 (Bún chả cá thu)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (35k - 55k)",
+      "priceTier": "Bình dân",
+      "address": "109 Nguyễn Chí Thanh",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600",
+        "local": "/images/restaurants/photo-1582878826629-29b7ad1cdc43.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 3
+      }
+    },
+    {
+      "id": "dn-003",
+      "sourceNumber": 3,
+      "name": "Bún Chả Cá Bà Lữ",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 45k)",
+      "priceTier": "Bình dân",
+      "address": "319 Hùng Vương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600",
+        "local": "/images/restaurants/photo-1555126634-323283e090fa.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 4
+      }
+    },
+    {
+      "id": "dn-004",
+      "sourceNumber": 4,
+      "name": "Bánh Tráng Thịt Heo Trần",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (120k - 180k)",
+      "priceTier": "Tầm trung",
+      "address": "4 Lê Duẩn",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600",
+        "local": "/images/restaurants/photo-1534422298391-e4f8c172dddb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 5
+      }
+    },
+    {
+      "id": "dn-005",
+      "sourceNumber": 5,
+      "name": "Bánh Tráng Thịt Heo Đại Lộc",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (60k - 90k)",
+      "priceTier": "Bình dân",
+      "address": "27/2 Thái Phiên",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600",
+        "local": "/images/restaurants/photo-1563379091339-03b21ab4a4f8.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 6
+      }
+    },
+    {
+      "id": "dn-006",
+      "sourceNumber": 6,
+      "name": "Bánh Xèo Bà Dưỡng (Bánh xèo, nem lụi)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt / Tối",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (60k - 100k)",
+      "priceTier": "Bình dân",
+      "address": "K280/23 Hoàng Diệu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600",
+        "local": "/images/restaurants/photo-1565299585323-38d6b0865b47.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 7
+      }
+    },
+    {
+      "id": "dn-007",
+      "sourceNumber": 7,
+      "name": "Bún Mắm Vân (Bún mắm thịt quay)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 50k)",
+      "priceTier": "Bình dân",
+      "address": "K23/14 Trần Kế Xương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 8
+      }
+    },
+    {
+      "id": "dn-008",
+      "sourceNumber": 8,
+      "name": "Bún Bò Bà Diệu",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (40k - 60k)",
+      "priceTier": "Bình dân",
+      "address": "17 Trần Tống",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600",
+        "local": "/images/restaurants/photo-1582878826629-29b7ad1cdc43.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 9
+      }
+    },
+    {
+      "id": "dn-009",
+      "sourceNumber": 9,
+      "name": "Bún Bò Hương",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa"
+      ],
+      "priceLabel": "Bình dân (35k - 55k)",
+      "priceTier": "Bình dân",
+      "address": "229 Đống Đa",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 10
+      }
+    },
+    {
+      "id": "dn-010",
+      "sourceNumber": 10,
+      "name": "Cơm Gà A Hải (Cơm gà xối mỡ)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (50k - 75k)",
+      "priceTier": "Bình dân",
+      "address": "96 Phan Châu Trinh",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600",
+        "local": "/images/restaurants/photo-1598515214211-89d3c73ae83b.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 11
+      }
+    },
+    {
+      "id": "dn-011",
+      "sourceNumber": 11,
+      "name": "Cơm Gà Hồng Ngọc",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (55k - 90k)",
+      "priceTier": "Bình dân",
+      "address": "193 Nguyễn Chí Thanh",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600",
+        "local": "/images/restaurants/photo-1604908176997-125f25cc6f3d.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 12
+      }
+    },
+    {
+      "id": "dn-012",
+      "sourceNumber": 12,
+      "name": "Nhà Hàng Madame Lân (Ẩm thực Việt)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Cao cấp (150k - 400k)",
+      "priceTier": "Cao cấp",
+      "address": "4 Bạch Đằng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://madamelan.vn/storage/website-cover-pc.png",
+        "local": "/images/restaurants/dn-012.png",
+        "kind": "official-page",
+        "sourceLabel": "Madame Lân · website chính thức",
+        "sourceUrl": "https://madamelan.vn/",
+        "checkedAt": "2026-11-02"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 13
+      },
+      "website": "https://madamelan.vn/"
+    },
+    {
+      "id": "dn-013",
+      "sourceNumber": 13,
+      "name": "Pizza 4P's Indochina (Pizza phô mai tươi)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Cao cấp (250k - 500k)",
+      "priceTier": "Cao cấp",
+      "address": "74 Bạch Đằng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://pizza4ps.com/wp-content/uploads/2023/07/78034719_2721643444539354_2592835004560048128_n.jpg",
+        "local": "/images/restaurants/dn-013.jpg",
+        "kind": "official-page",
+        "sourceLabel": "Pizza 4P’s · trang Indochina",
+        "sourceUrl": "https://pizza4ps.com/vn/location/944/?lang=vietnamese",
+        "checkedAt": "2026-11-02"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 14
+      },
+      "website": "https://pizza4ps.com/vn/location/944/?lang=vietnamese"
+    },
+    {
+      "id": "dn-014",
+      "sourceNumber": 14,
+      "name": "Olivia's Prime Steakhouse (Bò bít tết)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Đắt / Fine Dining (600k+)",
+      "priceTier": "Đắt / Fine Dining",
+      "address": "505 Trần Hưng Đạo (Gần cầu Rồng)",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600",
+        "local": "/images/restaurants/photo-1544025162-d76694265947.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 15
+      }
+    },
+    {
+      "id": "dn-015",
+      "sourceNumber": 15,
+      "name": "Le Comptoir Danang (Ẩm thực Pháp)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "Đắt / Fine Dining (800k+)",
+      "priceTier": "Đắt / Fine Dining",
+      "address": "16 Cô Giang",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600",
+        "local": "/images/restaurants/photo-1414235077428-338989a2e8c0.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 16
+      }
+    },
+    {
+      "id": "dn-016",
+      "sourceNumber": 16,
+      "name": "Red Sky Steakhouse",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Cao cấp (400k - 900k)",
+      "priceTier": "Cao cấp",
+      "address": "248 Trần Phú",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1558030006-450675393462?w=600",
+        "local": "/images/restaurants/photo-1558030006-450675393462.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 17
+      }
+    },
+    {
+      "id": "dn-017",
+      "sourceNumber": 17,
+      "name": "Cơm Nhà Vui (Mâm cơm gia đình)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (80k - 150k)",
+      "priceTier": "Tầm trung",
+      "address": "86 đường 2 Tháng 9",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600",
+        "local": "/images/restaurants/photo-1547592180-85f173990554.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 18
+      }
+    },
+    {
+      "id": "dn-018",
+      "sourceNumber": 18,
+      "name": "Bếp Cuốn Đà Nẵng (Mẹt cuốn tổng hợp)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (120k - 250k)",
+      "priceTier": "Tầm trung",
+      "address": "31-33 Trần Bạch Đằng / Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://bepcuon.net/wp-content/uploads/2026/05/131977993_398616208131261_81902362474932361_n.jpg",
+        "local": "/images/restaurants/dn-018.jpg",
+        "kind": "official-page",
+        "sourceLabel": "Bếp Cuốn · website chính thức",
+        "sourceUrl": "https://bepcuon.net/",
+        "checkedAt": "2026-11-02"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 19
+      },
+      "website": "https://bepcuon.net/"
+    },
+    {
+      "id": "dn-019",
+      "sourceNumber": 19,
+      "name": "Bánh Bèo Bà Bé (Bánh bèo, nậm, lọc)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn sáng / Vặt",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (20k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "100 Hoàng Văn Thụ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600",
+        "local": "/images/restaurants/photo-1509722747041-616f39b57569.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 20
+      }
+    },
+    {
+      "id": "dn-020",
+      "sourceNumber": 20,
+      "name": "Bánh Canh Ruộng Phương",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "K27/03 Ngũ Hành Sơn / Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 21
+      }
+    },
+    {
+      "id": "dn-021",
+      "sourceNumber": 21,
+      "name": "Ốc Hút Hạnh (Ốc hút, mít trộn)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 60k)",
+      "priceTier": "Bình dân",
+      "address": "277 Đống Đa",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
+        "local": "/images/restaurants/photo-1565557623262-b51c2513a641.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 22
+      }
+    },
+    {
+      "id": "dn-022",
+      "sourceNumber": 22,
+      "name": "Mít Trộn Bà Già",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 25k)",
+      "priceTier": "Bình dân",
+      "address": "K47/25 Lý Thái Tổ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+        "local": "/images/restaurants/photo-1540420773420-3366772f4999.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 23
+      }
+    },
+    {
+      "id": "dn-023",
+      "sourceNumber": 23,
+      "name": "Ram Cuốn Cải Đào Duy Từ",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "Khu phố Đào Duy Từ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600",
+        "local": "/images/restaurants/photo-1606755962773-d324e0a13086.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 24
+      }
+    },
+    {
+      "id": "dn-024",
+      "sourceNumber": 24,
+      "name": "Bánh Tráng Kẹp Dì Hoa",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 30k)",
+      "priceTier": "Bình dân",
+      "address": "62/2A Núi Thành",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600",
+        "local": "/images/restaurants/photo-1565299624946-b28f40a0ae38.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 25
+      }
+    },
+    {
+      "id": "dn-025",
+      "sourceNumber": 25,
+      "name": "Bánh Tráng Kẹp Dì Hoàng",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 30k)",
+      "priceTier": "Bình dân",
+      "address": "K142/46/09 Điện Biên Phủ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600",
+        "local": "/images/restaurants/photo-1565299624946-b28f40a0ae38.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 26
+      }
+    },
+    {
+      "id": "dn-026",
+      "sourceNumber": 26,
+      "name": "Yaourt Muối Cô Tuyết (Chân cầu Trần Thị Lý)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (10k - 25k)",
+      "priceTier": "Bình dân",
+      "address": "51 Nguyễn Tư Giản / Bờ Đông",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600",
+        "local": "/images/restaurants/photo-1488477181946-6428a0291777.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 27
+      }
+    },
+    {
+      "id": "dn-027",
+      "sourceNumber": 27,
+      "name": "Chè Liên (Chè sầu riêng Đà Nẵng)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước / Chè",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "189 Hoàng Diệu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600",
+        "local": "/images/restaurants/photo-1563805042-7684c019e1cb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 28
+      }
+    },
+    {
+      "id": "dn-028",
+      "sourceNumber": 28,
+      "name": "Chè Xuân Trang (Chè đậu, chè thập cẩm)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước / Chè",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 25k)",
+      "priceTier": "Bình dân",
+      "address": "31 Lê Duẩn",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600",
+        "local": "/images/restaurants/photo-1551024709-8f23befc6f87.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 29
+      }
+    },
+    {
+      "id": "dn-029",
+      "sourceNumber": 29,
+      "name": "Kem Bơ Cô Vân (Chợ Bắc Mỹ An / Cồn)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (15k - 25k)",
+      "priceTier": "Bình dân",
+      "address": "Chợ Cồn, Hùng Vương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600",
+        "local": "/images/restaurants/photo-1501443762994-82bd5dace89a.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 30
+      }
+    },
+    {
+      "id": "dn-030",
+      "sourceNumber": 30,
+      "name": "Bánh Mì Bà Lan (Bánh mì thịt nguội chả)",
+      "category": "Bánh",
+      "originalCategory": "Bánh / Sáng",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "62 Trưng Nữ Vương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600",
+        "local": "/images/restaurants/photo-1509722747041-616f39b57569.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 31
+      }
+    },
+    {
+      "id": "dn-031",
+      "sourceNumber": 31,
+      "name": "Bánh Mì Ông Tý (Bánh mì chả bò)",
+      "category": "Bánh",
+      "originalCategory": "Bánh / Sáng",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (15k - 25k)",
+      "priceTier": "Bình dân",
+      "address": "272 Hùng Vương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+        "local": "/images/restaurants/photo-1509440159596-0249088772ff.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 32
+      }
+    },
+    {
+      "id": "dn-032",
+      "sourceNumber": 32,
+      "name": "Bánh Mì Đồng Tiến",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (15k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "77 Hàm Nghi / Nhiều cơ sở",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=600",
+        "local": "/images/restaurants/photo-1586444248902-2f64eddc13df.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 33
+      }
+    },
+    {
+      "id": "dn-033",
+      "sourceNumber": 33,
+      "name": "Tiệm Bánh Bơ - Butter Bakehouse",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (45k - 90k)",
+      "priceTier": "Tầm trung",
+      "address": "298 Hoàng Diệu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600",
+        "local": "/images/restaurants/photo-1555507036-ab1f4038808a.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 34
+      }
+    },
+    {
+      "id": "dn-034",
+      "sourceNumber": 34,
+      "name": "Tiệm Bánh MiaCake (Bánh kem, su kem)",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (30k - 250k)",
+      "priceTier": "Tầm trung",
+      "address": "68A Lê Đình Dương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+        "local": "/images/restaurants/photo-1578985545062-69928b1d9587.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 35
+      }
+    },
+    {
+      "id": "dn-035",
+      "sourceNumber": 35,
+      "name": "Bonjour Resto' Bakery (Croissant, Tiramisu)",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (35k - 85k)",
+      "priceTier": "Tầm trung",
+      "address": "36 Lê Hồng Phong",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600",
+        "local": "/images/restaurants/photo-1530610476181-d83430b64dcd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 36
+      }
+    },
+    {
+      "id": "dn-036",
+      "sourceNumber": 36,
+      "name": "Napom's Bakery (Bánh bông lan trứng muối)",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (35k - 100k)",
+      "priceTier": "Bình dân",
+      "address": "154 Nguyễn Hoàng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600",
+        "local": "/images/restaurants/photo-1586985289688-ca3cf47d3e6e.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 37
+      }
+    },
+    {
+      "id": "dn-037",
+      "sourceNumber": 37,
+      "name": "Cộng Cà Phê (Cà phê cốt dừa)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Tầm trung (45k - 65k)",
+      "priceTier": "Tầm trung",
+      "address": "98-96 Bạch Đằng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600",
+        "local": "/images/restaurants/photo-1514432324607-a09d9b4aefdd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 38
+      }
+    },
+    {
+      "id": "dn-038",
+      "sourceNumber": 38,
+      "name": "Wonderlust Danang (Specialty Coffee & Bánh)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (50k - 85k)",
+      "priceTier": "Tầm trung",
+      "address": "96 Trần Phú",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600",
+        "local": "/images/restaurants/photo-1495474472287-4d71bcdd2085.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 39
+      }
+    },
+    {
+      "id": "dn-039",
+      "sourceNumber": 39,
+      "name": "Reply 1988 Cafe",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (35k - 55k)",
+      "priceTier": "Bình dân",
+      "address": "20 Lê Hồng Phong",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600",
+        "local": "/images/restaurants/photo-1509042239860-f550ce710b93.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 40
+      }
+    },
+    {
+      "id": "dn-040",
+      "sourceNumber": 40,
+      "name": "43 Factory Coffee Roaster",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Cao cấp (85k - 150k)",
+      "priceTier": "Cao cấp",
+      "address": "Lô 422 Ngô Thì Sĩ / Trung tâm",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600",
+        "local": "/images/restaurants/photo-1497935586351-b67a49e012bf.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 41
+      }
+    },
+    {
+      "id": "dn-041",
+      "sourceNumber": 41,
+      "name": "Nước Mía Bà Diệu (Nước mía sầu riêng)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 20k)",
+      "priceTier": "Bình dân",
+      "address": "56 Lê Lợi",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600",
+        "local": "/images/restaurants/photo-1513558161293-cdaf765ed2fd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 42
+      }
+    },
+    {
+      "id": "dn-042",
+      "sourceNumber": 42,
+      "name": "Chay An Lạc Tâm (Lẩu nấm, cơm chay)",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (40k - 150k)",
+      "priceTier": "Tầm trung",
+      "address": "117 Phan Đăng Lưu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+        "local": "/images/restaurants/photo-1512621776951-a57141f2eefd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 43
+      }
+    },
+    {
+      "id": "dn-043",
+      "sourceNumber": 43,
+      "name": "Chay Hương Sen (Cơm chay, bún, mì)",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 50k)",
+      "priceTier": "Bình dân",
+      "address": "73 Lê Đình Lý",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+        "local": "/images/restaurants/photo-1540420773420-3366772f4999.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 44
+      }
+    },
+    {
+      "id": "dn-044",
+      "sourceNumber": 44,
+      "name": "Chay Ngọc Chi",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 80k)",
+      "priceTier": "Bình dân",
+      "address": "202 Hoàng Diệu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 45
+      }
+    },
+    {
+      "id": "dn-045",
+      "sourceNumber": 45,
+      "name": "Nhà Hàng Chay Ưu Đàm",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (50k - 120k)",
+      "priceTier": "Tầm trung",
+      "address": "145/4 Nguyễn Hoàng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600",
+        "local": "/images/restaurants/photo-1511690743698-d9d85f2fbf38.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 46
+      }
+    },
+    {
+      "id": "dn-046",
+      "sourceNumber": 46,
+      "name": "Hải Sản Bé Mặn (Tôm hùm, cua, ghẹ tươi)",
+      "category": "Hải sản",
+      "originalCategory": "Hải sản",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Cao cấp (250k - 800k)",
+      "priceTier": "Cao cấp",
+      "address": "Lô 8 Võ Nguyên Giáp",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=600",
+        "local": "/images/restaurants/photo-1565680018434-b513d5e5fd47.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 47
+      }
+    },
+    {
+      "id": "dn-047",
+      "sourceNumber": 47,
+      "name": "Hải Sản Năm Đảnh (Hải sản đồng giá 60k-100k)",
+      "category": "Hải sản",
+      "originalCategory": "Hải sản",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (60k - 120k)",
+      "priceTier": "Bình dân",
+      "address": "K139/H59/38 Trần Quang Khải",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600",
+        "local": "/images/restaurants/photo-1615141982883-c7ad0e69fd62.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 48
+      }
+    },
+    {
+      "id": "dn-048",
+      "sourceNumber": 48,
+      "name": "Hải Sản Thời Cổ",
+      "category": "Hải sản",
+      "originalCategory": "Hải sản",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (100k - 250k)",
+      "priceTier": "Tầm trung",
+      "address": "354/1 Võ Nguyên Giáp",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600",
+        "local": "/images/restaurants/photo-1559737558-2f5a35f4523b.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 49
+      }
+    },
+    {
+      "id": "dn-049",
+      "sourceNumber": 49,
+      "name": "La Maison 1888 (Nhà hàng sao Michelin)",
+      "category": "Fine dining",
+      "originalCategory": "Fine Dining",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "Rất đắt (4.000.000đ+)",
+      "priceTier": "Rất đắt",
+      "address": "InterContinental Peninsula",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600",
+        "local": "/images/restaurants/photo-1550966871-3ed3cdb5ed0c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 50
+      }
+    },
+    {
+      "id": "dn-050",
+      "sourceNumber": 50,
+      "name": "Citron Restaurant (Bàn ăn nón lá trên đồi)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Rất đắt (1.500.000đ+)",
+      "priceTier": "Rất đắt",
+      "address": "Bán đảo Sơn Trà",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600",
+        "local": "/images/restaurants/photo-1517248135467-4c7edcad34c4.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 51
+      }
+    },
+    {
+      "id": "dn-051",
+      "sourceNumber": 51,
+      "name": "Bánh Canh Cua Quân",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (35k - 55k)",
+      "priceTier": "Bình dân",
+      "address": "222 Chính Hữu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 52
+      }
+    },
+    {
+      "id": "dn-052",
+      "sourceNumber": 52,
+      "name": "Bún Hải Sản Bề Bề",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa"
+      ],
+      "priceLabel": "Bình dân (45k - 65k)",
+      "priceTier": "Bình dân",
+      "address": "64 Loseby",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600",
+        "local": "/images/restaurants/photo-1582878826629-29b7ad1cdc43.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 53
+      }
+    },
+    {
+      "id": "dn-053",
+      "sourceNumber": 53,
+      "name": "Phở Thìn Đà Nẵng (Phở bò tái lăn)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (60k - 80k)",
+      "priceTier": "Tầm trung",
+      "address": "Gần khu Hồ Nghinh",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600",
+        "local": "/images/restaurants/photo-1582878826629-29b7ad1cdc43.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 54
+      }
+    },
+    {
+      "id": "dn-054",
+      "sourceNumber": 54,
+      "name": "Chợ Đêm Sơn Trà (Bạch tuộc nướng, xiên que)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 100k)",
+      "priceTier": "Bình dân",
+      "address": "Mai Hắc Đế - Lý Nam Đế",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600",
+        "local": "/images/restaurants/photo-1555939594-58d7cb561ad1.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 55
+      }
+    },
+    {
+      "id": "dn-055",
+      "sourceNumber": 55,
+      "name": "Ốc Thanh (Ốc bươu trộn, ốc hút)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 70k)",
+      "priceTier": "Bình dân",
+      "address": "22 Hoàng Hoa Thám / Sơn Trà",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
+        "local": "/images/restaurants/photo-1565557623262-b51c2513a641.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 56
+      }
+    },
+    {
+      "id": "dn-056",
+      "sourceNumber": 56,
+      "name": "Sơn Trà Marina (Cafe concept Santorini biển)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (55k - 95k)",
+      "priceTier": "Tầm trung",
+      "address": "Hồ Xanh, đường Hoàng Sa",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600",
+        "local": "/images/restaurants/photo-1501339847302-ac426a4a7cbb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 57
+      }
+    },
+    {
+      "id": "dn-057",
+      "sourceNumber": 57,
+      "name": "Trình Cà Phê (Cà phê bơ)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (35k - 55k)",
+      "priceTier": "Bình dân",
+      "address": "25 Phạm Hồng Thái / Sơn Trà",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600",
+        "local": "/images/restaurants/photo-1461023058943-07fcbe16d735.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 58
+      }
+    },
+    {
+      "id": "dn-058",
+      "sourceNumber": 58,
+      "name": "Jeremy's Kitchen (Bánh ngọt kiểu Mỹ, Cinnamon roll)",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (45k - 90k)",
+      "priceTier": "Tầm trung",
+      "address": "82/3 Trần Khánh Dư / Sơn Trà",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600",
+        "local": "/images/restaurants/photo-1509365465985-25d11c17e812.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 59
+      }
+    },
+    {
+      "id": "dn-059",
+      "sourceNumber": 59,
+      "name": "ABC Bakery Phạm Văn Đồng",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (20k - 60k)",
+      "priceTier": "Bình dân",
+      "address": "Võ Văn Kiệt - Phạm Văn Đồng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600",
+        "local": "/images/restaurants/photo-1555507036-ab1f4038808a.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 60
+      }
+    },
+    {
+      "id": "dn-060",
+      "sourceNumber": 60,
+      "name": "Chay Phúc An (Không gian thiền, gỏi cuốn chay)",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (45k - 120k)",
+      "priceTier": "Tầm trung",
+      "address": "547 Ngô Quyền",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+        "local": "/images/restaurants/photo-1512621776951-a57141f2eefd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 61
+      }
+    },
+    {
+      "id": "dn-061",
+      "sourceNumber": 61,
+      "name": "Loving Hut Đà Nẵng",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 70k)",
+      "priceTier": "Bình dân",
+      "address": "Khu vực Ngô Quyền",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+        "local": "/images/restaurants/photo-1540420773420-3366772f4999.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 62
+      }
+    },
+    {
+      "id": "dn-062",
+      "sourceNumber": 62,
+      "name": "Kem Bơ Cô Vân - Chợ Bắc Mỹ An",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (15k - 20k)",
+      "priceTier": "Bình dân",
+      "address": "Lô 25 Chợ Bắc Mỹ An",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600",
+        "local": "/images/restaurants/photo-1563805042-7684c019e1cb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 63
+      }
+    },
+    {
+      "id": "dn-063",
+      "sourceNumber": 63,
+      "name": "Ốc Hút Chua Cay Chợ Bắc Mỹ An",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (15k - 25k)",
+      "priceTier": "Bình dân",
+      "address": "Khu ẩm thực Chợ Bắc Mỹ An",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
+        "local": "/images/restaurants/photo-1565557623262-b51c2513a641.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 64
+      }
+    },
+    {
+      "id": "dn-064",
+      "sourceNumber": 64,
+      "name": "Bánh Canh Chờ",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "63/20 Nguyễn Duy Hiệu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 65
+      }
+    },
+    {
+      "id": "dn-065",
+      "sourceNumber": 65,
+      "name": "Bánh Xèo Tôm Nhảy Năm Hiền",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (40k - 80k)",
+      "priceTier": "Tầm trung",
+      "address": "46 Phan Thanh / Châu Thị Vĩnh Tế",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600",
+        "local": "/images/restaurants/photo-1565299585323-38d6b0865b47.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 66
+      }
+    },
+    {
+      "id": "dn-066",
+      "sourceNumber": 66,
+      "name": "Mì Quảng Ếch Bếp Trang",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (55k - 95k)",
+      "priceTier": "Tầm trung",
+      "address": "24-26 Lê Hồng Phong / Hồ Nghinh",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600",
+        "local": "/images/restaurants/photo-1555126634-323283e090fa.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 67
+      }
+    },
+    {
+      "id": "dn-067",
+      "sourceNumber": 67,
+      "name": "Bikini Bottom Express (Burger & Brunch kiểu Mỹ)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (90k - 160k)",
+      "priceTier": "Tầm trung",
+      "address": "45-47 An Thượng 2",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+        "local": "/images/restaurants/photo-1568901346375-23c9450c58cd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 68
+      }
+    },
+    {
+      "id": "dn-068",
+      "sourceNumber": 68,
+      "name": "L'Italiano Restaurant (Pizza củi, Pasta Ý)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Cao cấp (150k - 350k)",
+      "priceTier": "Cao cấp",
+      "address": "40 An Thượng 30",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600",
+        "local": "/images/restaurants/photo-1574071318508-1cdbab80d002.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 69
+      }
+    },
+    {
+      "id": "dn-069",
+      "sourceNumber": 69,
+      "name": "Tacos Đà Nẵng - Poca Taco",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt / Tối",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (60k - 120k)",
+      "priceTier": "Tầm trung",
+      "address": "Khu phố Tây An Thượng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600",
+        "local": "/images/restaurants/photo-1565299585323-38d6b0865b47.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 70
+      }
+    },
+    {
+      "id": "dn-070",
+      "sourceNumber": 70,
+      "name": "The Hideout Cafe (Bagel, sinh tố bowl)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước / Sáng",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (50k - 110k)",
+      "priceTier": "Tầm trung",
+      "address": "72/24 Nguyễn Văn Thoại",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600",
+        "local": "/images/restaurants/photo-1495474472287-4d71bcdd2085.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 71
+      }
+    },
+    {
+      "id": "dn-071",
+      "sourceNumber": 71,
+      "name": "Dune45 Specialty Coffee",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (45k - 75k)",
+      "priceTier": "Tầm trung",
+      "address": "Khu An Thượng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600",
+        "local": "/images/restaurants/photo-1509042239860-f550ce710b93.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 72
+      }
+    },
+    {
+      "id": "dn-072",
+      "sourceNumber": 72,
+      "name": "Roots Plant-Based Cafe (Smoothie bowl, Burger chay)",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (80k - 160k)",
+      "priceTier": "Tầm trung",
+      "address": "27 Trần Bạch Đằng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+        "local": "/images/restaurants/photo-1512621776951-a57141f2eefd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 73
+      }
+    },
+    {
+      "id": "dn-073",
+      "sourceNumber": 73,
+      "name": "Kurumi - Healthy Vegan Food & Desserts",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay / Bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Chiều"
+      ],
+      "priceLabel": "Tầm trung (60k - 140k)",
+      "priceTier": "Tầm trung",
+      "address": "175 Bà Huyện Thanh Quan",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 74
+      }
+    },
+    {
+      "id": "dn-074",
+      "sourceNumber": 74,
+      "name": "Quán Chay Liên Hoa",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 45k)",
+      "priceTier": "Bình dân",
+      "address": "49 Lê Hồng Phong / Ngũ Hành Sơn",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+        "local": "/images/restaurants/photo-1540420773420-3366772f4999.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 75
+      }
+    },
+    {
+      "id": "dn-075",
+      "sourceNumber": 75,
+      "name": "Bánh Đập & Hến Xào Châu Thị Vĩnh Tế",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "Dọc đường Châu Thị Vĩnh Tế",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600",
+        "local": "/images/restaurants/photo-1509722747041-616f39b57569.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 76
+      }
+    },
+    {
+      "id": "dn-076",
+      "sourceNumber": 76,
+      "name": "Bánh Canh Cá Lóc Thanh Hương",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (30k - 45k)",
+      "priceTier": "Bình dân",
+      "address": "35 Lê Độ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 77
+      }
+    },
+    {
+      "id": "dn-077",
+      "sourceNumber": 77,
+      "name": "Bò Né Khanh (Bò né 3 ngon, ốp la pate)",
+      "category": "Ăn sáng",
+      "originalCategory": "Ăn sáng",
+      "suggestedMeals": [
+        "Sáng"
+      ],
+      "priceLabel": "Bình dân (40k - 60k)",
+      "priceTier": "Bình dân",
+      "address": "41 Hoàng Văn Thụ / Thanh Khê",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600",
+        "local": "/images/restaurants/photo-1544025162-d76694265947.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 78
+      }
+    },
+    {
+      "id": "dn-078",
+      "sourceNumber": 78,
+      "name": "Mì Quảng Giao Thủy",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (35k - 55k)",
+      "priceTier": "Bình dân",
+      "address": "1B Ba Đình / Thanh Khê",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600",
+        "local": "/images/restaurants/photo-1555126634-323283e090fa.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 79
+      }
+    },
+    {
+      "id": "dn-079",
+      "sourceNumber": 79,
+      "name": "Cháo Vịt Hải (Gỏi vịt trộn, cháo đậu xanh)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (50k - 120k)",
+      "priceTier": "Bình dân",
+      "address": "271 Lê Duẩn",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600",
+        "local": "/images/restaurants/photo-1604908176997-125f25cc6f3d.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 80
+      }
+    },
+    {
+      "id": "dn-080",
+      "sourceNumber": 80,
+      "name": "Phá Lấu Sài Gòn Sinh (Phá lấu bánh mì)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 45k)",
+      "priceTier": "Bình dân",
+      "address": "282 Trưng Nữ Vương / Thanh Khê",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600",
+        "local": "/images/restaurants/photo-1509722747041-616f39b57569.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 81
+      }
+    },
+    {
+      "id": "dn-081",
+      "sourceNumber": 81,
+      "name": "Ốc Hút Đĩa Bay / Phạm Văn Nghị",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 45k)",
+      "priceTier": "Bình dân",
+      "address": "Đường Phạm Văn Nghị",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
+        "local": "/images/restaurants/photo-1565557623262-b51c2513a641.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 82
+      }
+    },
+    {
+      "id": "dn-082",
+      "sourceNumber": 82,
+      "name": "Cút Lộn Xào Me Cô Thảo",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "Khu bờ hồ Hàm Nghi",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 83
+      }
+    },
+    {
+      "id": "dn-083",
+      "sourceNumber": 83,
+      "name": "Tiệm Bánh Vani Bakery (Bánh kem tươi, tiramisu)",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 200k)",
+      "priceTier": "Bình dân",
+      "address": "107 Hàm Nghi",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600",
+        "local": "/images/restaurants/photo-1578985545062-69928b1d9587.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 84
+      }
+    },
+    {
+      "id": "dn-084",
+      "sourceNumber": 84,
+      "name": "Bánh Mì Chả Bò Bà Lộc",
+      "category": "Bánh",
+      "originalCategory": "Bánh / Sáng",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (20k - 30k)",
+      "priceTier": "Bình dân",
+      "address": "4 Hà Huy Tập",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+        "local": "/images/restaurants/photo-1509440159596-0249088772ff.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 85
+      }
+    },
+    {
+      "id": "dn-085",
+      "sourceNumber": 85,
+      "name": "Tiệm Cà Phê Cửa Ngõ (Style Đà Lạt)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (30k - 50k)",
+      "priceTier": "Bình dân",
+      "address": "45/5 Điện Biên Phủ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600",
+        "local": "/images/restaurants/photo-1501339847302-ac426a4a7cbb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 86
+      }
+    },
+    {
+      "id": "dn-086",
+      "sourceNumber": 86,
+      "name": "Dreamer Coffee (Sân vườn cá Koi)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (40k - 65k)",
+      "priceTier": "Tầm trung",
+      "address": "230/2 Nguyễn Công Trứ / Thanh Khê",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600",
+        "local": "/images/restaurants/photo-1514432324607-a09d9b4aefdd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 87
+      }
+    },
+    {
+      "id": "dn-087",
+      "sourceNumber": 87,
+      "name": "Rau Má Mix Đà Nẵng (Rau má sầu riêng, đậu xanh)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (18k - 30k)",
+      "priceTier": "Bình dân",
+      "address": "256 Lê Duẩn",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600",
+        "local": "/images/restaurants/photo-1513558161293-cdaf765ed2fd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 88
+      }
+    },
+    {
+      "id": "dn-088",
+      "sourceNumber": 88,
+      "name": "Chay Thúy (Bún mắm chay, bánh lọc chay)",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "122 Hoàng Diệu / 220 Hải Phòng",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+        "local": "/images/restaurants/photo-1512621776951-a57141f2eefd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 89
+      }
+    },
+    {
+      "id": "dn-089",
+      "sourceNumber": 89,
+      "name": "Quán Chay Diệu Hoa",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "87/05 Nguyễn Tri Phương",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+        "local": "/images/restaurants/photo-1540420773420-3366772f4999.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 90
+      }
+    },
+    {
+      "id": "dn-090",
+      "sourceNumber": 90,
+      "name": "Bê Thui Cầu Mống Bà Ngọc",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (100k - 200k)",
+      "priceTier": "Tầm trung",
+      "address": "228 Đống Đa / QL1A Cẩm Lệ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600",
+        "local": "/images/restaurants/photo-1544025162-d76694265947.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 91
+      }
+    },
+    {
+      "id": "dn-091",
+      "sourceNumber": 91,
+      "name": "Bê Thui Cầu Mống Rô",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (100k - 200k)",
+      "priceTier": "Tầm trung",
+      "address": "8 Bùi Hiển, Q. Cẩm Lệ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1558030006-450675393462?w=600",
+        "local": "/images/restaurants/photo-1558030006-450675393462.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 92
+      }
+    },
+    {
+      "id": "dn-092",
+      "sourceNumber": 92,
+      "name": "Bánh Khô Mè Bà Liễu Mẹ (Đặc sản Cẩm Lệ)",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (35k - 60k)",
+      "priceTier": "Bình dân",
+      "address": "200/1 Ông Ích Đường, Q. Cẩm Lệ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600",
+        "local": "/images/restaurants/photo-1558961363-fa8fdf82db35.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 93
+      }
+    },
+    {
+      "id": "dn-093",
+      "sourceNumber": 93,
+      "name": "Mì Quảng Túy Loan Bà Tuyết",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa"
+      ],
+      "priceLabel": "Bình dân (35k - 50k)",
+      "priceTier": "Bình dân",
+      "address": "Khu Cẩm Lệ - Hòa Vang",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600",
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 94
+      }
+    },
+    {
+      "id": "dn-094",
+      "sourceNumber": 94,
+      "name": "Gỏi Cá Nam Ô Thanh Hương (Gỏi cá khô & ướt)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (80k - 150k)",
+      "priceTier": "Bình dân",
+      "address": "1029 Nguyễn Lương Bằng, Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600",
+        "local": "/images/restaurants/photo-1534422298391-e4f8c172dddb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 95
+      }
+    },
+    {
+      "id": "dn-095",
+      "sourceNumber": 95,
+      "name": "Gỏi Cá Nam Ô Vinh",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều"
+      ],
+      "priceLabel": "Bình dân (70k - 130k)",
+      "priceTier": "Bình dân",
+      "address": "960 Nguyễn Lương Bằng, Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 96
+      }
+    },
+    {
+      "id": "dn-096",
+      "sourceNumber": 96,
+      "name": "Chợ Đêm Hòa Khánh (Trứng chén nướng, chân gà)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 50k)",
+      "priceTier": "Bình dân",
+      "address": "Nguyễn Cảnh Chân, Q. Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600",
+        "local": "/images/restaurants/photo-1555939594-58d7cb561ad1.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 97
+      }
+    },
+    {
+      "id": "dn-097",
+      "sourceNumber": 97,
+      "name": "Lẩu Bò Sáu Hưng",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Tầm trung (120k - 250k)",
+      "priceTier": "Tầm trung",
+      "address": "Ngô Văn Sở, Q. Liên Chiểu / Sơn Trà",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600",
+        "local": "/images/restaurants/photo-1547592180-85f173990554.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 98
+      }
+    },
+    {
+      "id": "dn-098",
+      "sourceNumber": 98,
+      "name": "Bánh Xèo Bà Tình (Khu ĐH Bách Khoa - Sư Phạm)",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "Kiệt Phạm Như Xương, Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600",
+        "local": "/images/restaurants/photo-1565299585323-38d6b0865b47.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 99
+      }
+    },
+    {
+      "id": "dn-099",
+      "sourceNumber": 99,
+      "name": "Tiệm Bánh Đồng Thạnh",
+      "category": "Bánh",
+      "originalCategory": "Quán bánh",
+      "suggestedMeals": [
+        "Cả ngày"
+      ],
+      "priceLabel": "Bình dân (15k - 50k)",
+      "priceTier": "Bình dân",
+      "address": "Tôn Đức Thắng, Q. Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600",
+        "local": "/images/restaurants/photo-1509440159596-0249088772ff.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 100
+      }
+    },
+    {
+      "id": "dn-100",
+      "sourceNumber": 100,
+      "name": "Tiệm Cà Phê Hiên Nhà (Khu Hòa Minh)",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (25k - 45k)",
+      "priceTier": "Bình dân",
+      "address": "Khu đô thị Hòa Minh, Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600",
+        "local": "/images/restaurants/photo-1495474472287-4d71bcdd2085.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 101
+      }
+    },
+    {
+      "id": "dn-101",
+      "sourceNumber": 101,
+      "name": "Nước Ép & Sinh Tố Cô Bông",
+      "category": "Cà phê & nước",
+      "originalCategory": "Nước uống",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (15k - 30k)",
+      "priceTier": "Bình dân",
+      "address": "Ngô Thì Nhậm, Q. Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600",
+        "local": "/images/restaurants/photo-1513558161293-cdaf765ed2fd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 102
+      }
+    },
+    {
+      "id": "dn-102",
+      "sourceNumber": 102,
+      "name": "Chay Tâm Đức (Cơm chay tự chọn, bún riêu chay)",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "Âu Cơ, Q. Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
+        "local": "/images/restaurants/photo-1512621776951-a57141f2eefd.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 103
+      }
+    },
+    {
+      "id": "dn-103",
+      "sourceNumber": 103,
+      "name": "Chay Bồ Đề",
+      "category": "Ăn chay",
+      "originalCategory": "Ăn chay",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 40k)",
+      "priceTier": "Bình dân",
+      "address": "Đường Tôn Đức Thắng, Liên Chiểu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600",
+        "local": "/images/restaurants/photo-1540420773420-3366772f4999.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 104
+      }
+    },
+    {
+      "id": "dn-104",
+      "sourceNumber": 104,
+      "name": "Lẩu Gà Lá É Tao Ngộ (Chi nhánh Cẩm Lệ)",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (150k - 250k/nồi)",
+      "priceTier": "Bình dân",
+      "address": "Đường Thăng Long, Q. Cẩm Lệ",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600",
+        "local": "/images/restaurants/photo-1547592180-85f173990554.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 105
+      }
+    },
+    {
+      "id": "dn-105",
+      "sourceNumber": 105,
+      "name": "Kem Xôi Dừa Mã Lai",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt / Chè",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "Bình dân (20k - 35k)",
+      "priceTier": "Bình dân",
+      "address": "Khu Cẩm Lệ / Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "spreadsheet",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600",
+        "local": "/images/restaurants/photo-1563805042-7684c019e1cb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Unsplash · link trong file Excel",
+        "sourceUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600"
+      },
+      "source": {
+        "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
+        "row": 106
+      }
+    }
+  ]
+}
