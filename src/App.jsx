@@ -10,36 +10,15 @@ import {
 } from "react-router";
 import { useAuth, useCatalog } from "./providers.jsx";
 import { CatalogBoundary, Layout, Status } from "./components/ui.jsx";
-const {
-  AboutPage,
-  CuisinesPage,
-  DishesPage,
-  FavoritesPage,
-  HomePage,
-  RecipePage,
-  RestaurantPage,
-  RestaurantsPage,
-  ResultPage,
-} = Object.fromEntries(
-  [
-    "AboutPage",
-    "CuisinesPage",
-    "DishesPage",
-    "FavoritesPage",
-    "HomePage",
-    "RecipePage",
-    "RestaurantPage",
-    "RestaurantsPage",
-    "ResultPage",
-  ].map((name) => [
-    name,
-    lazy(() =>
-      import("./pages/PublicPages.jsx").then((module) => ({
-        default: module[name],
-      })),
-    ),
-  ]),
-);
+const HomePage = lazy(() => import("./pages/HomePage.jsx"));
+const CuisinesPage = lazy(() => import("./pages/CuisinesPage.jsx"));
+const DishesPage = lazy(() => import("./pages/DishesPage.jsx"));
+const ResultPage = lazy(() => import("./pages/ResultPage.jsx"));
+const RestaurantsPage = lazy(() => import("./pages/RestaurantsPage.jsx"));
+const RestaurantPage = lazy(() => import("./pages/RestaurantPage.jsx"));
+const RecipePage = lazy(() => import("./pages/RecipePage.jsx"));
+const FavoritesPage = lazy(() => import("./pages/FavoritesPage.jsx"));
+const AboutPage = lazy(() => import("./pages/AboutPage.jsx"));
 import { AuthCallback, RequireAdmin } from "./components/AuthGuards.jsx";
 const AuthPage = lazy(() =>
   import("./pages/AuthPages.jsx").then((module) => ({

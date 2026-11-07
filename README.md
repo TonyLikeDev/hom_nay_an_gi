@@ -87,8 +87,8 @@ Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm 
 
 ```text
 src/
-  pages/          React: trang công khai, auth, chủ quán, quản trị
-  components/     Thành phần dùng chung
+  pages/          Mỗi trang công khai một file; auth, chủ quán và quản trị
+  components/     Thành phần dùng chung; admin/ và partner/ chứa form tương ứng
   lib/            Supabase client, lọc/chọn món, constants
   providers.jsx   Catalog, phiên đăng nhập và yêu thích
   styles.css      Thiết kế hiện có và các form mới

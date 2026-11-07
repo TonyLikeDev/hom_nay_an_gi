@@ -14,6 +14,91 @@ const read = async (name) =>
     ),
   );
 
+test("extracted owner and admin forms render with their shared fields and labels", async () => {
+  const vite = await createServer({
+    mode: "test",
+    server: { middlewareMode: true, hmr: false, watch: null },
+    appType: "custom",
+  });
+  try {
+    const load = async (path) =>
+      (await vite.ssrLoadModule("/src/" + path)).default;
+    const render = async (Component, props) => {
+      const stream = await renderToReadableStream(
+        React.createElement(Component, props),
+      );
+      await stream.allReady;
+      return (await new Response(stream).text()).replaceAll("<!-- -->", "");
+    };
+    const [{ DISHES }, venues] = await Promise.all([
+      read("food"),
+      read("restaurants"),
+    ]);
+    const dish = { id: DISHES[0].id, data: DISHES[0], is_visible: true };
+    const venue = {
+      id: venues.restaurants[0].id,
+      data: venues.restaurants[0],
+      is_visible: true,
+    };
+    const model = {
+      dishes: [dish],
+      restaurants: [venue],
+      links: [],
+      recipes: [],
+      submissions: [],
+    };
+    const noop = () => {};
+    const OwnerEditor = await load("components/partner/OwnerEditor.jsx");
+    const owner = await render(OwnerEditor, {
+      email: "owner@example.com",
+      onSaved: noop,
+      onClose: noop,
+    });
+    assert.ok(owner.includes("Thêm quán của bạn"));
+    assert.ok(owner.includes("Giá một phần (VND)"));
+    assert.ok(owner.includes("Email liên hệ riêng"));
+    const CatalogEditor = await load("components/admin/CatalogEditor.jsx");
+    for (const [kind, label] of [
+      ["dishes", "món ăn"],
+      ["restaurants", "quán ăn"],
+      ["links", "món tại quán"],
+      ["recipes", "công thức"],
+      ["reviews", "căn cứ nhãn"],
+    ]) {
+      const row = kind === "reviews" ? dish : null;
+      const html = await render(CatalogEditor, {
+        kind,
+        row,
+        model,
+        onSaved: noop,
+        onClose: noop,
+      });
+      assert.ok(html.includes((row ? "Chỉnh sửa " : "Thêm ") + label), kind);
+      assert.ok(
+        html.includes(kind === "reviews" ? "Ăn chay" : "Trạng thái công bố"),
+        kind,
+      );
+    }
+    const SubmissionReview = await load(
+      "components/admin/SubmissionReview.jsx",
+    );
+    const review = await render(SubmissionReview, {
+      record: {
+        id: "test-submission",
+        revision: 1,
+        data: venue.data,
+        menu: [{ ...dish.data, price: 45000 }],
+      },
+      onSaved: noop,
+      onClose: noop,
+    });
+    assert.ok(review.includes("Duyệt và công bố"));
+    assert.ok(review.includes("Yêu cầu bổ sung"));
+  } finally {
+    await vite.close();
+  }
+});
+
 test(
   "React routes render the migrated catalog, auth screens, empty states and escaped user content",
   { timeout: 30000 },

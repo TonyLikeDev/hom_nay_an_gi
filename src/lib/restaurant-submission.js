@@ -1,0 +1,25 @@
+export const submissionStatus = {
+  draft: "Bản nháp",
+  pending: "Chờ duyệt",
+  approved: "Đã duyệt",
+  rejected: "Cần bổ sung",
+};
+export const emptyRestaurant = (email) => ({
+  name: "",
+  address: "",
+  area: "Đà Nẵng",
+  category: "Món chính",
+  phone: "",
+  hours: "",
+  website: "",
+  imageUrl: "",
+  grabFoodUrl: "",
+  shopeeFoodUrl: "",
+  priceLabel: "",
+  priceTier: "",
+  contactName: "",
+  contactEmail: email || "",
+  sourceUrl: "",
+  meals: ["trua"],
+  consent: false,
+});
