@@ -596,8 +596,8 @@ export function ResultPage() {
       >
         <div className="result__photo">
           <Image
-            src={photo(dish, 1200, 900)}
-            alt={dish.name}
+            src={photo(shown, 1200, 900)}
+            alt={shown.name}
             width="1200"
             height="900"
           />
