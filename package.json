@@ -1,25 +1,29 @@
 {
   "name": "hom-nay-an-gi",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node --env-file-if-exists=.env server/app.js",
-    "dev": "node --watch --env-file-if-exists=.env server/app.js",
-    "test": "node scripts/test-mysql.mjs --suite",
-    "db:check": "node scripts/import-mysql.mjs --dry-run",
-    "db:setup": "node --env-file-if-exists=.env scripts/import-mysql.mjs --apply-schema",
-    "db:import": "node --env-file-if-exists=.env scripts/import-mysql.mjs",
-    "test:db": "node scripts/test-mysql.mjs",
-    "admin:create": "node --env-file-if-exists=.env scripts/create-admin.mjs",
-    "build:vercel": "node scripts/build-vercel.mjs"
+    "dev": "vite --host 127.0.0.1",
+    "start": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:demo": "vite build --mode demo",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.js",
+    "db:seed": "node scripts/generate-seed.mjs"
   },
   "engines": {
-    "node": "24.x"
+    "node": ">=22.12.0"
   },
   "dependencies": {
-    "@vercel/functions": "^3.10.6",
-    "better-auth": "^1.7.16",
-    "mysql2": "^3.24.6"
+    "@supabase/supabase-js": "^2.119.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router": "^8.5.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.15",
+    "@vitejs/plugin-react": "^6.2.1",
+    "vite": "^8.3.6"
   }
 }
