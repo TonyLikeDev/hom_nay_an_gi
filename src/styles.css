@@ -228,6 +228,11 @@ h2 {
   outline-offset: 2px;
 }
 
+/* Route focus announces the page without outlining the entire container. */
+#main:focus {
+  outline: none;
+}
+
 .wrap {
   width: min(100% - 2 * var(--gutter), 1280px);
   margin-inline: auto;
