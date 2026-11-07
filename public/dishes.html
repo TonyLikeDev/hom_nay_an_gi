@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tất cả món ăn | Hôm nay ăn gì?</title>
+  <meta name="description" content="Khám phá món ăn, bánh và đồ uống; lọc theo ẩm thực, bữa ăn và quán liên kết.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23C2410C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+  <header class="site-header wrap" data-header></header>
+
+  <main id="main" class="page wrap">
+    <h1>Tất cả món ăn <span id="count" aria-live="polite"></span></h1>
+    <p class="catalog-intro">Chọn món, tìm quán hoặc tự vào bếp. Có cả bánh, ăn vặt và đồ uống cho những lúc muốn đổi vị.</p>
+    <form class="catalog-toolbar" role="search" id="dish-search-form">
+      <div class="catalog-search">
+        <label class="sr-only" for="dish-search">Tìm theo tên món</label>
+        <svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg>
+        <input id="dish-search" type="search" placeholder="Tìm món ăn, đồ uống…" autocomplete="off" maxlength="150">
+      </div>
+      <div class="catalog-select catalog-select--cuisine">
+        <button class="catalog-dropdown__trigger" id="filter-cuisine" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="filter-cuisine-options" aria-label="Lọc theo ẩm thực">
+          <span id="catalog-cuisine-icon" class="catalog-select__icon" aria-hidden="true"></span>
+          <span id="filter-cuisine-label">Mọi ẩm thực</span>
+          <svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="catalog-dropdown__list" id="filter-cuisine-options" role="listbox" aria-label="Chọn ẩm thực" hidden></div>
+      </div>
+      <div class="catalog-select catalog-select--meal">
+        <button class="catalog-dropdown__trigger" id="filter-meal" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="filter-meal-options" aria-label="Lọc theo bữa ăn">
+          <span id="catalog-meal-icon" class="catalog-select__icon" aria-hidden="true"></span>
+          <span id="filter-meal-label">Mọi bữa ăn</span>
+          <svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="catalog-dropdown__list" id="filter-meal-options" role="listbox" aria-label="Chọn bữa ăn" hidden></div>
+      </div>
+      <div class="catalog-select catalog-select--nutrition"><button class="catalog-dropdown__trigger" id="filter-nutrition" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="filter-nutrition-options" aria-label="Ăn kiêng"><span class="catalog-select__icon" aria-hidden="true"></span><span id="filter-nutrition-label">Ăn kiêng</span><svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="catalog-dropdown__list" id="filter-nutrition-options" role="listbox" aria-label="Ăn kiêng" hidden></div></div>
+      <div class="catalog-quick-filters" role="group" aria-label="Lọc nhanh">
+        <button class="catalog-toggle" id="filter-diet" type="button" aria-pressed="false"><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 4c-6-1-13 1-14 7-1 4 2 7 6 6 6-1 8-7 8-13Z"/><path d="M4 21 15 10"/></svg>Món chay</button>
+        <button class="catalog-toggle" id="filter-linked" type="button" aria-pressed="false" aria-label="Chỉ hiện món có quán liên kết"><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v11h16V10M3 10l2-7h14l2 7M3 10q3 4 6 0 3 4 6 0 3 4 6 0M9 21v-7h6v7"/></svg>Có quán</button>
+        <button class="catalog-toggle" id="filter-recipe" type="button" aria-pressed="false" aria-label="Chỉ hiện món có công thức"><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16M12 5C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Z"/></svg>Có công thức</button>
+        <button class="catalog-clear" id="catalog-clear" type="button" hidden>Xóa lọc</button>
+      </div>
+    </form>
+    <p class="filters__note catalog-diet-note" id="diet-note" hidden>Gồm công thức đã rà soát và món được quán giới thiệu là chay. Hãy kiểm tra nguyên liệu, nước dùng và sốt khi gọi món.</p>
+
+    <p class="filters__note" id="nutrition-note" hidden></p>
+    <ul class="dish-grid" id="dish-grid"></ul>
+
+    <section class="empty" id="empty" hidden>
+      <h2>Chưa có món nào như vậy</h2>
+      <p>Bạn thử đổi từ khóa, bữa ăn hoặc bớt điều kiện lọc nhé.</p>
+      <button class="btn btn--primary" id="clear-filters" type="button">Bỏ lọc</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__main">
+        <div class="site-footer__intro">
+          <a class="logo" href="index.html">Hôm nay ăn gì?</a>
+          <p>Một chút gợi ý, thêm vị cho mỗi ngày.</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Điều hướng cuối trang">
+          <a href="cuisines.html">Khám phá ẩm thực</a>
+          <a href="dishes.html">Tất cả món ăn</a>
+          <a href="restaurants.html">Quán ăn</a>
+          <a href="favorites.html">Yêu thích</a>
+          <a href="about.html">Về tụi mình</a>
+          <a href="about.html#sources">Nguồn ảnh</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Hôm nay ăn gì? · Nhóm 3</p>
+        <p>Đồ án Advanced Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/catalog-filters.js"></script>
+  <script src="js/recipes.js"></script><script src="js/nutrition.js"></script>
+  <script src="js/dishes.js"></script>
+</body>
+</html>

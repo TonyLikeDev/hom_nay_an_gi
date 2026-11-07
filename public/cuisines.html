@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ẩm thực | Hôm nay ăn gì?</title>
+  <meta name="description" content="Chọn nền ẩm thực bạn đang thèm, hoặc để máy quay xèng chọn giúp bạn.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23C2410C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+  <header class="site-header wrap" data-header></header>
+
+  <main id="main" class="page wrap">
+    <h1>Chọn nền ẩm thực</h1>
+    <div class="cuisine-grid" id="cuisine-grid"></div>
+  </main>
+
+  <dialog class="slot" id="slot" aria-labelledby="slot-title">
+    <div class="slot__body">
+      <button class="btn slot__close" id="slot-close" type="button">Đóng</button>
+      <h2 id="slot-title">Bất ngờ đi!</h2>
+      <p class="slot__status" id="slot-status" aria-live="polite"></p>
+      <div class="slot__reels" aria-hidden="true">
+        <div>
+          <div class="slot__window"><ul class="slot__strip" id="reel-cuisine"></ul></div>
+          <span class="slot__label">Ẩm thực</span>
+        </div>
+        <div>
+          <div class="slot__window"><ul class="slot__strip" id="reel-dish"></ul></div>
+          <span class="slot__label">Món ăn</span>
+        </div>
+      </div>
+      <button class="btn btn--primary btn--lg slot__spin" id="slot-spin" type="button" aria-describedby="spin-count">Quay</button>
+      <div class="spin-options">
+        <button class="spin-options__trigger" id="spin-options-trigger" type="button" aria-expanded="false" aria-controls="spin-options-panel"><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="8" cy="7" r="2" fill="var(--bg)"/><circle cx="16" cy="17" r="2" fill="var(--bg)"/></svg><span id="spin-options-label">Tùy chọn</span><svg class="spin-options__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+        <div id="spin-options-panel" class="spin-options__panel" hidden>
+          <span class="spin-options__label" id="spin-diet-heading">Chế độ ăn</span>
+          <div class="catalog-select catalog-select--nutrition"><button class="catalog-dropdown__trigger" id="spin-diet" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="spin-diet-options" aria-label="Chế độ ăn"><span class="catalog-select__icon" aria-hidden="true"></span><span id="spin-diet-label">Không giới hạn</span><svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="catalog-dropdown__list" id="spin-diet-options" role="listbox" aria-labelledby="spin-diet-heading" hidden></div></div>
+          <div class="spin-options__quick" role="group" aria-label="Điều kiện món"><button class="catalog-toggle" id="spin-recipe" type="button" aria-pressed="false"><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16M12 5C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Z"/></svg>Có công thức</button><button class="catalog-toggle" id="spin-linked" type="button" aria-pressed="false"><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v11h16V10M3 10l2-7h14l2 7M3 10q3 4 6 0 3 4 6 0 3 4 6 0M9 21v-7h6v7"/></svg>Có quán</button></div>
+          <div class="spin-options__status"><p id="spin-count" role="status" aria-live="polite"></p><button class="catalog-clear" id="spin-reset" type="button" hidden>Bỏ lọc</button></div>
+          <p id="spin-help" class="spin-options__help">Ưu tiên bữa hiện tại trong các món phù hợp. Món chay và ăn kiêng có tiêu chí khác nhau.</p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__main">
+        <div class="site-footer__intro">
+          <a class="logo" href="index.html">Hôm nay ăn gì?</a>
+          <p>Một chút gợi ý, thêm vị cho mỗi ngày.</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Điều hướng cuối trang">
+          <a href="cuisines.html">Khám phá ẩm thực</a>
+          <a href="dishes.html">Tất cả món ăn</a>
+          <a href="restaurants.html">Quán ăn</a>
+          <a href="favorites.html">Yêu thích</a>
+          <a href="about.html">Về tụi mình</a>
+          <a href="about.html#sources">Nguồn ảnh</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Hôm nay ăn gì? · Nhóm 3</p>
+        <p>Đồ án Advanced Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/recipes.js"></script><script src="js/catalog-filters.js"></script><script src="js/nutrition.js"></script><script src="js/spin-filters.js"></script><script src="js/spin-options-ui.js"></script>
+  <script src="js/cuisines.js"></script>
+</body>
+</html>

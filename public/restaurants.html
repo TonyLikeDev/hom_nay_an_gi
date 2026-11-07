@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quán ăn | Hôm nay ăn gì?</title>
+  <meta name="description" content="Khám phá danh sách 105 địa điểm ăn uống tại Đà Nẵng.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23C2410C'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+  <header class="site-header wrap" data-header></header>
+
+  <main id="main" class="page wrap restaurant-directory">
+    <div class="restaurant-directory__intro">
+      <div><h1>Hôm nay, ghé quán nào?</h1><p class="restaurant-location">Đà Nẵng · Bộ sưu tập địa điểm</p><p class="restaurant-directory__description">Từ một tô mì Quảng đến ly cà phê chiều. Khám phá những địa điểm ăn uống cho từng bữa trong ngày.</p></div>
+      <a class="restaurant-intro-link" href="dishes.html">Chọn món trước →</a>
+    </div>
+    <form class="catalog-toolbar restaurant-toolbar" id="restaurant-search" role="search"><div class="catalog-search"><label class="sr-only" for="restaurant-query">Tìm quán, món hoặc đường</label><svg class="action-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg><input type="search" id="restaurant-query" placeholder="Tên quán, món hoặc tên đường…" maxlength="150"></div><div class="catalog-select catalog-select--category"><button class="catalog-dropdown__trigger" id="restaurant-category" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="restaurant-category-options" aria-label="Mọi nhóm món"><span class="catalog-select__icon" aria-hidden="true"></span><span id="restaurant-category-label">Mọi nhóm món</span><svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="catalog-dropdown__list" id="restaurant-category-options" role="listbox" aria-label="Mọi nhóm món" hidden></div></div><div class="catalog-select catalog-select--meal"><button class="catalog-dropdown__trigger" id="restaurant-meal" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="restaurant-meal-options" aria-label="Mọi bữa ăn"><span class="catalog-select__icon" aria-hidden="true"></span><span id="restaurant-meal-label">Mọi bữa ăn</span><svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="catalog-dropdown__list" id="restaurant-meal-options" role="listbox" aria-label="Mọi bữa ăn" hidden></div></div><div class="catalog-select catalog-select--price"><button class="catalog-dropdown__trigger" id="restaurant-price" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="restaurant-price-options" aria-label="Mọi mức giá"><span class="catalog-select__icon" aria-hidden="true"></span><span id="restaurant-price-label">Mọi mức giá</span><svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="catalog-dropdown__list" id="restaurant-price-options" role="listbox" aria-label="Mọi mức giá" hidden></div></div><div class="catalog-select catalog-select--nutrition"><button class="catalog-dropdown__trigger" id="restaurant-nutrition" type="button" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="restaurant-nutrition-options" aria-label="Ăn kiêng"><span class="catalog-select__icon" aria-hidden="true"></span><span id="restaurant-nutrition-label">Ăn kiêng</span><svg class="catalog-dropdown__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="catalog-dropdown__list" id="restaurant-nutrition-options" role="listbox" aria-label="Ăn kiêng" hidden></div></div><button class="catalog-clear" id="restaurant-reset" type="button">Xóa lọc</button></form><p class="filters__note" id="nutrition-note" hidden></p>
+    <details class="restaurant-data-note"><summary>Lưu ý khi chọn quán</summary><p>Giá và thực đơn có thể thay đổi. Vui lòng kiểm tra thông tin trước khi ghé. Bữa ăn là gợi ý, không phải giờ mở cửa. Địa điểm có thể là quán, chuỗi hoặc khu chợ. Ảnh minh họa không phải ảnh xác nhận của quán; ảnh từ website chính thức có ghi nguồn riêng.</p></details>
+    <p class="restaurant-dish-filter" id="restaurant-dish-filter" hidden></p>
+    <div class="restaurant-results-bar"><p id="restaurant-count" role="status" aria-live="polite">Đang tải danh sách…</p><span id="restaurant-page-info"></span></div>
+    <ul class="restaurant-grid" id="restaurant-grid" aria-label="Danh sách địa điểm" aria-busy="true"></ul>
+    <section class="empty" id="restaurant-empty" hidden><h2>Chưa thấy địa điểm phù hợp</h2><p>Thử tên ngắn hơn, không dấu hoặc bớt bộ lọc nhé.</p><button class="btn" type="button" id="restaurant-empty-reset">Xem tất cả địa điểm</button></section>
+    <section class="empty" id="restaurant-error" hidden><h2>Chưa tải được danh sách</h2><p id="restaurant-error-message">Hãy kiểm tra kết nối rồi thử lại.</p><button class="btn" id="restaurant-retry" type="button">Thử lại</button></section>
+    <nav class="restaurant-pagination" aria-label="Phân trang địa điểm"><button class="btn" id="restaurant-prev" type="button" disabled>← Trang trước</button><span id="restaurant-pages"></span><button class="btn" id="restaurant-next" type="button" disabled>Trang sau →</button></nav>
+    <noscript><p>Bật JavaScript và chạy website bằng npm start để tải danh sách quán từ API.</p></noscript>
+  </main>
+  <dialog class="restaurant-detail" id="restaurant-detail" aria-labelledby="restaurant-detail-name">
+    <div class="restaurant-detail__header"><span>Thông tin địa điểm</span><button class="btn" id="restaurant-detail-close" type="button">Đóng</button></div>
+    <div id="restaurant-detail-body"></div>
+  </dialog>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__main">
+        <div class="site-footer__intro">
+          <a class="logo" href="index.html">Hôm nay ăn gì?</a>
+          <p>Một chút gợi ý, thêm vị cho mỗi ngày.</p>
+        </div>
+        <nav class="site-footer__nav" aria-label="Điều hướng cuối trang">
+          <a href="cuisines.html">Khám phá ẩm thực</a>
+          <a href="dishes.html">Tất cả món ăn</a>
+          <a href="restaurants.html">Quán ăn</a>
+          <a href="favorites.html">Yêu thích</a>
+          <a href="about.html">Về tụi mình</a>
+          <a href="about.html#sources">Nguồn ảnh</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Hôm nay ăn gì? · Nhóm 3</p>
+        <p>Đồ án Advanced Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/restaurant-ui.js"></script>
+  <script src="js/catalog-filters.js"></script>
+  <script src="js/nutrition.js"></script>
+  <script src="js/restaurants.js"></script>
+</body>
+</html>
