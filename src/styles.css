@@ -1442,6 +1442,29 @@ body[data-cuisine] {
   border-top: 1px solid var(--line);
   padding-top: 0.375rem;
 }
+.restaurant-order {
+  margin-block: 0.75rem;
+}
+.restaurant-order > summary {
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+.restaurant-order > summary::-webkit-details-marker {
+  display: none;
+}
+.restaurant-order[open] > summary .action-icon {
+  transform: rotate(90deg);
+}
+.restaurant-order__options {
+  display: grid;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+}
+.restaurant-order__options .section-note {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
 @media (max-width: 1023px) {
   .restaurant-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

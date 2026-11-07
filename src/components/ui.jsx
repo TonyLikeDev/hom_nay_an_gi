@@ -306,6 +306,46 @@ export function DishCard({ dish }) {
     </li>
   );
 }
+export function RestaurantOrder({ restaurant }) {
+  const platforms = [
+    [
+      "GrabFood",
+      safeHttps(restaurant.grabFoodUrl, ["food.grab.com"]),
+      "https://food.grab.com/vn/vi/",
+    ],
+    [
+      "ShopeeFood",
+      safeHttps(restaurant.shopeeFoodUrl, [
+        "shopeefood.vn",
+        "www.shopeefood.vn",
+      ]),
+      "https://shopeefood.vn/",
+    ],
+  ];
+  return (
+    <details className="restaurant-order">
+      <summary
+        className="btn btn--primary"
+        aria-label={"Đặt hàng tại " + restaurant.name}
+      >
+        Đặt hàng <Icon name="arrow" />
+      </summary>
+      <div className="restaurant-order__options">
+        {platforms.map(([name, direct, fallback]) => (
+          <External key={name} className="btn" href={direct || fallback}>
+            {direct ? "Đặt qua " : "Tìm trên "}
+            {name} ↗
+          </External>
+        ))}
+        <p className="section-note">
+          {platforms.some(([, direct]) => !direct)
+            ? `“Tìm trên” mở trang nền tảng. Tìm ${restaurant.name} và đối chiếu địa chỉ ${restaurant.address}.`
+            : "Kiểm tra đúng chi nhánh, món, giá và phí giao hàng trước khi đặt trên nền tảng."}
+        </p>
+      </div>
+    </details>
+  );
+}
 export function RestaurantCard({ restaurant: r, match, heading = "h2" }) {
   const Heading = heading;
   return (
@@ -364,6 +404,7 @@ export function RestaurantCard({ restaurant: r, match, heading = "h2" }) {
               </span>
             ))}
           </div>
+          <RestaurantOrder restaurant={r} />
           <div className="restaurant-card__actions">
             <External href={mapsUrl(r)}>Tìm trên Maps ↗</External>
             <Link to={"/restaurant?id=" + r.id}>Xem quán →</Link>

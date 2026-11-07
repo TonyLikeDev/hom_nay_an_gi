@@ -29,6 +29,7 @@ import {
   Image,
   Nutrition,
   RestaurantCard,
+  RestaurantOrder,
   SaveButton,
   Status,
 } from "../components/ui.jsx";
@@ -944,20 +945,8 @@ export function RestaurantPage() {
             <External className="btn" href={restaurant.website}>
               Website quán ↗
             </External>
-            {safeHttps(restaurant.grabFoodUrl, ["food.grab.com"]) && (
-              <External className="btn" href={restaurant.grabFoodUrl}>
-                Đặt qua GrabFood ↗
-              </External>
-            )}
-            {safeHttps(restaurant.shopeeFoodUrl, [
-              "shopeefood.vn",
-              "www.shopeefood.vn",
-            ]) && (
-              <External className="btn" href={restaurant.shopeeFoodUrl}>
-                Đặt qua ShopeeFood ↗
-              </External>
-            )}
           </div>
+          <RestaurantOrder restaurant={restaurant} />
         </div>
         <figure className="restaurant-photo">
           <Image

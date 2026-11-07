@@ -131,6 +131,35 @@ test(
           await render("/reset-password", base, { user: { id: "test" } })
         ).includes("Cập nhật mật khẩu"),
       );
+      const ordering = structuredClone(base);
+      const restaurant = ordering.restaurants.find((r) => r.id === "dn-053");
+      assert.ok(restaurant);
+      restaurant.grabFoodUrl =
+        "https://food.grab.com/vn/vi/restaurant/test-branch";
+      restaurant.shopeeFoodUrl = "https://shopeefood.vn/da-nang/test-branch";
+      for (const route of ["/result?dish=pho-bo", "/restaurant?id=dn-053"]) {
+        const html = await render(route, ordering);
+        assert.ok(html.includes('aria-label="Đặt hàng tại '), route);
+        assert.ok(
+          html.includes('href="' + restaurant.grabFoodUrl + '"'),
+          route,
+        );
+        assert.ok(
+          html.includes('href="' + restaurant.shopeeFoodUrl + '"'),
+          route,
+        );
+        assert.ok(html.includes("Đặt qua "), route);
+        assert.ok(html.includes('rel="noopener noreferrer"'), route);
+      }
+      restaurant.grabFoodUrl = "https://food.grab.com.attacker.example/test";
+      restaurant.shopeeFoodUrl = "javascript:alert(1)";
+      const fallback = await render("/result?dish=pho-bo", ordering);
+      assert.ok(fallback.includes('href="https://food.grab.com/vn/vi/"'));
+      assert.ok(fallback.includes('href="https://shopeefood.vn/"'));
+      assert.ok(fallback.includes("đối chiếu địa chỉ"));
+      assert.ok(!fallback.includes("attacker.example"));
+      assert.ok(!fallback.includes("javascript:"));
+      assert.ok(!fallback.includes("Đặt qua "));
       const changed = structuredClone(base);
       changed.dishes = changed.dishes.filter((d) => d.id !== "pho-bo");
       changed.dishes.push({
