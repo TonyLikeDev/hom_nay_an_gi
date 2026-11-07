@@ -23,6 +23,8 @@ for (const l of associations.links) {
 }
 for (const id of Object.keys(recipes))
   assert.ok(food.DISHES.some((d) => d.id === id));
+for (const dish of food.DISHES)
+  assert.ok(Object.hasOwn(recipes, dish.id), `Missing recipe: ${dish.id}`);
 const literal = (value) =>
   "'" + JSON.stringify(value).replaceAll("'", "''") + "'::jsonb";
 const rows = (table, records, columns, select) =>

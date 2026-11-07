@@ -1198,5 +1198,6665 @@
       "label": "Nagi · RecipeTin Eats — Tom Yum Soup",
       "url": "https://www.recipetineats.com/tom-yum-soup-thai/"
     }
+  },
+  "banh-mi": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Bánh mì nhỏ",
+        "amount": 2,
+        "unit": "ổ"
+      },
+      {
+        "name": "Thịt heo nạc thái mỏng",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Củ cải",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Rau mùi",
+        "text": "Một ít"
+      }
+    ],
+    "steps": [
+      [
+        "Làm đồ chua",
+        "Thái sợi cà rốt và củ cải. Trộn giấm, đường với 30 ml nước, ngâm rau 15 phút."
+      ],
+      [
+        "Ướp thịt",
+        "Trộn thịt với nước mắm, tỏi và dầu ăn. Để thấm 10 phút trong ngăn mát."
+      ],
+      [
+        "Áp chảo",
+        "Làm nóng chảo rồi đảo thịt đến khi chín kỹ, cạnh hơi vàng. Nướng lại bánh mì cho vỏ giòn."
+      ],
+      [
+        "Kẹp bánh",
+        "Rạch bánh, cho thịt, đồ chua đã ráo, dưa leo và rau mùi. Dùng ngay."
+      ]
+    ],
+    "tip": "Phiên bản bánh mì thịt áp chảo tại nhà; có thể thêm tương ớt theo khẩu vị.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "com-tam": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Gạo tấm",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Sườn heo cốt lết",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Sả băm",
+        "amount": 1,
+        "unit": "cây"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Ướp sườn",
+        "Trộn sườn với sả, tỏi, 15 ml nước mắm, 10 g đường và 10 ml dầu. Ướp trong ngăn mát ít nhất 20 phút."
+      ],
+      [
+        "Nấu cơm",
+        "Vo gạo nhẹ, thêm nước theo hướng dẫn của gạo đang dùng và nấu chín."
+      ],
+      [
+        "Nướng sườn",
+        "Nướng ở 190°C khoảng 20–25 phút, trở giữa chừng. Kiểm tra phần thịt dày đạt ít nhất 63°C, để nghỉ 3 phút."
+      ],
+      [
+        "Pha và dọn",
+        "Pha nước mắm còn lại với đường còn lại, nước chanh và 45 ml nước. Làm nóng dầu còn lại với hành lá, rưới lên cơm; dọn cùng sườn và dưa leo."
+      ]
+    ],
+    "tip": "Thời gian nướng phụ thuộc độ dày sườn; không lấy màu vàng làm dấu hiệu duy nhất của độ chín.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "sushi": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Gạo Nhật",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Cá hồi phi lê",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Rong biển nori",
+        "amount": 3,
+        "unit": "lá"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 0.5,
+        "unit": "quả"
+      },
+      {
+        "name": "Bơ quả",
+        "amount": 0.5,
+        "unit": "quả"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 20,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu cơm",
+        "Vo gạo và nấu theo hướng dẫn trên bao bì. Hòa giấm, đường, muối rồi trộn nhẹ vào cơm nóng; trải ra cho bớt nóng."
+      ],
+      [
+        "Nấu cá",
+        "Hấp cá hồi khoảng 10–15 phút tùy độ dày, đến khi tâm cá đạt 63°C. Bỏ da và xương, tách miếng dài."
+      ],
+      [
+        "Cuộn",
+        "Đặt nori lên mành bọc sạch. Dàn cơm mỏng, chừa mép; thêm cá chín, dưa leo và bơ rồi cuộn chắc tay."
+      ],
+      [
+        "Cắt và dùng",
+        "Dùng dao sạch làm ẩm, cắt từng khoanh. Ăn ngay với lượng nước tương vừa phải."
+      ]
+    ],
+    "tip": "Phiên bản sushi cá chín tại nhà, không dùng cá sống. Không để cơm và cá ở nhiệt độ phòng quá 2 giờ.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ramen": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Mì ramen",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Đùi gà rút xương",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng gà",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Trứng",
+        "amount": 2,
+        "unit": "quả"
+      },
+      {
+        "name": "Nấm hương",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Miso",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu nước dùng",
+        "Đun nước dùng với gừng, tỏi và nấm 15 phút. Múc ít nước hòa tan miso rồi cho lại vào nồi, nêm nước tương."
+      ],
+      [
+        "Nấu gà và trứng",
+        "Áp chảo gà đến khi chín và tâm đạt 74°C, để nghỉ rồi thái. Luộc trứng khoảng 10 phút cho lòng đỏ chín, bóc vỏ."
+      ],
+      [
+        "Luộc mì",
+        "Luộc mì trong nồi riêng theo hướng dẫn, để ráo ngay."
+      ],
+      [
+        "Xếp tô",
+        "Cho mì, nước dùng nóng, gà, trứng, nấm và hành lá vào tô. Thêm dầu mè trước khi dùng."
+      ]
+    ],
+    "tip": "Phiên bản ramen gà và miso; không phải nước dùng tonkotsu hầm lâu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "com-ca-ri": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Gạo",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt bò hầm cắt nhỏ",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Viên cà ri Nhật",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 650,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Vo và nấu gạo. Cắt thịt, khoai và cà rốt thành miếng khoảng 2 cm; thái hành tây."
+      ],
+      [
+        "Xào nền",
+        "Làm nóng dầu, xào hành 5 phút. Thêm thịt và đảo đến khi mặt thịt săn lại."
+      ],
+      [
+        "Hầm",
+        "Cho nước, cà rốt và khoai; đun nhỏ lửa 25–35 phút đến khi thịt và rau mềm. Bổ sung nước nóng nếu cạn."
+      ],
+      [
+        "Hoàn thành",
+        "Tắt bếp, hòa viên cà ri vào nước nóng trong nồi. Bật lửa nhỏ thêm 5 phút, khuấy để không cháy đáy; dọn với cơm."
+      ]
+    ],
+    "tip": "Kiểm tra lượng nước trên bao bì viên cà ri vì mỗi hãng có độ mặn và độ đặc khác nhau.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "udon": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Mì udon",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ chắc",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm đông cô tươi",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Cải thìa",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng rau củ",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Thái đậu phụ thành miếng, rửa nấm và cải. Thái gừng thành lát mỏng."
+      ],
+      [
+        "Áp chảo đậu",
+        "Dùng nửa lượng dầu mè áp chảo đậu cho hai mặt hơi vàng."
+      ],
+      [
+        "Nấu nước dùng",
+        "Đun nước dùng với gừng và nấm 8 phút. Nêm nước tương, cho cải vào nấu vừa mềm."
+      ],
+      [
+        "Hoàn thành",
+        "Chần udon theo hướng dẫn, chia tô rồi thêm nước dùng, rau, nấm và đậu. Rắc hành và dầu mè còn lại."
+      ]
+    ],
+    "tip": "Mì udon đóng gói có thể đã chín; tránh nấu quá lâu làm mì bở.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "tteokbokki": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Bánh gạo Hàn Quốc",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Chả cá Hàn Quốc",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng rau củ",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Gochujang",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Mè rang",
+        "amount": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Ngâm bánh gạo cứng trong nước ấm 10 phút, để ráo. Cắt chả cá, hành tây và hành lá."
+      ],
+      [
+        "Pha sốt",
+        "Đun nước dùng, hòa gochujang, đường và nước tương đến tan."
+      ],
+      [
+        "Nấu bánh",
+        "Cho bánh gạo và hành tây vào, đun vừa 10–12 phút, đảo nhẹ để không dính đáy."
+      ],
+      [
+        "Hoàn thiện",
+        "Thêm chả cá và hành lá, nấu thêm 3–5 phút đến khi bánh mềm và sốt áo đều. Rắc mè."
+      ]
+    ],
+    "tip": "Nếm độ cay trước khi thêm toàn bộ gochujang; có thể thêm nước nóng nếu sốt quá đặc.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ga-ran": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Đùi gà rút xương",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Bột mì",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi băm",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Gừng băm",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Gochujang",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Mật ong",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu chiên",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Ướp gà",
+        "Cắt gà miếng vừa ăn, thấm khô. Ướp với gừng, một nửa tỏi và 10 ml nước tương trong ngăn mát 15 phút."
+      ],
+      [
+        "Áo bột",
+        "Trộn hai loại bột. Lăn gà để bột bám đều, giũ phần dư."
+      ],
+      [
+        "Chiên",
+        "Chiên từng mẻ trong dầu khoảng 170°C, đến khi vàng giòn và phần dày nhất đạt 74°C. Để ráo trên giá."
+      ],
+      [
+        "Áo sốt",
+        "Đun tỏi còn lại với gochujang, mật ong, giấm, nước tương còn lại và 30 ml nước. Đảo gà với sốt vừa sệt, dùng ngay."
+      ]
+    ],
+    "tip": "Dùng nồi thành cao và không đổ dầu quá nửa nồi. Lượng dầu là để chiên, không phải lượng ăn vào.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "dimsum": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Vỏ hoành thánh tròn",
+        "amount": 16,
+        "unit": "lá"
+      },
+      {
+        "name": "Thịt heo xay",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm hương",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng băm",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 5,
+        "unit": "ml"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Làm nhân",
+        "Băm tôm và nấm; trộn với thịt, gừng, nước tương, dầu mè và bột bắp. Giữ nhân lạnh khi chưa gói."
+      ],
+      [
+        "Gói xíu mại",
+        "Cho nhân vào giữa vỏ, túm các mép lên để hở mặt trên. Ấn đáy phẳng và đặt chút cà rốt băm lên mặt."
+      ],
+      [
+        "Hấp",
+        "Lót giấy hấp có lỗ, xếp bánh cách nhau. Hấp khi nước sôi khoảng 12–15 phút; tâm nhân thịt đạt 71°C."
+      ],
+      [
+        "Dọn nóng",
+        "Lấy bánh bằng kẹp sạch, dùng ngay với nước tương hoặc giấm tùy thích."
+      ]
+    ],
+    "tip": "Dimsum là nhóm món; công thức này chọn xíu mại hấp để thực hiện tại nhà.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "mi-hoanh-thanh": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Mì trứng",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Vỏ hoành thánh",
+        "amount": 16,
+        "unit": "lá"
+      },
+      {
+        "name": "Thịt heo xay",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng gà",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Cải thìa",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 5,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Trộn nhân",
+        "Băm tôm, trộn với thịt, nửa lượng nước tương và dầu mè. Giữ trong ngăn mát trước khi gói."
+      ],
+      [
+        "Gói",
+        "Cho một thìa nhỏ nhân vào vỏ, làm ẩm mép bằng nước rồi gấp kín; không nhồi quá đầy."
+      ],
+      [
+        "Nấu",
+        "Đun nước dùng với gừng. Luộc hoành thánh trong nước sôi nhẹ 5–8 phút, kiểm tra nhân đạt 71°C rồi vớt ra."
+      ],
+      [
+        "Xếp tô",
+        "Luộc mì và cải riêng, chia tô. Thêm hoành thánh, nước dùng đã nêm nước tương còn lại và hành lá."
+      ]
+    ],
+    "tip": "Không dùng nước ngâm hoặc nước rã đông tôm để làm nước dùng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "vit-quay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "70 phút",
+    "ingredients": [
+      {
+        "name": "Đùi vịt có da",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Mật ong",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Ngũ vị hương",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Bánh tráng cuốn hoặc bánh pía cuốn",
+        "amount": 8,
+        "unit": "miếng"
+      },
+      {
+        "name": "Sốt hoisin",
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Ướp và hong lạnh",
+        "Thấm vịt thật khô. Xoa phần thịt với tỏi, gừng, ngũ vị và nước tương; đặt trên giá trong ngăn mát để da khô ít nhất 4 giờ."
+      ],
+      [
+        "Quét da",
+        "Pha mật ong với giấm và 15 ml nước nóng. Quét một lớp mỏng lên da trước khi nướng."
+      ],
+      [
+        "Nướng",
+        "Nướng trên giá ở 180°C khoảng 55–70 phút tùy miếng. Kiểm tra tâm thịt không chạm xương đạt 74°C; nếu da chưa vàng, tăng 210°C vài phút và canh sát."
+      ],
+      [
+        "Cuốn",
+        "Để vịt nghỉ 10 phút, thái mỏng. Dọn với dưa leo, bánh cuốn và hoisin."
+      ]
+    ],
+    "tip": "Phiên bản đùi vịt quay kiểu Bắc Kinh cho lò gia đình, không phải kỹ thuật vịt nguyên con của nhà hàng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Hong da trong ngăn mát ít nhất 4 giờ; thời gian này chưa tính vào chuẩn bị."
+  },
+  "com-chien-duong-chau": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Cơm chín đã làm lạnh",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng",
+        "amount": 2,
+        "unit": "quả"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Giăm bông chín",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu Hà Lan",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 20,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Đánh trứng; cắt hạt lựu giăm bông và cà rốt. Tách cơm thành hạt rời."
+      ],
+      [
+        "Xào nhân",
+        "Làm nóng nửa lượng dầu, xào tôm đến chín đục. Thêm giăm bông, cà rốt và đậu; đảo 3 phút rồi trút ra."
+      ],
+      [
+        "Chiên cơm",
+        "Cho dầu còn lại vào chảo, đảo trứng đến chín rồi thêm cơm. Đảo lửa vừa lớn cho cơm nóng đều."
+      ],
+      [
+        "Trộn",
+        "Cho nhân trở lại, nêm nước tương và hành lá; đảo đến khi toàn bộ cơm nóng bốc hơi. Dùng ngay."
+      ]
+    ],
+    "tip": "Dùng cơm được làm nguội nhanh và bảo quản lạnh, không dùng cơm để qua đêm ở nhiệt độ phòng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ca-ri-xanh": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Đùi gà rút xương",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Cà tím",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu que",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sốt cà ri xanh Thái",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Húng quế Thái",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Cắt gà thành miếng, cà tím và đậu que thành khúc. Rửa húng quế."
+      ],
+      [
+        "Xào sốt",
+        "Làm nóng dầu, đảo sốt cà ri 30 giây cho thơm; thêm vài thìa cốt dừa, khuấy đều."
+      ],
+      [
+        "Nấu",
+        "Cho gà, phần cốt dừa còn lại và nước. Đun nhỏ lửa 15 phút rồi thêm rau, nấu đến mềm vừa và gà đạt 74°C."
+      ],
+      [
+        "Nêm",
+        "Thêm nước mắm, đường, cuối cùng là húng quế. Dùng với cơm hoặc bún."
+      ]
+    ],
+    "tip": "Độ cay tùy loại sốt; bắt đầu với lượng nhỏ rồi điều chỉnh.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "pad-kra-pao": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "12 phút",
+    "ingredients": [
+      {
+        "name": "Thịt gà xay",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Húng quế Thái",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 4,
+        "unit": "tép"
+      },
+      {
+        "name": "Ớt",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu hào",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Cơm chín",
+        "amount": 350,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Pha sốt",
+        "Trộn nước tương, dầu hào, đường và 30 ml nước. Băm tỏi, ớt; nhặt lá húng quế."
+      ],
+      [
+        "Xào gà",
+        "Làm nóng dầu, đảo tỏi và ớt cho thơm. Cho gà vào, đảo và tách vụn đến chín kỹ, đạt 74°C."
+      ],
+      [
+        "Thêm sốt",
+        "Rưới sốt, đảo lửa vừa lớn 2–3 phút cho thịt thấm và nước gần cạn."
+      ],
+      [
+        "Thêm rau",
+        "Tắt bếp, trộn húng quế cho vừa héo rồi dọn trên cơm nóng."
+      ]
+    ],
+    "tip": "Húng quế Thái là lựa chọn dễ mua; hương vị khác holy basil truyền thống của pad kra pao.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "mi-y-carbonara": {
+    "servings": 2,
+    "prep": "10 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt ba chỉ muối hoặc bacon",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng",
+        "amount": 2,
+        "unit": "quả"
+      },
+      {
+        "name": "Phô mai Parmesan bào",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Tiêu đen",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "text": "Để luộc mì"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị sốt",
+        "Đánh trứng với phô mai và tiêu trong tô chịu nhiệt. Cắt thịt thành miếng nhỏ."
+      ],
+      [
+        "Luộc mì",
+        "Luộc mì theo thời gian trên bao bì, giữ lại khoảng 150 ml nước luộc nóng."
+      ],
+      [
+        "Áp chảo thịt",
+        "Đảo thịt trên chảo đến chín vàng. Cho mì vừa ráo vào đảo đều rồi nhấc chảo khỏi bếp."
+      ],
+      [
+        "Trộn trứng",
+        "Thêm hỗn hợp trứng và một ít nước mì, đảo liên tục. Nếu cần, đặt chảo lên nồi nước nóng và đảo đến khi sốt sánh; không đun lửa trực tiếp làm trứng vón."
+      ]
+    ],
+    "tip": "Ưu tiên trứng tiệt trùng cho sốt còn mềm; nếu dùng trứng thường, làm nóng hỗn hợp đến 71°C. Đây là bản dùng Parmesan và bacon dễ mua.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "lasagna": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "45 phút",
+    "ingredients": [
+      {
+        "name": "Lá lasagna",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt bò xay",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua nghiền",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Sữa tươi",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Bơ",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Bột mì",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ô liu",
+        "amount": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu sốt thịt",
+        "Phi hành, tỏi với dầu, cho bò vào xào tơi và chín kỹ. Thêm cà chua, nấu nhỏ lửa 15 phút, nêm muối và tiêu tùy thích."
+      ],
+      [
+        "Nấu sốt trắng",
+        "Đun chảy bơ, khuấy bột mì 1 phút. Thêm sữa từng ít, khuấy đến sánh; nêm nhẹ."
+      ],
+      [
+        "Xếp lớp",
+        "Chuẩn bị lá mì theo bao bì. Trong khuôn nhỏ, xếp lần lượt sốt thịt, lá mì, sốt trắng; lặp lại, phủ phô mai."
+      ],
+      [
+        "Nướng",
+        "Nướng ở 180°C khoảng 35–45 phút đến sủi đều và mì mềm. Phần giữa món đạt 74°C; để nghỉ 10 phút rồi cắt."
+      ]
+    ],
+    "tip": "Che giấy bạc nửa đầu thời gian nướng nếu mặt phô mai vàng quá nhanh.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "mi-quang": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Sợi mì Quảng",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Đùi gà rút xương",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng gà",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Nghệ bột",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 3,
+        "unit": "củ"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Rau sống đã rửa sạch",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Bánh tráng nướng",
+        "amount": 1,
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      [
+        "Ướp nhân",
+        "Cắt gà, ướp với nghệ, hành tím băm và nửa nước mắm 15 phút. Giữ tôm riêng."
+      ],
+      [
+        "Nấu nhân",
+        "Phi hành với dầu, xào gà săn rồi thêm nước dùng. Nấu 20 phút đến gà chín kỹ; thêm tôm, nấu chín đục và nêm nước mắm còn lại."
+      ],
+      [
+        "Chuẩn bị mì",
+        "Chần sợi mì theo hướng dẫn, để ráo. Bẻ bánh tráng, giã dập đậu phộng."
+      ],
+      [
+        "Dọn tô",
+        "Xếp mì và rau, thêm nhân cùng lượng nước xâm xấp ít hơn món bún nước. Rắc đậu phộng và dùng bánh tráng bên cạnh."
+      ]
+    ],
+    "tip": "Bản mì Quảng gà tôm tại nhà; lượng nước dùng tùy độ hút nước của sợi mì.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bun-cha-ca": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Chả cá đã nấu chín",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Dứa",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Bí đỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng cá",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 2,
+        "unit": "củ"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá và thì là",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Cắt chả cá, cà chua, dứa và bí thành miếng vừa ăn. Băm hành tím."
+      ],
+      [
+        "Xào nền",
+        "Phi hành với dầu, đảo cà chua 3 phút cho mềm."
+      ],
+      [
+        "Nấu canh",
+        "Thêm nước dùng, dứa và bí, nấu 15 phút. Cho chả cá vào đun nóng kỹ, nêm nước mắm."
+      ],
+      [
+        "Hoàn thành",
+        "Chần bún, chia tô; thêm nước dùng và chả cá. Rắc hành, thì là trước khi dùng."
+      ]
+    ],
+    "tip": "Chọn chả cá có nguồn rõ ràng; nếu dùng chả sống phải nấu chín kỹ trước khi ăn.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-trang-thit-heo": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Thịt heo ba chỉ",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Bánh tráng cuốn",
+        "amount": 12,
+        "unit": "tờ"
+      },
+      {
+        "name": "Bún tươi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Dứa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách và rau thơm",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Mắm nêm",
+        "amount": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Luộc thịt",
+        "Luộc thịt với nước ngập vừa, hớt bọt và đun nhỏ đến chín; phần dày đạt 63°C, nghỉ ít nhất 3 phút trước khi thái mỏng."
+      ],
+      [
+        "Chuẩn bị rau",
+        "Rửa kỹ, để ráo rau, thái dưa leo và dứa thành thanh. Chần bún nếu cần."
+      ],
+      [
+        "Pha mắm",
+        "Băm tỏi và một ít dứa. Đun mắm nêm với đường và 40 ml nước đến sôi, để nguội bớt rồi thêm tỏi, dứa, nước chanh theo khẩu vị."
+      ],
+      [
+        "Cuốn",
+        "Làm ẩm bánh tráng, thêm rau, bún, thịt rồi cuộn vừa tay. Dùng ngay với mắm đã pha."
+      ]
+    ],
+    "tip": "Luôn dùng thớt sạch riêng cho thịt chín và rau ăn ngay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "nem-lui": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Thịt heo xay",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Giò sống",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 6,
+        "unit": "cây"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Bánh tráng",
+        "amount": 10,
+        "unit": "tờ"
+      },
+      {
+        "name": "Rau thơm và dưa leo",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Tương đậu phộng",
+        "text": "Để chấm"
+      }
+    ],
+    "steps": [
+      [
+        "Trộn nem",
+        "Trộn thịt, giò sống, tỏi băm, nước mắm và đường. Quết đến dẻo rồi để lạnh 15 phút."
+      ],
+      [
+        "Bọc sả",
+        "Bỏ lớp sả già, rửa sạch. Thoa dầu lên tay, bọc thịt quanh đầu cây sả thành lớp dày đều."
+      ],
+      [
+        "Nướng",
+        "Nướng ở 190°C khoảng 15–20 phút, trở và quét dầu mỏng giữa chừng. Tâm thịt xay đạt 71°C."
+      ],
+      [
+        "Cuốn ăn",
+        "Rút sả khi nem bớt nóng; cuốn với bánh tráng, rau và dưa leo. Chấm tương đậu phộng đã chuẩn bị."
+      ]
+    ],
+    "tip": "Tương đậu phộng có thể gây dị ứng; không dùng chung dụng cụ khi chuẩn bị suất không đậu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bun-mam-thit-quay": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "10 phút",
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo quay đã chín",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách và rau thơm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Đu đủ bào",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Mắm nêm",
+        "amount": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Dứa",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị rau",
+        "Rửa, để ráo và cắt nhỏ rau, dưa leo. Băm hoặc giã dứa."
+      ],
+      [
+        "Pha mắm",
+        "Đun mắm nêm với đường và 50 ml nước đến sôi, nhấc xuống rồi thêm dứa, nước chanh theo khẩu vị."
+      ],
+      [
+        "Hâm thịt",
+        "Làm nóng thịt quay mua sẵn đến nóng kỹ, thái miếng vừa ăn. Chần bún theo nhu cầu."
+      ],
+      [
+        "Trộn tô",
+        "Xếp bún, rau, đu đủ, thịt; thêm mắm vừa đủ và rắc đậu phộng. Trộn trước khi ăn."
+      ]
+    ],
+    "tip": "Dùng thịt quay chín có nguồn rõ ràng; giữ lạnh nếu chưa dùng ngay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bun-bo": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "90 phút",
+    "ingredients": [
+      {
+        "name": "Bắp bò",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Bún tươi sợi to",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "Sả",
+        "amount": 3,
+        "unit": "cây"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Mắm ruốc",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu điều",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá và rau thơm",
+        "amount": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Chần bắp bò trong nước sôi 3 phút rồi bỏ nước chần. Đập dập sả, gừng; cắt đôi hành tây."
+      ],
+      [
+        "Hầm bò",
+        "Cho bò với nước mới, sả, gừng, hành tây. Hầm nhỏ lửa 75–90 phút đến mềm, thêm nước nóng nếu thiếu."
+      ],
+      [
+        "Nêm nước",
+        "Hòa mắm ruốc với ít nước, để lắng rồi lọc phần nước trong vào nồi. Đun sôi lại, nêm nước mắm và dầu điều."
+      ],
+      [
+        "Dọn tô",
+        "Thái bò khi bớt nóng, chần bún. Chan nước dùng và thêm rau thơm đã rửa sạch."
+      ]
+    ],
+    "tip": "Phiên bản bún bò đơn giản, không dùng huyết hay giò heo; thời gian hầm tùy miếng thịt.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "com-ga": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "40 phút",
+    "ingredients": [
+      {
+        "name": "Đùi gà có xương",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Gạo",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 2,
+        "unit": "củ"
+      },
+      {
+        "name": "Nghệ bột",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Rau răm",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Luộc gà",
+        "Cho gà, gừng và hành tím vào nước ngập vừa. Đun nhỏ lửa đến khi phần dày đạt 74°C, vớt ra bằng dụng cụ sạch; giữ nước luộc."
+      ],
+      [
+        "Nấu cơm",
+        "Vo gạo, đảo với dầu và nghệ 2 phút. Thêm nước luộc gà theo lượng nước thường dùng cho loại gạo đó rồi nấu chín."
+      ],
+      [
+        "Trộn gà",
+        "Xé gà, trộn cùng hành tây thái mỏng, rau răm và ít nước chanh."
+      ],
+      [
+        "Dọn",
+        "Pha nước mắm, đường với 30 ml nước và chanh còn lại. Dọn cơm cùng gà và nước chấm."
+      ]
+    ],
+    "tip": "Để nước luộc sôi lại trước khi dùng nấu cơm; lọc bỏ xương vụn.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "pizza-pho-mai": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Đế pizza 24 cm làm sẵn",
+        "amount": 1,
+        "unit": "cái"
+      },
+      {
+        "name": "Cà chua nghiền",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Parmesan",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Phô mai cheddar",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ô liu",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Oregano khô",
+        "amount": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Làm nóng lò",
+        "Làm nóng lò và khay ở 230°C ít nhất 20 phút hoặc theo hướng dẫn đế pizza."
+      ],
+      [
+        "Chuẩn bị sốt",
+        "Trộn cà chua với dầu ô liu và oregano. Bào nhỏ các loại phô mai."
+      ],
+      [
+        "Xếp bánh",
+        "Phết sốt mỏng lên đế, chừa viền. Rải phô mai đều, không chất quá dày ở giữa."
+      ],
+      [
+        "Nướng",
+        "Nướng trên khay nóng 10–15 phút đến khi đế chín và phô mai sủi vàng. Nghỉ 2 phút rồi cắt."
+      ]
+    ],
+    "tip": "Dùng đế mua sẵn giúp thực hiện nhanh; nhiệt và thời gian theo loại đế thực tế.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bo-bit-tet": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bò nguyên miếng dày 2 cm",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Khoai tây",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Tiêu đen",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách",
+        "amount": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Thấm khô thịt, rắc muối và tiêu ngay trước khi áp chảo. Luộc khoai cắt miếng đến gần mềm, để ráo."
+      ],
+      [
+        "Áp chảo khoai",
+        "Dùng một phần dầu áp chảo khoai cho cạnh vàng rồi giữ nóng."
+      ],
+      [
+        "Áp chảo bò",
+        "Làm nóng chảo với dầu còn lại; áp chảo hai mặt, thêm bơ và tỏi cuối cùng. Kiểm tra tâm đạt 63°C."
+      ],
+      [
+        "Nghỉ thịt",
+        "Để thịt nghỉ ít nhất 3 phút rồi thái ngang thớ. Dọn với khoai và rau đã rửa sạch."
+      ]
+    ],
+    "tip": "Thời gian phụ thuộc độ dày và nhiệt chảo; dùng nhiệt kế thay vì chỉ căn phút.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "mam-com-gia-dinh": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Gạo",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo thái miếng",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng",
+        "amount": 2,
+        "unit": "quả"
+      },
+      {
+        "name": "Rau cải",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Bí xanh",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 20,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu cơm",
+        "Vo gạo, nấu cơm. Luộc trứng chín, bóc vỏ; băm tỏi và cắt rau, bí."
+      ],
+      [
+        "Kho thịt",
+        "Xào thịt với nửa tỏi và dầu cho săn. Thêm nước mắm, đường, 150 ml nước và trứng, kho nhỏ lửa 20 phút đến thịt chín mềm."
+      ],
+      [
+        "Nấu canh",
+        "Đun 600 ml nước, thêm tôm và bí; nấu đến tôm chín và bí trong, nêm vừa."
+      ],
+      [
+        "Xào rau và dọn",
+        "Phi tỏi còn lại với dầu, xào rau cải chín vừa. Dọn cơm, thịt kho, canh và rau cùng nhau."
+      ]
+    ],
+    "tip": "Mâm cơm gợi ý cho hai người gồm thịt kho trứng, canh bí tôm và rau xào; có thể đổi món theo mùa.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "met-cuon": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Bánh tráng",
+        "amount": 12,
+        "unit": "tờ"
+      },
+      {
+        "name": "Bún tươi",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo nạc",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ chắc",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Rau thơm và xà lách",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu nhân",
+        "Luộc thịt đến chín kỹ, nghỉ rồi thái. Luộc tôm đến chín đục, để riêng."
+      ],
+      [
+        "Áp chảo đậu",
+        "Cắt đậu thành thanh, thấm khô rồi áp chảo với dầu cho vàng."
+      ],
+      [
+        "Chuẩn bị mâm",
+        "Rửa và để ráo rau, thái dưa leo. Xếp các loại nhân, bún và rau ra mâm bằng dụng cụ sạch."
+      ],
+      [
+        "Pha và cuốn",
+        "Pha nước tương, chanh, đường với 30 ml nước. Làm ẩm bánh tráng, chọn nhân tùy thích và cuốn vừa tay."
+      ]
+    ],
+    "tip": "Mẹt cuốn tổng hợp là cách bày nhiều loại nhân; tách riêng đậu và dụng cụ nếu phục vụ người ăn chay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-beo": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Bột gạo",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 450,
+        "unit": "ml"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Muối",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Pha bột",
+        "Trộn bột gạo, bột năng, nước và muối, để nghỉ 20 phút. Khuấy lại trước mỗi lần múc."
+      ],
+      [
+        "Làm tôm",
+        "Hấp tôm chín, giã nhỏ rồi đảo chảo khô cho tơi. Làm nóng dầu với hành lá."
+      ],
+      [
+        "Hấp bánh",
+        "Làm nóng chén nhỏ trong xửng nước sôi. Rót bột mỏng, hấp 7–10 phút đến mặt bánh trong và không còn bột sống."
+      ],
+      [
+        "Dọn",
+        "Pha nước mắm với đường, 80 ml nước và nước chanh tùy vị. Thêm tôm, mỡ hành lên bánh rồi chan nước chấm."
+      ]
+    ],
+    "tip": "Dùng chén chịu nhiệt và mở nắp tránh để nước ngưng nhỏ vào bánh.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-nam": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Bột gạo",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo xay",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 2,
+        "unit": "củ"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Lá chuối sạch",
+        "amount": 8,
+        "unit": "miếng"
+      },
+      {
+        "name": "Muối",
+        "amount": 2,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Xào nhân",
+        "Băm tôm và hành, xào cùng thịt với nửa dầu. Nêm nước mắm, đảo đến nhân chín kỹ."
+      ],
+      [
+        "Hồ bột",
+        "Trộn hai loại bột với nước, muối và dầu còn lại. Khuấy trên lửa nhỏ đến khi hỗn hợp vừa đặc, dẻo và còn phết được."
+      ],
+      [
+        "Gói",
+        "Lau lá chuối sạch, trụng cho mềm. Phết bột mỏng, thêm nhân ở giữa, gập kín thành gói phẳng."
+      ],
+      [
+        "Hấp",
+        "Hấp khi nước sôi 20–25 phút đến bột chín trong, bánh không còn vị bột sống. Dùng với nước mắm pha theo khẩu vị."
+      ]
+    ],
+    "tip": "Gói mỏng giúp bánh chín đều; không đặt lá chuối trực tiếp lên đáy nồi không có nước.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-bot-loc": {
+    "servings": 2,
+    "prep": "35 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Bột năng",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nước sôi",
+        "amount": 160,
+        "unit": "ml"
+      },
+      {
+        "name": "Tôm nhỏ bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt ba chỉ",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Rim nhân",
+        "Cắt thịt nhỏ, xào với tỏi và nửa dầu. Thêm tôm, 10 ml nước mắm và 5 g đường, rim đến chín rồi để nguội."
+      ],
+      [
+        "Nhào bột",
+        "Cho nước sôi từng ít vào bột năng, trộn bằng thìa chịu nhiệt. Khi bớt nóng mới nhào tay; thêm chút bột khô nếu quá dính."
+      ],
+      [
+        "Nặn và luộc",
+        "Chia bột thành miếng, cán mỏng, thêm nhân và ép kín. Luộc nước sôi nhẹ đến bánh nổi rồi thêm khoảng 3 phút cho vỏ trong."
+      ],
+      [
+        "Dọn",
+        "Vớt bánh, áo dầu hành. Pha nước mắm còn lại với đường, chanh và 50 ml nước để chấm."
+      ]
+    ],
+    "tip": "Không dùng tay nhào bột khi còn quá nóng; độ hút nước khác nhau nên rót từ từ.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-canh": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "40 phút",
+    "ingredients": [
+      {
+        "name": "Sợi bánh canh",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Sườn heo",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Củ cải trắng",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 2,
+        "unit": "củ"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tiêu",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Chần sườn, bỏ nước chần. Cắt củ cải và cà rốt thành miếng, đập dập hành tím."
+      ],
+      [
+        "Hầm",
+        "Cho sườn, hành, củ cải và nước mới vào nồi. Hầm nhỏ lửa 30–40 phút đến sườn chín mềm."
+      ],
+      [
+        "Nêm",
+        "Cho cà rốt vào nấu thêm đến vừa mềm, nêm nước mắm."
+      ],
+      [
+        "Hoàn thành",
+        "Luộc sợi bánh canh theo hướng dẫn, chia tô và chan nước dùng nóng. Thêm sườn, rau củ, hành và tiêu."
+      ]
+    ],
+    "tip": "Phiên bản bánh canh sườn; không mặc định mọi bánh canh đều dùng nước dùng này.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "oc-hut": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Ốc hút nước ngọt dùng làm thực phẩm",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 4,
+        "unit": "cây"
+      },
+      {
+        "name": "Gừng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Lá chanh",
+        "amount": 5,
+        "unit": "lá"
+      },
+      {
+        "name": "Nước dừa",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Ớt",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Làm sạch",
+        "Mua ốc thực phẩm có nguồn rõ ràng, loại bỏ con chết hoặc có mùi lạ. Ngâm và chà rửa nhiều lần đến nước sạch, không coi ngâm là bước diệt ký sinh trùng."
+      ],
+      [
+        "Luộc sơ",
+        "Luộc ốc với gừng, sả đập dập trong nước sôi khoảng 10 phút, vớt ra; bỏ nước luộc."
+      ],
+      [
+        "Rim",
+        "Phi sả băm với dầu, thêm nước dừa, nước mắm, đường và ớt. Cho ốc vào đun sôi, rim 10 phút cho nóng kỹ và thấm."
+      ],
+      [
+        "Dọn",
+        "Thêm lá chanh cuối cùng, dùng nóng. Nếu không quen xử lý ốc, chọn thịt ốc đã làm sạch và nấu chín từ nguồn tin cậy."
+      ]
+    ],
+    "tip": "Không dùng ốc lạ hoặc ốc chưa rõ loài. Không ăn ốc sống hay chỉ tái.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "mit-tron": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Mít non đã làm sạch",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt heo nạc",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Rau răm",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Mè rang",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Bánh tráng nướng",
+        "amount": 1,
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      [
+        "Luộc mít",
+        "Luộc mít đến mềm vừa, để ráo kỹ rồi xé hoặc cắt nhỏ."
+      ],
+      [
+        "Nấu nhân",
+        "Luộc thịt chín kỹ và tôm chín đục trong nồi riêng. Thái thịt mỏng, để bớt nóng."
+      ],
+      [
+        "Pha trộn",
+        "Hòa nước mắm, đường, nước chanh; trộn từng ít với mít và nhân, nếm lại."
+      ],
+      [
+        "Dọn",
+        "Thêm rau răm sạch, đậu phộng và mè ngay trước khi ăn; xúc với bánh tráng nướng."
+      ]
+    ],
+    "tip": "Để nguyên liệu ráo và nguội bớt trước khi trộn giúp món không ra quá nhiều nước.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ram-cuon-cai": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Bánh tráng ram",
+        "amount": 12,
+        "unit": "tờ"
+      },
+      {
+        "name": "Thịt heo xay",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Miến khô",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Mộc nhĩ khô",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Cải bẹ xanh",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu chiên",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Làm nhân",
+        "Ngâm miến và mộc nhĩ riêng cho mềm, rửa và cắt nhỏ. Trộn với thịt, cà rốt bào và 5 ml nước mắm."
+      ],
+      [
+        "Cuốn ram",
+        "Cho nhân vừa đủ lên bánh, gấp mép và cuốn kín; không cuốn quá chặt."
+      ],
+      [
+        "Chiên",
+        "Chiên từng mẻ ở khoảng 165–170°C đến vỏ vàng và nhân thịt đạt 71°C. Để ráo trên giá."
+      ],
+      [
+        "Cuốn cải",
+        "Rửa cải và để ráo, cuốn quanh ram khi ăn. Pha nước mắm còn lại với đường, chanh và 40 ml nước để chấm."
+      ]
+    ],
+    "tip": "Không dùng lại nước ngâm nấm. Thêm rau thơm nếu thích.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-trang-kep": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Bánh tráng nướng mỏng",
+        "amount": 4,
+        "unit": "tờ"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": 2,
+        "unit": "quả"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Tép khô đã chín",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Pâté chín",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Tương ớt",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Đánh trứng với hành lá cắt nhỏ. Chuẩn bị chảo chống dính sạch, không dầu."
+      ],
+      [
+        "Nướng mặt bánh",
+        "Đặt bánh lên chảo lửa nhỏ, phết ít bơ và pâté, thêm trứng mỏng rồi rắc tép."
+      ],
+      [
+        "Kẹp",
+        "Khi trứng đã đông và chín, gấp đôi bánh. Trở hai mặt cho giòn; giảm lửa nếu vỏ vàng nhanh."
+      ],
+      [
+        "Dọn",
+        "Cắt miếng, dùng ngay với tương ớt. Lặp lại từng bánh để vỏ không mềm."
+      ]
+    ],
+    "tip": "Phiên bản làm bằng chảo; không phết lớp trứng quá dày khiến nhân chưa chín mà vỏ đã cháy.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "yaourt-muoi": {
+    "servings": 2,
+    "prep": "10 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Sữa chua không đường đã làm sẵn",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Muối mịn",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": 5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Làm lạnh",
+        "Giữ sữa chua trong ngăn mát đến khi dùng. Dùng cốc và thìa sạch."
+      ],
+      [
+        "Pha",
+        "Khuấy đường với nước chanh cho tan bớt rồi trộn nhẹ vào sữa chua."
+      ],
+      [
+        "Thêm muối",
+        "Chia hai cốc, rắc từng ít muối và nếm trước khi thêm."
+      ],
+      [
+        "Dùng",
+        "Ăn ngay hoặc giữ lạnh theo hướng dẫn trên hộp sữa chua."
+      ]
+    ],
+    "tip": "Phiên bản dùng sữa chua làm sẵn; không cần tự ủ sữa. Lượng muối chỉ tạo vị mằn mặn nhẹ.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "che-sau-rieng": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Thịt sầu riêng",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu xanh đã cà vỏ",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Sữa tươi tiệt trùng",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu đậu",
+        "Ngâm đậu, rửa rồi nấu với nước ngập vừa đến mềm bở. Tán sơ và trộn 20 g đường."
+      ],
+      [
+        "Nấu cốt",
+        "Đun nhỏ lửa cốt dừa, sữa, đường còn lại và muối. Hòa bột năng với 30 ml nước rồi cho vào, khuấy đến sánh và chín bột."
+      ],
+      [
+        "Làm nguội",
+        "Để đậu và nước cốt bớt nóng, sau đó làm lạnh sớm trong hộp sạch."
+      ],
+      [
+        "Dọn",
+        "Chia đậu, thịt sầu riêng bỏ hạt, thêm nước cốt lạnh và đá sạch nếu thích."
+      ]
+    ],
+    "tip": "Có thể thêm thạch chín mua sẵn; giữ món trong ngăn mát, không để ngoài lâu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ngâm đậu xanh 1–2 giờ trước khi nấu; chưa tính vào chuẩn bị."
+  },
+  "che-dau": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "50 phút",
+    "ingredients": [
+      {
+        "name": "Đậu đỏ khô",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Bột năng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Ngâm",
+        "Ngâm đậu trong ngăn mát 8 giờ, đổ nước ngâm rồi rửa."
+      ],
+      [
+        "Nấu đậu",
+        "Cho nước mới, đun sôi mạnh ít nhất 10 phút rồi hạ lửa nấu 40–50 phút đến đậu mềm hoàn toàn. Chỉ thêm đường sau khi đậu mềm."
+      ],
+      [
+        "Nấu cốt",
+        "Đun cốt dừa với muối; thêm bột năng hòa 30 ml nước, khuấy đến chín sánh."
+      ],
+      [
+        "Dọn",
+        "Múc đậu và nước chè, thêm cốt dừa. Dùng nóng hoặc làm lạnh nhanh trước khi cất."
+      ]
+    ],
+    "tip": "Công thức chọn chè đậu đỏ. Không dùng nồi nấu chậm để nấu đậu đỏ còn sống.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ngâm đậu đỏ 8 giờ trong ngăn mát; chưa tính vào chuẩn bị."
+  },
+  "che-thap-cam": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "40 phút",
+    "ingredients": [
+      {
+        "name": "Đậu xanh cà vỏ",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Khoai lang",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Bột báng",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu đỏ đóng hộp đã chín",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 800,
+        "unit": "ml"
+      },
+      {
+        "name": "Muối",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu nền",
+        "Rửa đậu xanh, nấu với 500 ml nước đến mềm. Thêm khoai cắt hạt lựu, nấu chín rồi nêm một nửa đường."
+      ],
+      [
+        "Luộc bột báng",
+        "Luộc riêng theo hướng dẫn, khuấy để không dính, ủ đến hạt trong rồi xả nhanh với nước sạch."
+      ],
+      [
+        "Nấu nước cốt",
+        "Đun nhỏ lửa cốt dừa với 300 ml nước, phần đường còn lại và muối; khuấy đến tan."
+      ],
+      [
+        "Phối món",
+        "Cho đậu đỏ đã rửa ráo, chè đậu xanh khoai và bột báng vào bát. Chan cốt dừa, dùng nóng hoặc lạnh."
+      ]
+    ],
+    "tip": "Dùng đậu đỏ đóng hộp đã chín để rút ngắn thời gian; không thay bằng đậu khô chưa nấu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "kem-bo": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bơ chín",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa tươi tiệt trùng",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Sữa đặc",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Kem vani làm sẵn",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Dừa sấy",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Rửa vỏ bơ trước khi bổ, bỏ phần dập và lấy thịt. Làm lạnh sữa và cốc."
+      ],
+      [
+        "Xay",
+        "Xay bơ với sữa tươi, sữa đặc và cốt dừa đến mịn; thêm sữa từng ít để giữ độ sánh."
+      ],
+      [
+        "Xếp cốc",
+        "Chia hỗn hợp bơ vào cốc, đặt viên kem lên trên và rắc dừa sấy."
+      ],
+      [
+        "Dùng ngay",
+        "Thưởng thức ngay sau khi xay, không làm nóng hỗn hợp."
+      ]
+    ],
+    "tip": "Phiên bản bơ xay ăn cùng kem mua sẵn; không phải công thức tự đánh kem đông lạnh.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-kem": {
+    "servings": 6,
+    "prep": "30 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Bột mì đa dụng",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": 3,
+        "unit": "quả"
+      },
+      {
+        "name": "Đường",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa tươi",
+        "amount": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Bột nở",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Kem tươi whipping",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường bột",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Dâu tây",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị khuôn",
+        "Làm nóng lò 170°C, lót khuôn tròn 16 cm. Rây bột mì với bột nở."
+      ],
+      [
+        "Trộn cốt",
+        "Đánh trứng và đường đến bông nhạt, vệt bột rơi giữ được vài giây. Trộn nhẹ bột, rồi sữa và dầu đã hòa với một ít hỗn hợp trứng."
+      ],
+      [
+        "Nướng",
+        "Đổ khuôn, nướng khoảng 25–30 phút đến que thử không dính bột ướt. Lấy ra để nguội hoàn toàn."
+      ],
+      [
+        "Trang trí",
+        "Đánh kem lạnh với đường bột đến chóp mềm. Phủ bánh đã nguội, thêm dâu rửa sạch để ráo và giữ lạnh."
+      ]
+    ],
+    "tip": "Khẩu phần khoảng 6 người; không phủ kem lên cốt bánh còn ấm.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-su-kem": {
+    "servings": 4,
+    "prep": "25 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Bột mì",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 125,
+        "unit": "ml"
+      },
+      {
+        "name": "Bơ",
+        "amount": 55,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng",
+        "amount": 3,
+        "unit": "quả"
+      },
+      {
+        "name": "Sữa tươi",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": "Bột bắp",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Vanilla",
+        "amount": 3,
+        "unit": "ml"
+      },
+      {
+        "name": "Muối",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu vỏ",
+        "Đun nước với 50 g bơ và muối. Đổ bột mì vào, khuấy đến thành khối; đảo lửa nhỏ 1–2 phút rồi để bớt nóng."
+      ],
+      [
+        "Thêm trứng",
+        "Đánh riêng 2 trứng, cho từng ít vào bột đến khi dẻo và chảy thành chữ V; không nhất thiết dùng hết. Bắt thành 10–12 viên trên giấy nướng."
+      ],
+      [
+        "Nướng",
+        "Nướng ở 200°C 15 phút, giảm 180°C thêm 15–20 phút đến khô vàng. Không mở lò sớm; rạch khe nhỏ cho thoát hơi rồi để nguội."
+      ],
+      [
+        "Làm kem",
+        "Đánh trứng còn lại với đường và bột bắp. Thêm sữa nóng từ từ, cho lại nồi khuấy đến sôi nhẹ và đặc; thêm vanilla, bơ còn lại. Làm lạnh nhanh rồi bơm vào vỏ nguội."
+      ]
+    ],
+    "tip": "Giữ bánh có nhân sữa trứng trong ngăn mát; nướng đủ khô để vỏ không xẹp.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "croissant": {
+    "servings": 4,
+    "prep": "45 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Bột mì làm bánh mì",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa lạnh",
+        "amount": 140,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Men instant",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ trong bột",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ cán lớp",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng để quét mặt",
+        "amount": 1,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Nhào và làm lạnh",
+        "Trộn bột, sữa, đường, muối, men và 20 g bơ đến mịn vừa. Bọc kín, để ngăn mát ít nhất 4 giờ; cán bơ 125 g thành tấm vuông và làm lạnh."
+      ],
+      [
+        "Cán lớp",
+        "Bọc bơ trong bột, cán nhẹ thành hình chữ nhật rồi gấp ba. Làm lạnh 45 phút; lặp lại thêm hai lượt, giữ bơ dẻo lạnh, không để chảy."
+      ],
+      [
+        "Tạo hình và ủ",
+        "Cán bột dày khoảng 4 mm, cắt tam giác và cuộn từ đáy. Ủ nơi mát đến bánh nở rõ, rung nhẹ thấy các lớp mềm; thường 2–3 giờ tùy nhiệt độ."
+      ],
+      [
+        "Nướng",
+        "Quét trứng mỏng, nướng ở 200°C khoảng 20–25 phút đến vàng sậm và lớp bột bên trong chín. Để trên giá cho thoát hơi."
+      ]
+    ],
+    "tip": "Công thức cán lớp cần giữ bơ lạnh; nếu bột co hoặc bơ mềm, dừng và cho vào ngăn mát. Kích thước bánh ảnh hưởng thời gian nướng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Cần khoảng 8–12 giờ gồm làm lạnh và ủ, thường chia hai ngày; các khoảng nghỉ chưa tính vào chuẩn bị."
+  },
+  "tiramisu": {
+    "servings": 4,
+    "prep": "25 phút",
+    "cook": "5 phút",
+    "ingredients": [
+      {
+        "name": "Bánh ladyfinger",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Mascarpone",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Kem tươi whipping",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường bột",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Cà phê pha đậm đã nguội",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Bột cacao",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Pha cà phê",
+        "Pha cà phê, để nguội hoàn toàn trong đồ chứa sạch. Chuẩn bị hộp hoặc 4 cốc nhỏ."
+      ],
+      [
+        "Trộn kem",
+        "Đánh kem tươi lạnh đến chóp mềm. Khuấy mascarpone với đường bột, trộn nhẹ cùng kem, không đánh quá lâu."
+      ],
+      [
+        "Xếp lớp",
+        "Nhúng rất nhanh từng bánh vào cà phê; xếp một lớp bánh rồi một lớp kem. Lặp lại và kết thúc bằng kem."
+      ],
+      [
+        "Làm lạnh",
+        "Đậy kín, làm lạnh ít nhất 4 giờ. Rây cacao lên ngay trước khi dùng."
+      ]
+    ],
+    "tip": "Phiên bản không trứng sống, không rượu; dùng mascarpone và kem từ sữa đã tiệt trùng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Làm lạnh ít nhất 4 giờ trước khi ăn; chưa tính vào thời gian trên."
+  },
+  "bong-lan-trung-muoi": {
+    "servings": 6,
+    "prep": "30 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Bột mì",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng gà",
+        "amount": 3,
+        "unit": "quả"
+      },
+      {
+        "name": "Đường",
+        "amount": 90,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa tươi",
+        "amount": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Bột nở",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Lòng đỏ trứng muối",
+        "amount": 4,
+        "unit": "cái"
+      },
+      {
+        "name": "Chà bông chín",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Phô mai kem tiệt trùng",
+        "amount": 80,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Làm nóng lò 170°C, lót khuôn 16 cm. Hấp lòng đỏ trứng muối 10–12 phút đến chín kỹ, để nguội."
+      ],
+      [
+        "Trộn cốt",
+        "Đánh trứng với đường đến bông nhạt. Trộn nhẹ bột mì đã rây cùng bột nở, tiếp đến sữa và dầu."
+      ],
+      [
+        "Nướng",
+        "Nướng cốt 25–30 phút đến que thử không dính bột ướt. Để nguội hoàn toàn trên giá."
+      ],
+      [
+        "Phủ mặt",
+        "Phết phô mai kem đã làm mềm, thêm trứng muối và chà bông. Giữ lạnh nếu chưa dùng."
+      ]
+    ],
+    "tip": "Phiên bản phủ phô mai kem, không dùng sốt trứng sống; khẩu phần khoảng 6 người.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ca-phe-cot-dua": {
+    "servings": 2,
+    "prep": "10 phút",
+    "cook": "5 phút",
+    "ingredients": [
+      {
+        "name": "Cà phê xay dùng phin",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước nóng",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Sữa đặc",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Pha phin",
+        "Tráng phin, cho cà phê, châm ít nước để ủ 30 giây rồi thêm phần nước nóng còn lại."
+      ],
+      [
+        "Làm lạnh",
+        "Để cà phê bớt nóng. Làm lạnh cốt dừa và sữa đặc trước khi xay."
+      ],
+      [
+        "Xay",
+        "Xay cốt dừa, sữa đặc và đá đến sánh mịn."
+      ],
+      [
+        "Rót cốc",
+        "Chia cà phê vào hai cốc, thêm phần cốt dừa xay. Khuấy nhẹ trước khi uống."
+      ]
+    ],
+    "tip": "Điều chỉnh sữa đặc theo độ ngọt của cốt dừa; đây là đồ uống có caffeine.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ca-phe-dac-san": {
+    "servings": 2,
+    "prep": "10 phút",
+    "cook": "4 phút",
+    "ingredients": [
+      {
+        "name": "Cà phê hạt rang dùng pour-over",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước lọc",
+        "amount": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Xay cà phê cỡ vừa; làm nóng dụng cụ và tráng giấy lọc bằng nước nóng, bỏ nước tráng."
+      ],
+      [
+        "Ủ",
+        "Cho cà phê vào phễu, rót khoảng 60 ml nước ở 92–96°C; đợi 30–40 giây cho bột nở."
+      ],
+      [
+        "Rót",
+        "Rót phần nước còn lại thành 2–3 lượt vòng tròn nhỏ. Tổng thời gian chiết xuất khoảng 3–4 phút, tùy cỡ xay."
+      ],
+      [
+        "Thử vị",
+        "Lắc nhẹ bình và chia cốc. Nếu quá đắng thử xay thô hơn; quá nhạt hoặc chua gắt thử xay mịn hơn."
+      ]
+    ],
+    "tip": "Công thức chọn cách pha pour-over; cà phê đặc sản là phân loại chất lượng, không phải một loại đồ uống duy nhất.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "nuoc-mia-sau-rieng": {
+    "servings": 2,
+    "prep": "10 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Nước mía mới ép có nguồn đảm bảo vệ sinh",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Thịt sầu riêng bỏ hạt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt tắc",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Dùng nước mía đã bảo quản lạnh, kiểm tra không có mùi lên men. Bỏ sạch hạt sầu riêng."
+      ],
+      [
+        "Xay",
+        "Xay sầu riêng với 100 ml nước mía đến mịn."
+      ],
+      [
+        "Pha",
+        "Khuấy với phần nước mía còn lại và nước cốt tắc; nếm lại trước khi thêm vị chua."
+      ],
+      [
+        "Dọn",
+        "Chia cốc có đá sạch, dùng ngay."
+      ]
+    ],
+    "tip": "Không cần thêm đường. Không dùng nước mía để lâu ở nhiệt độ phòng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "lau-nam-chay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Nấm các loại dùng làm thực phẩm",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Cải thảo",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Củ cải trắng",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Bún tươi",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu nền",
+        "Nấu củ cải và cà rốt với nước 20 phút để tạo vị ngọt."
+      ],
+      [
+        "Chuẩn bị",
+        "Rửa nấm, cắt bỏ chân già; cắt đậu và cải thảo. Dùng nấm bán làm thực phẩm, không tự hái nấm lạ."
+      ],
+      [
+        "Nấu lẩu",
+        "Nêm nước tương, thêm nấm và đậu, đun sôi nhẹ đến nấm chín. Cho cải vào sau để không nhũn."
+      ],
+      [
+        "Dọn",
+        "Thêm dầu mè và ăn cùng bún. Giữ nồi sôi trở lại sau mỗi lần thêm nguyên liệu."
+      ]
+    ],
+    "tip": "Kiểm tra nước tương và nước dùng không có thành phần thịt nếu nấu chay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "com-chay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Gạo",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm đông cô tươi",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Cải thìa",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu cơm",
+        "Vo gạo, nấu cơm. Cắt đậu, nấm và cà rốt thành miếng."
+      ],
+      [
+        "Kho đậu",
+        "Áp chảo đậu với nửa dầu. Thêm nấm, cà rốt, gừng, nước tương, đường và 150 ml nước; kho nhỏ lửa 15 phút."
+      ],
+      [
+        "Làm rau",
+        "Chần hoặc xào cải với phần dầu còn lại đến chín vừa."
+      ],
+      [
+        "Dọn",
+        "Xới cơm, chia đậu kho và rau ra đĩa; rưới ít nước kho."
+      ]
+    ],
+    "tip": "Mâm cơm chay gợi ý gồm đậu kho nấm và cải thìa; dùng gia vị có nhãn phù hợp chế độ ăn của bạn.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bun-chay": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm bào ngư",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Dứa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng rau củ",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá hoặc ngò",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Cắt đậu và rau củ, xé nấm. Rửa rau thơm và để ráo."
+      ],
+      [
+        "Xào nền",
+        "Áp chảo đậu, để riêng. Xào cà chua với dầu còn lại đến mềm."
+      ],
+      [
+        "Nấu nước",
+        "Thêm nước dùng, dứa, nấm và đậu; đun 15 phút, nêm nước tương."
+      ],
+      [
+        "Dọn",
+        "Chần bún, chan nước nóng và nhân. Thêm rau thơm trước khi dùng."
+      ]
+    ],
+    "tip": "Phiên bản bún nước chay cà chua và nấm, không phải bún mắm chay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "mi-chay": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Mì không trứng",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Bắp cải",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Luộc mì",
+        "Luộc mì theo hướng dẫn đến vừa chín, để ráo. Trộn ít dầu mè để chống dính."
+      ],
+      [
+        "Chuẩn bị",
+        "Cắt rau thành sợi, thái nấm và đậu. Pha nước tương với 30 ml nước."
+      ],
+      [
+        "Xào",
+        "Áp chảo đậu với dầu ăn. Thêm gừng, cà rốt, nấm rồi bắp cải, đảo đến rau chín vừa."
+      ],
+      [
+        "Trộn mì",
+        "Cho mì và sốt vào, đảo đều cho nóng. Thêm dầu mè còn lại, dùng ngay."
+      ]
+    ],
+    "tip": "Chọn mì không trứng và gia vị không có thành phần động vật nếu cần ăn thuần chay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-canh-cua": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Sợi bánh canh",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt cua chín gỡ sẵn",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Nấm rơm",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu điều",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 2,
+        "unit": "củ"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Kiểm tra thịt cua không còn vỏ vụn. Cắt nấm, băm hành tím."
+      ],
+      [
+        "Nấu nhân",
+        "Phi hành với dầu điều, đảo tôm đến chín. Thêm nước dùng, nấm, nấu 10 phút rồi thêm cua."
+      ],
+      [
+        "Tạo sánh",
+        "Hòa bột năng với 50 ml nước nguội, cho từ từ vào nước dùng đang sôi nhẹ và khuấy. Nêm nước mắm, đun đến bột chín trong."
+      ],
+      [
+        "Dọn",
+        "Nấu sợi bánh canh theo bao bì, chia tô, thêm nước dùng và hành lá."
+      ]
+    ],
+    "tip": "Dùng thịt cua đã chín và giữ lạnh đúng cách; kiểm tra dị ứng hải sản.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bun-hai-san": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt bề bề bóc vỏ",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tôm bóc vỏ",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Mực làm sạch",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Dứa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng hải sản",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá và thì là",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Rã đông hải sản trong ngăn mát nếu dùng đồ đông lạnh. Cắt mực vừa ăn, rửa rau củ."
+      ],
+      [
+        "Nấu nước",
+        "Xào cà chua với dầu, thêm nước dùng và dứa; nấu 15 phút, nêm nước mắm."
+      ],
+      [
+        "Nấu hải sản",
+        "Thêm bề bề, tôm và mực, đun đến chín đục và nóng kỹ, tránh nấu dai quá lâu."
+      ],
+      [
+        "Dọn",
+        "Chần bún, xếp hải sản rồi chan nước dùng. Thêm hành và thì là đã rửa sạch."
+      ]
+    ],
+    "tip": "Nếu mua bề bề đã hấp, cho vào sau cùng để hâm nóng kỹ, không nấu lâu như hải sản sống.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bach-tuoc-nuong": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Bạch tuộc làm sạch",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 2,
+        "unit": "cây"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Mật ong",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Sa tế",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Làm sạch bạch tuộc từ nguồn thực phẩm tin cậy, bỏ mỏ và nội tạng; thấm khô, cắt miếng đều."
+      ],
+      [
+        "Ướp",
+        "Trộn sả, tỏi băm với dầu, nước mắm, mật ong và sa tế. Ướp bạch tuộc 15 phút trong ngăn mát."
+      ],
+      [
+        "Nướng",
+        "Nướng ở 200°C khoảng 15–25 phút tùy độ dày, trở giữa chừng, đến khi thịt chín đục và nóng kỹ."
+      ],
+      [
+        "Dọn",
+        "Cắt vừa ăn, vắt chanh. Dùng sốt chấm mới, không dùng lại nước ướp sống."
+      ]
+    ],
+    "tip": "Bạch tuộc lớn cần nấu mềm trước khi nướng; công thức phù hợp con nhỏ hoặc râu cắt mỏng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "xien-que": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Thịt heo nạc",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu bắp",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Ớt chuông",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Mật ong",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Que xiên tre",
+        "amount": 6,
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Ngâm que tre trong nước 30 phút. Cắt thịt và rau thành miếng đều nhau."
+      ],
+      [
+        "Ướp",
+        "Trộn thịt với nước tương, mật ong, dầu và tỏi băm; ướp lạnh 15 phút."
+      ],
+      [
+        "Xiên",
+        "Xiên thịt thành que riêng, rau thành que riêng để có thể lấy ra đúng lúc."
+      ],
+      [
+        "Nướng",
+        "Nướng ở 200°C, trở thường xuyên. Rau cần khoảng 10–15 phút; thịt tùy độ dày, kiểm tra tâm đạt 63°C và nghỉ 3 phút trước khi ăn."
+      ]
+    ],
+    "tip": "Không dùng xiên kim loại trong lò vi sóng; công thức này dùng lò nướng hoặc vỉ nướng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "oc-buou-tron": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Thịt ốc bươu thực phẩm đã làm sạch",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 2,
+        "unit": "cây"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Rau răm",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu ốc",
+        "Luộc thịt ốc với sả và gừng đến chín kỹ, ít nhất 10 phút sau khi nước sôi trở lại, tùy kích thước. Không ăn tái."
+      ],
+      [
+        "Chuẩn bị",
+        "Để ốc ráo, cắt miếng vừa. Thái hành tây mỏng, rửa rau răm và để ráo."
+      ],
+      [
+        "Pha trộn",
+        "Hòa nước mắm, đường và nước chanh. Trộn ốc đã bớt nóng với hành và nước trộn từng ít."
+      ],
+      [
+        "Dọn",
+        "Thêm rau răm và đậu phộng trước khi ăn; dùng ngay."
+      ]
+    ],
+    "tip": "Chỉ dùng ốc thực phẩm có nguồn rõ ràng; nếu chưa quen làm sạch hãy mua loại đã sơ chế tin cậy.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "ca-phe-bo": {
+    "servings": 2,
+    "prep": "10 phút",
+    "cook": "5 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bơ chín",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Cà phê pha đậm",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Sữa tươi tiệt trùng",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Sữa đặc",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Pha cà phê",
+        "Pha cà phê theo dụng cụ của bạn, để bớt nóng. Chuẩn bị cốc lạnh."
+      ],
+      [
+        "Xay bơ",
+        "Xay bơ với sữa tươi, sữa đặc và đá đến mịn."
+      ],
+      [
+        "Phối lớp",
+        "Chia bơ xay vào cốc, rót cà phê từ từ lên trên."
+      ],
+      [
+        "Dùng",
+        "Khuấy nhẹ trước khi uống, điều chỉnh độ đậm bằng lượng cà phê."
+      ]
+    ],
+    "tip": "Bơ chín mềm giúp hỗn hợp mịn; không dùng phần bơ có vị đắng hoặc mùi lạ.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "cinnamon-roll": {
+    "servings": 6,
+    "prep": "35 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Bột mì làm bánh mì",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa ấm nhẹ",
+        "amount": 140,
+        "unit": "ml"
+      },
+      {
+        "name": "Men instant",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Đường trong bột",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ trong bột",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ phết nhân",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Đường nâu",
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": "Bột quế",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Đường bột",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa pha mặt bánh",
+        "amount": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Nhào",
+        "Trộn bột, men, đường, muối, sữa và bơ trong bột. Nhào đến mịn, ủ có đậy đến nở gần gấp đôi, khoảng 60–90 phút."
+      ],
+      [
+        "Cuộn",
+        "Cán hình chữ nhật, phết bơ nhân mềm, rải đường nâu trộn quế. Cuộn thành khúc rồi cắt 6 khoanh."
+      ],
+      [
+        "Ủ và nướng",
+        "Xếp khuôn, ủ thêm 30–45 phút đến nở rõ. Nướng 180°C khoảng 20–25 phút đến vàng và ruột chín."
+      ],
+      [
+        "Phủ",
+        "Hòa đường bột với sữa pha mặt bánh, rưới khi bánh đã bớt nóng."
+      ]
+    ],
+    "tip": "Sữa chỉ ấm nhẹ, không nóng để tránh làm chết men.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ủ hai lần khoảng 1,5–2 giờ, tùy nhiệt độ; chưa tính vào chuẩn bị."
+  },
+  "goi-cuon-chay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "10 phút",
+    "ingredients": [
+      {
+        "name": "Bánh tráng cuốn",
+        "amount": 10,
+        "unit": "tờ"
+      },
+      {
+        "name": "Bún tươi",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ chắc",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách và rau thơm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ đậu phộng",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị nhân",
+        "Áp chảo đậu với dầu đến vàng, cắt thanh. Rửa rau, thái dưa leo và cà rốt thành sợi."
+      ],
+      [
+        "Pha chấm",
+        "Khuấy bơ đậu phộng với nước tương, chanh và 30–50 ml nước ấm đến độ sệt mong muốn."
+      ],
+      [
+        "Cuốn",
+        "Làm ẩm từng bánh tráng, thêm rau, bún, đậu và cuộn gọn, gập kín hai đầu."
+      ],
+      [
+        "Dọn",
+        "Dùng ngay với sốt. Nếu chờ ít phút, phủ khăn sạch hơi ẩm để vỏ không khô."
+      ]
+    ],
+    "tip": "Không dùng sốt đậu phộng cho người dị ứng đậu; thay bằng nước tương pha chanh nếu phù hợp.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "burger": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bò xay",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Bánh burger",
+        "amount": 2,
+        "unit": "cái"
+      },
+      {
+        "name": "Phô mai lát",
+        "amount": 2,
+        "unit": "lát"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Xà lách",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Tương cà",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Mù tạt",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Muối và tiêu",
+        "text": "Vừa đủ"
+      }
+    ],
+    "steps": [
+      [
+        "Tạo hình",
+        "Chia bò thành hai phần, ép nhẹ thành miếng dày đều. Nêm muối, tiêu bên ngoài ngay trước khi nấu."
+      ],
+      [
+        "Áp chảo",
+        "Làm nóng dầu, áp chảo hai mặt đến tâm thịt xay đạt 71°C. Thêm phô mai lúc cuối để tan."
+      ],
+      [
+        "Chuẩn bị bánh",
+        "Áp chảo mặt cắt bánh cho vàng nhẹ; rửa và để ráo rau, thái cà chua và hành."
+      ],
+      [
+        "Kẹp",
+        "Phết tương cà, mù tạt, xếp rau và thịt vào bánh. Dùng ngay khi nóng."
+      ]
+    ],
+    "tip": "Không coi màu hồng hoặc màu nâu bên trong là phép kiểm tra an toàn thay cho nhiệt kế.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "pizza-cui": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Bột pizza đã ủ sẵn",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sốt cà chua",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm tươi",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ô liu",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Húng quế",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Làm nóng",
+        "Làm nóng lò cùng đá hoặc khay nướng ở mức 240–250°C trong ít nhất 30 phút. Làm theo giới hạn nhiệt của dụng cụ."
+      ],
+      [
+        "Tạo đế",
+        "Kéo giãn bột thành đế mỏng khoảng 25 cm, giữ viền dày hơn. Thái nấm mỏng, thấm ráo phô mai."
+      ],
+      [
+        "Phủ",
+        "Phết sốt mỏng, rải nấm và phô mai, thêm dầu ô liu. Không phủ quá nhiều làm ướt đế."
+      ],
+      [
+        "Nướng",
+        "Chuyển lên mặt nướng nóng, nướng khoảng 8–15 phút đến đáy chín vàng và viền nở. Thêm húng quế sau khi ra lò."
+      ]
+    ],
+    "tip": "Phiên bản pizza nhiệt cao trong lò gia đình để thay cho lò củi; không tái tạo chính xác hương khói của lò chuyên dụng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "pasta-y": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Mì pasta khô",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua nghiền",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ô liu",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Húng quế",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Parmesan",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Muối và tiêu",
+        "text": "Vừa đủ"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu sốt",
+        "Phi hành và tỏi với dầu ở lửa vừa. Thêm cà chua, nấu nhỏ lửa 15–20 phút, nêm muối, tiêu."
+      ],
+      [
+        "Luộc mì",
+        "Luộc pasta theo hướng dẫn đến vừa chín; giữ lại một ít nước luộc."
+      ],
+      [
+        "Trộn",
+        "Cho mì vào sốt với vài thìa nước mì, đảo 1–2 phút cho sốt bám."
+      ],
+      [
+        "Dọn",
+        "Thêm húng quế xé và Parmesan bào ngay trước khi dùng."
+      ]
+    ],
+    "tip": "Pasta Ý là nhóm món; công thức chọn pasta sốt cà chua đơn giản, khác Carbonara và lasagna.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "tacos": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Bánh tortilla ngô nhỏ",
+        "amount": 6,
+        "unit": "cái"
+      },
+      {
+        "name": "Thịt bò xay",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Xà lách",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Bột cumin",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Bột paprika",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Muối và tiêu",
+        "text": "Vừa đủ"
+      }
+    ],
+    "steps": [
+      [
+        "Làm salsa",
+        "Băm cà chua và nửa hành tây, trộn với chanh và ít muối. Rửa rau, để ráo."
+      ],
+      [
+        "Xào thịt",
+        "Phi hành còn lại với dầu, thêm bò, cumin và paprika. Đảo tơi đến thịt chín, tâm đạt 71°C; nêm vừa."
+      ],
+      [
+        "Làm nóng bánh",
+        "Làm nóng tortilla từng mặt trên chảo khô đến mềm."
+      ],
+      [
+        "Xếp",
+        "Cho thịt, rau và salsa vào bánh, gập đôi rồi dùng ngay."
+      ]
+    ],
+    "tip": "Phiên bản tacos bò xay tại nhà; có thể thêm rau mùi nếu thích.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bagel": {
+    "servings": 4,
+    "prep": "30 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Bột mì làm bánh mì",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Nước ấm nhẹ",
+        "amount": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "Men instant",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Mật ong",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Mè",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nhào và ủ",
+        "Trộn bột, nước, men, đường và muối; nhào đến mịn chắc. Đậy và ủ 60–90 phút đến nở rõ."
+      ],
+      [
+        "Tạo hình",
+        "Chia 4 phần, vo tròn rồi chọc lỗ giữa, kéo rộng khoảng 4 cm. Để nghỉ 15 phút."
+      ],
+      [
+        "Luộc",
+        "Đun nồi nước với mật ong, luộc mỗi mặt bánh khoảng 30–45 giây. Vớt ráo, rắc mè."
+      ],
+      [
+        "Nướng",
+        "Nướng 220°C khoảng 20–25 phút đến vàng nâu và chín ruột. Để nguội bớt trước khi cắt."
+      ]
+    ],
+    "tip": "Bột bagel khá chắc; giữ lỗ đủ rộng vì bột còn nở khi luộc và nướng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ủ khoảng 1–1,5 giờ, chưa tính vào chuẩn bị."
+  },
+  "smoothie-bowl": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Chuối chín đông lạnh",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Xoài đông lạnh",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa chua không đường",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa tươi tiệt trùng",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Yến mạch cán đã rang chín",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Dâu tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Hạt chia",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Cắt trái cây trước khi đông lạnh. Rửa dâu tây và để ráo."
+      ],
+      [
+        "Xay",
+        "Cho chuối, xoài, sữa chua vào máy; thêm sữa từng ít, xay đến đặc mịn, dừng máy trước khi vét thành."
+      ],
+      [
+        "Trang trí",
+        "Chia ra bát, thêm dâu cắt lát, yến mạch rang và hạt chia."
+      ],
+      [
+        "Dùng",
+        "Ăn ngay khi còn lạnh, không xay lại trái cây đã để chảy ở ngoài quá lâu."
+      ]
+    ],
+    "tip": "Không cần thêm đường nếu trái cây chín ngọt; dùng topping vừa phải để bát không quá nặng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "burger-chay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Đậu gà đóng hộp đã chín, để ráo",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "name": "Yến mạch cán",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Bánh burger không trứng sữa",
+        "amount": 2,
+        "unit": "cái"
+      },
+      {
+        "name": "Xà lách",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Tương cà",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Làm khô nhân",
+        "Băm nấm và hành, xào với nửa dầu đến ráo nước. Nghiền đậu gà nhưng giữ chút kết cấu."
+      ],
+      [
+        "Trộn",
+        "Trộn đậu, nấm, yến mạch và nước tương. Để nghỉ 10 phút cho yến mạch hút ẩm, ép thành hai miếng."
+      ],
+      [
+        "Áp chảo",
+        "Áp chảo với dầu còn lại ở lửa vừa 4–5 phút mỗi mặt, trở nhẹ đến miếng nhân nóng và chắc."
+      ],
+      [
+        "Kẹp",
+        "Làm nóng bánh, phết tương cà rồi thêm rau, cà chua và nhân đậu."
+      ]
+    ],
+    "tip": "Nếu hỗn hợp rời, nghiền thêm một phần đậu; nếu quá ướt, thêm ít yến mạch và để nghỉ trước khi nặn.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-dap": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Bột gạo",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Bột năng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Bánh tráng mè nướng",
+        "amount": 2,
+        "unit": "cái"
+      },
+      {
+        "name": "Mắm nêm",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Dứa băm",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 0.5,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Pha bột",
+        "Khuấy bột gạo, bột năng và nước, để nghỉ 15 phút. Thêm 5 ml dầu, khuấy lại."
+      ],
+      [
+        "Tráng",
+        "Quét dầu rất mỏng lên chảo chống dính. Tráng lớp bột mỏng, đậy nắp lửa nhỏ 1–2 phút đến bánh chín trong, lấy ra đĩa đã quét dầu."
+      ],
+      [
+        "Pha chấm",
+        "Đun mắm nêm với đường và 30 ml nước đến sôi; để bớt nóng rồi thêm dứa, chanh."
+      ],
+      [
+        "Ghép",
+        "Đặt bánh ướt vừa tráng lên bánh tráng nướng, gập và đập nhẹ cho vỡ. Ăn ngay để còn độ giòn."
+      ]
+    ],
+    "tip": "Phiên bản bánh ướt tráng chảo, dễ thực hiện hơn dùng nồi căng vải.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "hen-xao": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Thịt hến đã nấu chín",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 2,
+        "unit": "cây"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Rau răm",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Bánh tráng nướng",
+        "amount": 1,
+        "unit": "cái"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Chọn thịt hến chín có nguồn rõ ràng, kiểm tra vỏ vụn, để ráo. Băm sả và tỏi, thái hành tây."
+      ],
+      [
+        "Phi",
+        "Làm nóng dầu, đảo sả và tỏi đến thơm, không để cháy."
+      ],
+      [
+        "Xào",
+        "Thêm hến và hành, đảo đến nóng bốc hơi đều, nêm nước mắm. Xào ráo nhưng không để hến dai."
+      ],
+      [
+        "Dọn",
+        "Thêm rau răm sạch, rắc đậu phộng và xúc với bánh tráng."
+      ]
+    ],
+    "tip": "Không sử dụng thịt hến có mùi lạ hoặc đã để ngoài nhiệt độ phòng lâu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-canh-ca-loc": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Sợi bánh canh",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Cá lóc phi lê bỏ xương",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng cá",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Nghệ bột",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 3,
+        "unit": "củ"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá và rau răm",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Kiểm tra xương trong phi lê, cắt miếng. Ướp cá với nghệ, nửa nước mắm và hành tím băm 10 phút trong ngăn mát."
+      ],
+      [
+        "Nấu nước",
+        "Phi phần hành còn lại với dầu, thêm nước dùng và gừng; nấu sôi nhẹ 10 phút."
+      ],
+      [
+        "Nấu cá",
+        "Cho cá vào nước dùng, nấu đến chín và tâm đạt 63°C. Nêm nước mắm còn lại, không khuấy mạnh làm nát cá."
+      ],
+      [
+        "Dọn",
+        "Luộc sợi bánh canh theo hướng dẫn, chia tô; thêm cá và nước dùng, rắc hành và rau răm."
+      ]
+    ],
+    "tip": "Dùng phi lê vẫn cần rà xương kỹ, nhất là khi phục vụ trẻ em.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bo-ne": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bò nguyên miếng thái lát",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Trứng",
+        "amount": 2,
+        "unit": "quả"
+      },
+      {
+        "name": "Pâté chín",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Bánh mì",
+        "amount": 2,
+        "unit": "ổ"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu hào",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Bơ",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Ướp",
+        "Trộn bò với nước tương, dầu hào và dầu, ướp lạnh 10 phút. Thái hành và dưa leo."
+      ],
+      [
+        "Nấu bò",
+        "Làm nóng chảo, cho bơ và hành vào đảo. Thêm bò, áp chảo đến chín theo nhu cầu an toàn; dùng nhiệt kế nếu miếng dày."
+      ],
+      [
+        "Thêm trứng",
+        "Chiên trứng trong chảo riêng đến lòng trắng và lòng đỏ đông. Hâm pâté đến nóng kỹ."
+      ],
+      [
+        "Dọn",
+        "Dọn bò, hành, trứng và pâté cùng bánh mì, dưa leo. Đặt chảo nóng trên đế cách nhiệt."
+      ]
+    ],
+    "tip": "Không đặt chảo còn nóng trực tiếp lên bàn; phiên bản này không phục vụ trứng sống hoặc bò còn sống.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "chao-vit": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "60 phút",
+    "ingredients": [
+      {
+        "name": "Đùi vịt có xương",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Gạo",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1400,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tím",
+        "amount": 3,
+        "unit": "củ"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá và rau răm",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Tiêu",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Làm sạch vịt từ nguồn thực phẩm, thấm khô; tránh làm bắn nước thịt sống sang thực phẩm khác. Vo gạo, đập dập gừng và hành."
+      ],
+      [
+        "Luộc",
+        "Nấu vịt trong nước với nửa gừng và hành đến khi tâm thịt đạt 74°C. Vớt ra bằng dụng cụ sạch, lọc nước luộc."
+      ],
+      [
+        "Nấu cháo",
+        "Cho gạo vào nước luộc, đun nhỏ lửa và khuấy khoảng 35–45 phút đến mềm; thêm nước nóng nếu đặc."
+      ],
+      [
+        "Dọn",
+        "Xé vịt, cho lại cháo để nóng kỹ, nêm nước mắm. Thêm gừng thái sợi, hành, rau răm và tiêu."
+      ]
+    ],
+    "tip": "Không để vịt chín ở ngoài lâu trong lúc chờ cháo; giữ nóng hoặc làm lạnh đúng cách.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "goi-vit": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "40 phút",
+    "ingredients": [
+      {
+        "name": "Đùi vịt có xương",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Bắp cải",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Hành tây",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Rau răm",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu vịt",
+        "Luộc vịt với gừng trong nước sôi nhẹ đến tâm đạt 74°C. Vớt ra, để bớt nóng và thái hoặc xé thịt."
+      ],
+      [
+        "Chuẩn bị rau",
+        "Bào mỏng bắp cải, hành, cà rốt; rửa sạch và để ráo. Nhặt rau răm."
+      ],
+      [
+        "Pha nước",
+        "Hòa nước mắm, đường, nước chanh và 20 ml nước; nếm vị chua ngọt cân bằng."
+      ],
+      [
+        "Trộn",
+        "Trộn vịt và rau với nước trộn từng ít, thêm rau răm và đậu phộng ngay trước khi ăn."
+      ]
+    ],
+    "tip": "Phiên bản gỏi bắp cải vịt chín; dùng thớt và dao sạch riêng sau khi xử lý vịt sống.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "chao-dau-xanh": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "45 phút",
+    "ingredients": [
+      {
+        "name": "Gạo",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu xanh cà vỏ",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "Nấm hương tươi",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu mè",
+        "amount": 5,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Ngâm",
+        "Vo gạo, rửa đậu và ngâm đậu khoảng 30 phút, để ráo. Thái nấm và gừng."
+      ],
+      [
+        "Nấu",
+        "Cho gạo, đậu, nước và gừng vào nồi; đun nhỏ 35–45 phút, khuấy đáy định kỳ đến nở mềm."
+      ],
+      [
+        "Thêm nấm",
+        "Cho nấm vào 10 phút cuối. Nêm nước tương, thêm nước nóng nếu cháo quá đặc."
+      ],
+      [
+        "Dọn",
+        "Múc cháo nóng, thêm dầu mè và hành lá."
+      ]
+    ],
+    "tip": "Công thức chọn cháo đậu xanh nấm không thịt; đậu xanh dùng loại cà vỏ giúp nhanh mềm.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "pha-lau": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "90 phút",
+    "ingredients": [
+      {
+        "name": "Sách bò và lòng bò làm sạch từ nguồn tin cậy",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dừa",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 3,
+        "unit": "cây"
+      },
+      {
+        "name": "Ngũ vị hương",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Bột cà ri",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Sơ chế",
+        "Chọn nội tạng đã làm sạch, giữ lạnh. Chần với gừng và sả trong nước sôi 5 phút, bỏ nước chần rồi cắt miếng."
+      ],
+      [
+        "Ướp",
+        "Trộn với ngũ vị, bột cà ri, nước tương và đường, ướp lạnh 15 phút."
+      ],
+      [
+        "Hầm",
+        "Xào nguyên liệu với dầu, thêm nước dừa. Đun nhỏ 60–90 phút đến nội tạng chín mềm, thêm nước nóng nếu cạn."
+      ],
+      [
+        "Hoàn thành",
+        "Thêm cốt dừa, đun sôi nhẹ 5 phút; nêm lại và dùng nóng với bánh mì."
+      ]
+    ],
+    "tip": "Không áp dụng cho nội tạng chưa sơ chế hoặc có mùi bất thường; thời gian hầm phụ thuộc loại và độ dày.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "cut-lon-xao-me": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Trứng cút lộn",
+        "amount": 16,
+        "unit": "quả"
+      },
+      {
+        "name": "Me chua",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước nóng",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 3,
+        "unit": "tép"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "Rau răm",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Luộc",
+        "Mua trứng từ nguồn tin cậy, luộc ngập nước sôi nhẹ khoảng 12–15 phút đến chín kỹ. Để bớt nóng rồi bóc vỏ."
+      ],
+      [
+        "Lọc me",
+        "Dầm me với nước nóng, lọc bỏ hạt và xơ; hòa đường, nước mắm."
+      ],
+      [
+        "Rim",
+        "Phi tỏi với dầu, cho nước me vào nấu sánh nhẹ. Thêm trứng đã chín, đảo nhẹ 3–5 phút cho nóng và áo sốt."
+      ],
+      [
+        "Dọn",
+        "Thêm rau răm sạch, đậu phộng rang, dùng ngay."
+      ]
+    ],
+    "tip": "Không dùng trứng nứt, có mùi lạ hoặc chưa rõ nguồn. Đây là món có trứng và đậu phộng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "rau-ma-sau-rieng": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Rau má thực phẩm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước uống đã làm lạnh",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Thịt sầu riêng",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa đặc",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Làm sạch rau",
+        "Nhặt bỏ lá hư, rửa kỹ rau má qua nhiều lần nước sạch, để ráo. Dùng rau trồng làm thực phẩm, không hái nơi nước bẩn."
+      ],
+      [
+        "Xay rau",
+        "Xay rau với nước uống, lọc qua rây hoặc túi lọc sạch. Dùng ngay phần nước."
+      ],
+      [
+        "Xay sầu riêng",
+        "Xay thịt sầu riêng bỏ hạt với sữa đặc và một ít nước rau má cho mịn."
+      ],
+      [
+        "Pha",
+        "Chia cốc có đá, rót nước rau má rồi thêm hỗn hợp sầu riêng, khuấy trước khi uống."
+      ]
+    ],
+    "tip": "Rửa không loại bỏ mọi nguy cơ từ rau sống; có thể thay bằng nước rau má đóng chai đã thanh trùng theo nhãn.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "rau-ma-dau-xanh": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Rau má thực phẩm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước uống",
+        "amount": 450,
+        "unit": "ml"
+      },
+      {
+        "name": "Đậu xanh cà vỏ",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu đậu",
+        "Ngâm đậu 1 giờ, rửa và nấu với nước ngập vừa đến mềm. Trộn đường khi đậu còn nóng rồi để nguội nhanh."
+      ],
+      [
+        "Làm rau má",
+        "Nhặt, rửa rau kỹ qua nhiều nước sạch; xay với nước uống, lọc bằng dụng cụ sạch."
+      ],
+      [
+        "Xay đậu",
+        "Xay đậu với cốt dừa và một ít nước rau má đến mịn."
+      ],
+      [
+        "Pha",
+        "Chia đậu xay vào cốc, thêm nước rau má và đá sạch, khuấy trước khi uống."
+      ]
+    ],
+    "tip": "Có thể dùng nước rau má đóng chai đã thanh trùng thay rau xay sống; giữ các thành phần lạnh nếu chưa dùng ngay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ngâm đậu xanh 1 giờ; chưa tính vào chuẩn bị."
+  },
+  "bun-mam-chay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm rơm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Cà tím",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Dứa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Chao chay",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Tương đậu nành lên men chay",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 2,
+        "unit": "cây"
+      },
+      {
+        "name": "Nước dùng rau củ",
+        "amount": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Rau thơm",
+        "amount": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Cắt đậu, cà tím, dứa; làm sạch nấm, băm sả. Nghiền chao với ít nước dùng."
+      ],
+      [
+        "Xào",
+        "Phi sả với dầu, đảo tương đậu và chao khoảng 1 phút, không để cháy."
+      ],
+      [
+        "Nấu",
+        "Thêm nước dùng, dứa, nấm và đậu. Nấu 15 phút rồi cho cà tím, nấu mềm vừa, nếm độ mặn trước khi thêm gia vị."
+      ],
+      [
+        "Dọn",
+        "Chần bún, chan nước cùng nhân, thêm rau thơm đã rửa sạch."
+      ]
+    ],
+    "tip": "Chọn chao và tương có nhãn chay, không có cá; đây là phiên bản dùng đậu lên men, không dùng mắm cá.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-loc-chay": {
+    "servings": 2,
+    "prep": "35 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Bột năng",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nước sôi",
+        "amount": 160,
+        "unit": "ml"
+      },
+      {
+        "name": "Đậu phụ chắc",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm đông cô tươi",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 0.5,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Làm nhân",
+        "Băm đậu, nấm và cà rốt, xào với nửa dầu đến ráo. Thêm 10 ml nước tương, để nguội."
+      ],
+      [
+        "Nhào",
+        "Rót nước sôi từng ít vào bột, khuấy bằng thìa chịu nhiệt. Chờ bớt nóng rồi nhào dẻo, tránh bỏng."
+      ],
+      [
+        "Nặn và luộc",
+        "Chia bột, cán mỏng, gói kín nhân. Luộc trong nước sôi nhẹ đến nổi rồi thêm khoảng 3 phút cho vỏ trong và chín."
+      ],
+      [
+        "Dọn",
+        "Áo bánh với dầu hành còn lại. Pha nước tương, đường, chanh và 30 ml nước để chấm."
+      ]
+    ],
+    "tip": "Nhân cần xào ráo để bánh không bục khi luộc; thêm nước cho bột từ từ.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "be-thui": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "25 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bê nguyên miếng dày đều",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 2,
+        "unit": "cây"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": 2,
+        "unit": "tép"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Bánh tráng",
+        "amount": 8,
+        "unit": "tờ"
+      },
+      {
+        "name": "Rau thơm và dưa leo",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Mắm nêm đã đun pha sẵn",
+        "amount": 40,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Ướp",
+        "Thấm khô bê, ướp với sả, gừng, tỏi băm, dầu và nước mắm 15 phút trong ngăn mát."
+      ],
+      [
+        "Nướng",
+        "Áp chảo cho vàng các mặt rồi nướng 180°C đến tâm thịt đạt 63°C. Để nghỉ ít nhất 3 phút trước khi thái."
+      ],
+      [
+        "Chuẩn bị",
+        "Rửa rau và dưa leo, để ráo; chuẩn bị bánh tráng, nước chấm bằng dụng cụ sạch."
+      ],
+      [
+        "Dọn",
+        "Thái thịt mỏng ngang thớ, cuốn với rau và bánh tráng."
+      ]
+    ],
+    "tip": "Phiên bản bê nướng chín trong bếp gia đình, không phải kỹ thuật thui bê nguyên con Cầu Mống.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "banh-kho-me": {
+    "servings": 6,
+    "prep": "30 phút",
+    "cook": "50 phút",
+    "ingredients": [
+      {
+        "name": "Gạo nếp",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Gạo tẻ",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Đường",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Mè rang",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước pha đường",
+        "amount": 80,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị gạo",
+        "Ngâm hai loại gạo 4 giờ trong ngăn mát, để ráo rồi xay với lượng nước vừa đủ thành bột sệt."
+      ],
+      [
+        "Hấp",
+        "Đổ lớp bột dày khoảng 1 cm trong khay lót chống dính, hấp 20–25 phút đến chín hoàn toàn. Để nguội, cắt miếng nhỏ."
+      ],
+      [
+        "Sấy",
+        "Sấy ở 110–120°C đến miếng bánh khô giòn, trở định kỳ; có thể cần 1–2 giờ tùy độ ẩm và lò."
+      ],
+      [
+        "Áo mè",
+        "Đun đường, nước và gừng giã đến siro sánh. Nhúng nhanh bánh khô, lăn mè và để nguội hoàn toàn trước khi cất kín."
+      ]
+    ],
+    "tip": "Phiên bản thực hành bằng lò gia đình; độ giòn phụ thuộc sấy khô, không đảm bảo giống bánh thủ công truyền thống.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ngâm gạo 4 giờ; sấy có thể thêm 1–2 giờ ngoài thời gian hấp, tùy lò."
+  },
+  "goi-ca-nam-o": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "15 phút",
+    "ingredients": [
+      {
+        "name": "Cá phi lê bỏ da và xương",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Dưa leo",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Rau thơm",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Riềng",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Thính gạo rang",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Chanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu cá",
+        "Kiểm tra xương kỹ. Hấp cá cùng gừng đến tâm đạt 63°C, để bớt nóng rồi tách miếng, không bóp nát."
+      ],
+      [
+        "Chuẩn bị rau",
+        "Rửa kỹ, để ráo và thái sợi dưa leo, cà rốt; băm hoặc giã riềng."
+      ],
+      [
+        "Pha và trộn",
+        "Hòa nước mắm, đường, nước chanh và 20 ml nước. Trộn cá với riềng và thính, thêm rau và nước trộn từng ít."
+      ],
+      [
+        "Dọn",
+        "Rắc đậu phộng, dùng ngay với rau thơm sạch; không ngâm lâu làm cá bở."
+      ]
+    ],
+    "tip": "Đây là phiên bản cá chín lấy cảm hứng từ gỏi cá Nam Ô, không phải gỏi cá sống truyền thống. Nước chanh không làm cá sống an toàn.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "trung-chen-nuong": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "20 phút",
+    "ingredients": [
+      {
+        "name": "Trứng gà",
+        "amount": 4,
+        "unit": "quả"
+      },
+      {
+        "name": "Phô mai tiệt trùng",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Xúc xích đã chín",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Bơ",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 5,
+        "unit": "ml"
+      },
+      {
+        "name": "Tiêu",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị chén",
+        "Làm nóng lò 180°C. Quét bơ vào 4 chén sứ chịu nhiệt nhỏ; cắt xúc xích và hành lá."
+      ],
+      [
+        "Trộn",
+        "Đánh trứng với nước mắm, tiêu, thêm xúc xích và hành. Chia chén, chỉ đổ khoảng hai phần ba."
+      ],
+      [
+        "Nướng",
+        "Phủ phô mai, nướng 15–20 phút đến tâm trứng chín đông, đạt 71°C. Không dùng chén thường không chịu nhiệt."
+      ],
+      [
+        "Dọn",
+        "Để bớt nóng rồi dùng; cầm chén bằng khăn hoặc găng cách nhiệt."
+      ]
+    ],
+    "tip": "Công thức chọn trứng gà thay vì trứng cút để dễ định lượng; không để phần giữa còn lỏng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "chan-ga": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Chân gà làm sạch",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 4,
+        "unit": "cây"
+      },
+      {
+        "name": "Gừng",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Tắc",
+        "amount": 6,
+        "unit": "quả"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Giấm gạo",
+        "amount": 40,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Ớt",
+        "amount": 1,
+        "unit": "quả"
+      }
+    ],
+    "steps": [
+      [
+        "Luộc",
+        "Loại bỏ móng, làm sạch chân gà. Luộc cùng gừng, sả đập dập 20–30 phút đến chín kỹ; phần thịt đạt 74°C."
+      ],
+      [
+        "Làm nguội",
+        "Vớt bằng dụng cụ sạch, làm nguội nhanh rồi để ngăn mát; không ngâm trong nước đá không rõ vệ sinh."
+      ],
+      [
+        "Nấu nước",
+        "Đun nước mắm, đường, giấm và nước cho tan, để nguội nhanh. Thái sả còn lại, tắc và ớt sạch."
+      ],
+      [
+        "Trộn lạnh",
+        "Trộn chân gà chín với nước ngâm nguội và các gia vị trong hộp sạch; làm lạnh ít nhất 2 giờ. Dùng dụng cụ sạch khi lấy."
+      ]
+    ],
+    "tip": "Phiên bản chân gà sả tắc ăn lạnh; luôn giữ trong ngăn mát, không để ngâm ở nhiệt độ phòng.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Làm lạnh sau khi trộn ít nhất 2 giờ; chưa tính vào thời gian trên."
+  },
+  "lau-bo": {
+    "servings": 2,
+    "prep": "30 phút",
+    "cook": "90 phút",
+    "ingredients": [
+      {
+        "name": "Thịt bò hầm",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Thịt bò thái mỏng",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Củ cải trắng",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Khoai môn",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Rau cải",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1500,
+        "unit": "ml"
+      },
+      {
+        "name": "Gừng",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 2,
+        "unit": "cây"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Mì trứng",
+        "amount": 200,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Nấu nền",
+        "Chần thịt hầm, bỏ nước chần. Hầm thịt với nước mới, gừng, sả và củ cải khoảng 75–90 phút đến mềm."
+      ],
+      [
+        "Chuẩn bị",
+        "Cắt khoai, nấm, rau; để thịt bò sống trong đĩa và kẹp riêng, không dùng chung với thức ăn chín."
+      ],
+      [
+        "Nấu lẩu",
+        "Thêm khoai, nấu chín rồi thêm nấm và nêm nước mắm. Giữ nồi sôi khi ăn."
+      ],
+      [
+        "Dọn",
+        "Nấu chín từng mẻ thịt thái mỏng, rau và mì trong nồi, chờ nước sôi lại trước khi lấy. Không nhúng tái rồi ăn."
+      ]
+    ],
+    "tip": "Tách kẹp thịt sống và dụng cụ ăn; không để thịt sống ở bàn quá lâu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "nuoc-ep": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Cam",
+        "amount": 3,
+        "unit": "quả"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Nước uống lạnh",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Rửa",
+        "Rửa vỏ cam và cà rốt bằng nước sạch trước khi gọt, dùng dao và thớt sạch."
+      ],
+      [
+        "Chuẩn bị",
+        "Vắt cam, bỏ hạt. Cắt cà rốt nhỏ; không dùng phần hư hoặc mốc."
+      ],
+      [
+        "Ép hoặc xay",
+        "Ép cà rốt bằng máy sạch hoặc xay với nước uống rồi lọc. Trộn cùng nước cam."
+      ],
+      [
+        "Dọn",
+        "Rót cốc, thêm đá nếu thích và dùng ngay. Giữ lạnh nếu cần chờ."
+      ]
+    ],
+    "tip": "Công thức chọn nước cam cà rốt. Nước ép tươi không được thanh trùng; có thể chọn sản phẩm đã thanh trùng khi cần.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "sinh-to": {
+    "servings": 2,
+    "prep": "15 phút",
+    "cook": "0 phút",
+    "ingredients": [
+      {
+        "name": "Chuối chín",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Xoài chín",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa chua không đường",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa tươi tiệt trùng",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Đá sạch",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Rửa trái cây trước khi gọt, bỏ phần hư; cắt nhỏ chuối và xoài."
+      ],
+      [
+        "Xay",
+        "Cho sữa, sữa chua và trái cây vào máy, xay mịn; thêm đá từng ít theo công suất máy."
+      ],
+      [
+        "Điều chỉnh",
+        "Nếu quá đặc, thêm chút sữa. Nếm trước khi thêm đường vì trái cây đã ngọt."
+      ],
+      [
+        "Dùng",
+        "Rót ra cốc sạch và uống ngay."
+      ]
+    ],
+    "tip": "Công thức chọn sinh tố chuối xoài; không dùng trái cây có mùi lên men bất thường.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "bun-rieu-chay": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "35 phút",
+    "ingredients": [
+      {
+        "name": "Bún tươi",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phụ chắc",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sữa đậu nành không đường",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước cốt chanh",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Cà chua",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Nấm",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Nước dùng rau củ",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước tương",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu điều",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hành lá",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Tạo riêu",
+        "Đun sữa đậu nành gần sôi, tắt bếp và thêm chanh từng ít, khuấy rất nhẹ. Để yên 10 phút cho kết tủa, vớt phần riêu bằng rây sạch."
+      ],
+      [
+        "Xào nền",
+        "Cắt đậu, nấm, cà chua. Xào cà chua với dầu điều đến mềm."
+      ],
+      [
+        "Nấu",
+        "Thêm nước dùng, nấm và đậu, đun 15 phút; nêm nước tương. Thả phần riêu lên trên, tránh khuấy nát."
+      ],
+      [
+        "Dọn",
+        "Chần bún, chan nước dùng và nhân, thêm hành lá."
+      ]
+    ],
+    "tip": "Dùng sữa đậu nành không đường có thành phần đơn giản; một số loại nhiều chất ổn định có thể khó kết tủa.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "lau-ga-la-e": {
+    "servings": 2,
+    "prep": "25 phút",
+    "cook": "40 phút",
+    "ingredients": [
+      {
+        "name": "Đùi gà có xương",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Lá é dùng làm thực phẩm",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Măng tươi đã sơ chế luộc kỹ",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Sả",
+        "amount": 3,
+        "unit": "cây"
+      },
+      {
+        "name": "Gừng",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Nước",
+        "amount": 1200,
+        "unit": "ml"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Ớt xanh",
+        "amount": 1,
+        "unit": "quả"
+      },
+      {
+        "name": "Bún tươi",
+        "amount": 300,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Chuẩn bị",
+        "Nhặt và rửa lá é, để ráo. Dùng măng đã được luộc kỹ theo hướng dẫn sản phẩm; không dùng măng sống trực tiếp."
+      ],
+      [
+        "Xào gà",
+        "Chặt gà miếng vừa, xào với dầu, gừng và sả đập dập đến săn."
+      ],
+      [
+        "Nấu",
+        "Thêm nước, nấu nhỏ 25–35 phút, kiểm tra gà đạt 74°C. Cho măng vào nấu nóng kỹ, nêm nước mắm."
+      ],
+      [
+        "Thêm lá",
+        "Vò nhẹ một phần lá é vào nồi, thêm ớt tùy vị. Ăn với bún, cho phần lá còn lại vào từng lượt và nấu chín."
+      ]
+    ],
+    "tip": "Chỉ dùng lá é xác định đúng loại thực phẩm. Nước lẩu cần sôi lại khi thêm rau hoặc nguyên liệu.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    }
+  },
+  "kem-xoi-dua": {
+    "servings": 2,
+    "prep": "20 phút",
+    "cook": "30 phút",
+    "ingredients": [
+      {
+        "name": "Gạo nếp",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Nước cốt dừa",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Đường",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Muối",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Kem dừa làm sẵn",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Dừa sợi",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": 20,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      [
+        "Ngâm nếp",
+        "Ngâm nếp ít nhất 4 giờ trong ngăn mát, rửa và để ráo."
+      ],
+      [
+        "Hấp",
+        "Hấp nếp khoảng 25–30 phút, đảo giữa chừng đến hạt mềm, không còn lõi cứng."
+      ],
+      [
+        "Trộn cốt",
+        "Đun nhỏ cốt dừa với đường và muối cho tan. Trộn vào xôi chín, để thấm 10 phút rồi làm nguội bớt."
+      ],
+      [
+        "Dọn",
+        "Múc xôi vào bát, đặt kem dừa lên trên, thêm dừa sợi và đậu phộng. Ăn ngay."
+      ]
+    ],
+    "tip": "Công thức dùng kem dừa mua sẵn; chỉ ghép kem khi xôi đã bớt nóng để kem không chảy ngay.",
+    "source": {
+      "label": "Hôm nay ăn gì? · Biên soạn tham khảo tại nhà",
+      "url": "https://github.com/TonyLikeDev/hom_nay_an_gi/blob/main/data/recipes.json"
+    },
+    "soak": "Ngâm nếp ít nhất 4 giờ; chưa tính vào thời gian trên."
   }
 }

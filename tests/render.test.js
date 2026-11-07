@@ -96,6 +96,16 @@ test(
         ["/forgot-password", "Gửi đường dẫn"],
       ])
         assert.ok((await render(route)).includes(text), route);
+      for (const dish of base.dishes) {
+        const html = await render("/recipe?dish=" + dish.id);
+        assert.ok(
+          html.replaceAll("<!-- -->", "").includes("Cách nấu " + dish.name),
+          dish.id,
+        );
+        assert.ok(html.includes("Nguyên liệu"), dish.id);
+        assert.ok(html.includes("Cách làm"), dish.id);
+        assert.ok(!html.includes("Công thức đang được cập nhật"), dish.id);
+      }
       assert.ok(
         (await render("/result?dish=missing")).includes(
           "Món này chưa có trong danh mục",

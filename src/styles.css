@@ -666,7 +666,21 @@ h2 {
 }
 
 .slot__strip {
-  will-change: transform;
+  margin: 0;
+  padding: 0;
+}
+.slot.is-spinning .slot__strip {
+  animation: slot-step 150ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes slot-step {
+  from {
+    transform: translateY(calc(var(--row) * -0.35));
+    filter: blur(1px);
+  }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+  }
 }
 .slot__strip li {
   display: flex;
@@ -905,6 +919,23 @@ body[data-cuisine] {
 @media (prefers-reduced-motion: no-preference) {
   .result.is-spinning {
     animation: none;
+  }
+  .result.is-spinning .result__pick-name {
+    display: inline-block;
+    animation: pick-name 150ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .result.is-settled .result__photo img {
+    animation: photo-settle 350ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+@keyframes pick-name {
+  from {
+    transform: translateY(0.15em);
+    opacity: 0.6;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 @keyframes bounce {

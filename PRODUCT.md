@@ -26,7 +26,7 @@ Keep the existing Vietnamese name, content, typography, light/dark themes, food 
 
 ## Evidence on Hand
 
-105 dishes, 105 imported directory entries, 109 associations and 14 reference recipes in `data/`. Imported entries are not verified partner menus. New partner data must identify its source and consent to publication.
+105 dishes, 105 imported directory entries, 109 associations and 105 reference recipes in `data/`. The original 14 recipes retain their sources; the 91 additions are original home-cooking references and have not been kitchen-tested. Imported entries are not verified partner menus. New partner data must identify its source and consent to publication.
 
 ## Open Decisions
 

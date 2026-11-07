@@ -70,31 +70,82 @@ async function actor(db, id) {
   await db.exec("set role " + (id ? "authenticated" : "anon"));
 }
 
+test("recipe backfill adds missing recipes without overwriting admin edits or visibility", async () => {
+  const db = await setup();
+  try {
+    const seed = await read("supabase/seed.sql");
+    await db.exec(seed);
+    await db.query("delete from public.recipes where dish_id=$1", ["banh-mi"]);
+    await db.query(
+      "update public.recipes set data=jsonb_set(data,'{tip}',$1::jsonb),is_visible=false where dish_id=$2",
+      [JSON.stringify("Admin-edited recipe tip"), "pho-bo"],
+    );
+    await db.exec(seed);
+    await db.exec(seed);
+    const recipes = (
+      await db.query("select dish_id,data,is_visible from public.recipes")
+    ).rows;
+    assert.equal(recipes.length, 105);
+    assert.equal(
+      recipes.find((r) => r.dish_id === "pho-bo").data.tip,
+      "Admin-edited recipe tip",
+    );
+    assert.equal(recipes.find((r) => r.dish_id === "pho-bo").is_visible, false);
+    assert.ok(
+      recipes.find((r) => r.dish_id === "banh-mi").data.ingredients.length > 0,
+    );
+  } finally {
+    await db.close();
+  }
+});
+
 test("test restaurant SQL creates only an owner draft and safely preserves edits on rerun", async () => {
   const db = await setup();
   const sql = await read("supabase/test-restaurant.sql");
   try {
     await assert.rejects(db.exec(sql), /does not exist/);
     await db.exec("rollback");
-    assert.equal((await db.query("select id from public.restaurant_submissions")).rows.length, 0);
-    await db.query("update auth.users set email=$1 where id=$2", ["aividmaking1@gmail.com", owner]);
+    assert.equal(
+      (await db.query("select id from public.restaurant_submissions")).rows
+        .length,
+      0,
+    );
+    await db.query("update auth.users set email=$1 where id=$2", [
+      "aividmaking1@gmail.com",
+      owner,
+    ]);
     await db.exec(sql);
-    const draft = (await db.query("select * from public.restaurant_submissions")).rows[0];
+    const draft = (
+      await db.query("select * from public.restaurant_submissions")
+    ).rows[0];
     assert.equal(draft.owner_id, owner);
     assert.equal(draft.status, "draft");
     assert.equal(draft.data.consent, false);
     assert.equal(draft.menu.length, 3);
-    await db.query("update public.restaurant_submissions set data=jsonb_set(data,'{name}','\"Edited test draft\"') where id=$1", [draft.id]);
+    await db.query(
+      "update public.restaurant_submissions set data=jsonb_set(data,'{name}','\"Edited test draft\"') where id=$1",
+      [draft.id],
+    );
     await db.exec(sql);
-    const rows = (await db.query("select * from public.restaurant_submissions")).rows;
+    const rows = (await db.query("select * from public.restaurant_submissions"))
+      .rows;
     assert.equal(rows.length, 1);
     assert.equal(rows[0].data.name, "Edited test draft");
     await actor(db, owner);
-    assert.equal((await db.query("select id from public.restaurant_submissions")).rows.length, 1);
+    assert.equal(
+      (await db.query("select id from public.restaurant_submissions")).rows
+        .length,
+      1,
+    );
     await actor(db, other);
-    assert.equal((await db.query("select id from public.restaurant_submissions")).rows.length, 0);
+    assert.equal(
+      (await db.query("select id from public.restaurant_submissions")).rows
+        .length,
+      0,
+    );
     await actor(db, null);
-    const catalog = (await db.query("select public.get_catalog() as catalog")).rows[0].catalog;
+    const catalog = (await db.query("select public.get_catalog() as catalog"))
+      .rows[0].catalog;
     assert.equal(catalog.restaurants.length, 0);
     assert.equal(catalog.dishes.length, 0);
   } finally {
@@ -144,7 +195,7 @@ test(
       assert.equal(seed.dishes.length, 105);
       assert.equal(seed.restaurants.length, 105);
       assert.equal(seed.links.length, 109);
-      assert.equal(Object.keys(seed.recipes).length, 14);
+      assert.equal(Object.keys(seed.recipes).length, 105);
       await assert.rejects(
         db.query("select * from public.restaurant_submissions"),
         (e) => e.code === "42501",

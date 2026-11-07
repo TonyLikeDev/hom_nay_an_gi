@@ -6,7 +6,7 @@ Bản migration giữ nguyên 105 món, 105 mục địa điểm, 109 liên kế
 
 105 mục nhập từ workbook `data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx`. Tên, địa chỉ, nhóm món, khoảng giá và bữa gợi ý được giữ trong `data/restaurants.json`, cùng tên file và số dòng nguồn. Có mục chỉ chuỗi, chợ, nhiều chi nhánh hoặc địa chỉ gần đúng; có thể trùng. Không khẳng định đây là 105 chi nhánh đang hoạt động hoặc đã đồng ý hợp tác.
 
-78/105 món ban đầu có liên kết quán trực tiếp, 14 món có công thức, 90/105 món có ít nhất một trong hai. Liên kết `related` chỉ là món cùng nhóm; không xác nhận quán bán đúng biến thể. Không suy giá từng món từ khoảng giá của quán. Bữa gợi ý không phải giờ mở cửa hoặc tình trạng còn món.
+78/105 món ban đầu có liên kết quán trực tiếp. Sau lần bổ sung công thức, toàn bộ 105 món/đồ uống trong danh mục Git có công thức tham khảo. Liên kết `related` chỉ là món cùng nhóm; không xác nhận quán bán đúng biến thể. Không suy giá từng món từ khoảng giá của quán. Bữa gợi ý không phải giờ mở cửa hoặc tình trạng còn món.
 
 ## Hình ảnh
 
@@ -14,7 +14,9 @@ Hầu hết ảnh là minh họa từ các URL Unsplash có trong workbook; khô
 
 ## Công thức và nhãn
 
-`data/recipes.json` là nguồn duy nhất của 14 công thức biên tập tham khảo, giữ tên và URL tác giả nguồn. Công thức không đại diện cho bí quyết riêng của quán.
+`data/recipes.json` là nguồn duy nhất của 105 công thức: giữ nguyên 14 công thức cũ cùng tên/URL nguồn, bổ sung 91 công thức được biên soạn riêng cho phiên bản nấu tại nhà. Công thức mới ghi rõ nguồn biên soạn của dự án, không gán cho tác giả bên ngoài và chưa được thử bếp. Công thức không đại diện cho bí quyết riêng của quán. Các nhóm rộng như dimsum, mâm cơm, nước ép chọn một phiên bản cụ thể; các biến thể gia đình như cá chín thay gỏi sống, pizza lò gia đình thay lò củi được nêu trong ghi chú.
+
+Khẩu phần và thời gian là ước lượng tham khảo. Các bước hướng dẫn nấu chín, tách thực phẩm sống/chín; tham khảo [nhiệt độ nấu tối thiểu](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures). Thay đổi nguyên liệu không tự tạo ra chứng nhận chay hoặc dinh dưỡng. Món mới do đối tác tạo cần được bổ sung công thức riêng, không dùng công thức chung hoặc giả định công thức của quán.
 
 Nhãn ăn chay có phạm vi riêng và phân biệt nguồn khai báo với phiên bản đã rà soát. Nhãn dinh dưỡng áp dụng cho đúng phiên bản và khẩu phần tham khảo; không truyền nhãn sang suất ăn của quán. Tiêu chí đối chiếu: đường ≤5 g/100 g rắn, ≤2,5 g/100 ml lỏng; năng lượng ≤40 kcal/100 g rắn, ≤20 kcal/100 ml lỏng. Không gán ít tinh bột khi chưa có ngưỡng phù hợp. Nguồn, số liệu và giới hạn nằm trong metadata và `data/nutrition-research.json`; đây không phải chứng nhận dinh dưỡng tại Việt Nam.
 

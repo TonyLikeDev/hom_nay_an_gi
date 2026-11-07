@@ -19,6 +19,7 @@ import {
   safeHttps,
 } from "../lib/catalog.js";
 import { REGIONS } from "../lib/regions.js";
+import { animatePick } from "../lib/animate-pick.js";
 import {
   CuisineLabel,
   DishCard,
@@ -162,43 +163,38 @@ export function CuisinesPage() {
     opener = useRef(null);
   const [spinning, setSpinning] = useState(false),
     [preview, setPreview] = useState(null),
-    timers = useRef([]);
+    cancelPick = useRef(() => {});
   const pool = filterDishes(catalog, parseFilters(params));
-  useEffect(() => () => timers.current.forEach(clearTimeout), []);
+  const position = Math.max(
+    0,
+    pool.findIndex((d) => d.id === preview?.id),
+  );
+  const reelDishes = pool.length
+    ? [-1, 0, 1].map(
+        (offset) => pool[(position + offset + pool.length) % pool.length],
+      )
+    : [];
+  useEffect(() => () => cancelPick.current(), []);
   const start = () => {
     if (spinning || !pool.length) return;
     let last;
     try {
       last = sessionStorage.getItem("hnag:last-dish");
     } catch {}
-    const dish = pickDish(pool, last),
-      reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const dish = pickDish(pool, last);
+    cancelPick.current();
     setSpinning(true);
     setPreview(dish);
-    if (!reduced)
-      timers.current.push(
-        setInterval(
-          () => setPreview(pool[Math.floor(Math.random() * pool.length)]),
-          100,
-        ),
-      );
-    timers.current.push(
-      setTimeout(
-        () => {
-          timers.current.forEach(clearTimeout);
-          setPreview(dish);
-          timers.current = [
-            setTimeout(() => {
-              const query = queryFor(parseFilters(params));
-              query.set("dish", dish.id);
-              query.set("from", "slot");
-              navigate("/result?" + query);
-            }, 400),
-          ];
-        },
-        reduced ? 0 : 1500,
-      ),
-    );
+    cancelPick.current = animatePick(pool, dish, {
+      onPreview: setPreview,
+      onFinish: () => {
+        const query = queryFor(parseFilters(params));
+        query.set("dish", dish.id);
+        query.set("from", "slot");
+        navigate("/result?" + query);
+      },
+      reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
+    });
   };
   return (
     <main id="main" className="page wrap">
@@ -248,8 +244,9 @@ export function CuisinesPage() {
         </button>
       </div>
       <dialog
-        className="slot"
+        className={"slot" + (spinning ? " is-spinning" : "")}
         ref={dialog}
+        aria-busy={spinning}
         onCancel={(e) => {
           if (spinning) e.preventDefault();
         }}
@@ -276,10 +273,16 @@ export function CuisinesPage() {
             ].map((name, i) => (
               <div key={i}>
                 <div className="slot__window">
-                  <ul className="slot__strip">
-                    {["", name, ""].map((text, index) => (
-                      <li key={index}>{text}</li>
-                    ))}
+                  <ul className="slot__strip" key={preview?.id}>
+                    {reelDishes.length ? (
+                      reelDishes.map((d, index) => (
+                        <li key={index}>
+                          {i ? d.name : CUISINES[d.cuisine]?.name}
+                        </li>
+                      ))
+                    ) : (
+                      <li>{name}</li>
+                    )}
                   </ul>
                 </div>
                 <span className="slot__label">{i ? "Món ăn" : "Ẩm thực"}</span>
@@ -508,12 +511,23 @@ export function ResultPage() {
     [busy, setBusy] = useState(false),
     [preview, setPreview] = useState(null),
     [delivery, setDelivery] = useState(null),
-    timers = useRef([]);
+    cancelPick = useRef(() => {});
   const dish = catalog.dishes.find((d) => d.id === id);
   useEffect(() => {
     if (explicit) setId(explicit);
   }, [explicit]);
-  useEffect(() => () => timers.current.forEach(clearTimeout), []);
+  useEffect(() => () => cancelPick.current(), []);
+  useEffect(() => {
+    setBusy(false);
+    setPreview(null);
+    if (
+      !explicit &&
+      !filters.invalid &&
+      (!cuisine || catalog.cuisines[cuisine])
+    )
+      spin(dish);
+    return () => cancelPick.current();
+  }, [explicit, cuisine, filters.diet, filters.recipe, filters.linked]);
   useEffect(() => {
     if (!dish) return;
     document.title = dish.name + " | Hôm nay ăn gì?";
@@ -521,11 +535,10 @@ export function ResultPage() {
       sessionStorage.setItem("hnag:last-dish", dish.id);
     } catch {}
   }, [dish]);
-  function spin() {
-    if (busy || !pool.length) return;
-    const next = pickDish(pool, last());
+  function spin(next = pickDish(pool, last())) {
+    if (!next || !pool.length) return;
+    cancelPick.current();
     const finish = () => {
-      timers.current.forEach(clearTimeout);
       setId(next.id);
       setPreview(null);
       setBusy(false);
@@ -533,10 +546,13 @@ export function ResultPage() {
       query.set("dish", next.id);
       setParams(query, { replace: true });
     };
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return finish();
     setBusy(true);
     setPreview(dish || next);
-    timers.current = [setTimeout(finish, 1500)];
+    cancelPick.current = animatePick(pool, next, {
+      onPreview: setPreview,
+      onFinish: finish,
+      reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
+    });
   }
   if (!explicit && filters.invalid)
     return (
@@ -573,14 +589,14 @@ export function ResultPage() {
   return (
     <main id="main" className="page wrap">
       <section
-        className={"result" + (busy ? " is-spinning" : "")}
+        className={"result" + (busy ? " is-spinning" : " is-settled")}
         aria-busy={busy}
-        data-cuisine={shown.cuisine}
+        data-cuisine={dish.cuisine}
       >
         <div className="result__photo">
           <Image
-            src={photo(shown, 1200, 900)}
-            alt={shown.name}
+            src={photo(dish, 1200, 900)}
+            alt={dish.name}
             width="1200"
             height="900"
           />
@@ -589,7 +605,11 @@ export function ResultPage() {
           <p className="result__meta">
             <CuisineLabel id={shown.cuisine} />
           </p>
-          <h1>{shown.name}</h1>
+          <h1>
+            <span key={shown.id} className="result__pick-name">
+              {shown.name}
+            </span>
+          </h1>
           <p className="result__desc">{busy ? "Đang chọn món…" : dish.desc}</p>
           {!busy && (
             <>
@@ -599,60 +619,64 @@ export function ResultPage() {
             </>
           )}
           <div className="result__actions">
-            <External className="btn btn--primary" href={mapsUrl(dish)}>
-              Tìm quán gần đây ↗
-            </External>
+            {!busy && (
+              <External className="btn btn--primary" href={mapsUrl(dish)}>
+                Tìm quán gần đây ↗
+              </External>
+            )}
             <button
               className="btn"
               type="button"
               disabled={busy || !pool.length}
-              onClick={spin}
+              onClick={() => spin()}
             >
-              Chọn món khác
+              {busy ? "Đang chọn món…" : "Chọn món khác"}
             </button>
           </div>
-          <div className="result__next">
-            <h2>Đặt món qua nền tảng</h2>
-            <div className="delivery-options__links">
-              {[
-                ["grab", "grabfood-green.png", "GrabFood"],
-                ["shopee", "shopeefood.png", "ShopeeFood"],
-              ].map(([key, img, label]) => (
-                <button
-                  className="btn delivery-link"
-                  type="button"
-                  key={key}
-                  disabled={busy}
-                  onClick={() => setDelivery(key)}
-                >
-                  <span className="delivery-link__brand">
-                    <img
-                      src={"/images/brands/" + img}
-                      width="100"
-                      height="30"
-                      alt={label}
-                    />
-                  </span>
-                  <Icon name="arrow" />
-                </button>
-              ))}
-            </div>
-            <p className="delivery-options__note">
-              Bạn chọn địa chỉ, xác nhận món và thanh toán trên nền tảng.
-            </p>
-            {catalog.recipes[dish.id] ? (
-              <Link
-                className="dish__recipe-link"
-                to={"/recipe?dish=" + dish.id}
-              >
-                Xem công thức nấu →
-              </Link>
-            ) : (
+          {!busy && (
+            <div className="result__next">
+              <h2>Đặt món qua nền tảng</h2>
+              <div className="delivery-options__links">
+                {[
+                  ["grab", "grabfood-green.png", "GrabFood"],
+                  ["shopee", "shopeefood.png", "ShopeeFood"],
+                ].map(([key, img, label]) => (
+                  <button
+                    className="btn delivery-link"
+                    type="button"
+                    key={key}
+                    disabled={busy}
+                    onClick={() => setDelivery(key)}
+                  >
+                    <span className="delivery-link__brand">
+                      <img
+                        src={"/images/brands/" + img}
+                        width="100"
+                        height="30"
+                        alt={label}
+                      />
+                    </span>
+                    <Icon name="arrow" />
+                  </button>
+                ))}
+              </div>
               <p className="delivery-options__note">
-                Chưa có công thức tham khảo cho món này.
+                Bạn chọn địa chỉ, xác nhận món và thanh toán trên nền tảng.
               </p>
-            )}
-          </div>
+              {catalog.recipes[dish.id] ? (
+                <Link
+                  className="dish__recipe-link"
+                  to={"/recipe?dish=" + dish.id}
+                >
+                  Xem công thức nấu →
+                </Link>
+              ) : (
+                <p className="delivery-options__note">
+                  Chưa có công thức tham khảo cho món này.
+                </p>
+              )}
+            </div>
+          )}
         </div>
       </section>
       <p className="sr-only" role="status">

@@ -6,7 +6,8 @@
 
 - Chọn món ngẫu nhiên theo bữa, ẩm thực, chế độ ăn, có công thức hoặc có quán; giữ tùy chọn trong URL.
 - Tìm món/quán, xem chi tiết quán và các món liên kết từ dữ liệu hiện tại.
-- 14 công thức có điều chỉnh khẩu phần, đánh dấu nguyên liệu và các bước.
+- 105 công thức, đủ toàn bộ món/đồ uống trong danh mục ban đầu, có điều chỉnh khẩu phần, đánh dấu nguyên liệu và các bước.
+- Quay món có hiệu ứng đảo tên chậm dần rồi hiện kết quả; hỗ trợ giảm chuyển động và hủy khi rời trang.
 - Yêu thích lưu trên thiết bị, giữ nguyên khóa và ID của bản cũ.
 - **Chủ quán:** đăng ký email, xác nhận email, đăng nhập, quên/đổi mật khẩu, thêm nhiều quán, gửi thực đơn và theo dõi duyệt.
 - **Quản trị:** duyệt/từ chối hồ sơ, sửa/ẩn món, quán, liên kết, công thức và căn cứ nhãn; xem tài khoản theo trang.
@@ -74,9 +75,11 @@ Vercel chỉ host frontend; dữ liệu, đăng nhập và kiểm tra quyền n�
 
 ## Dữ liệu và kiểm thử
 
-Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm, 109 liên kết và 14 công thức**. Người dùng xác nhận dùng bộ này; chỉnh sửa nằm riêng trong MySQL không được tự nhập. Tài khoản Better Auth cũ không tự chuyển sang Supabase Auth; tạo lại tài khoản bằng email trong ứng dụng mới.
+Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm và 109 liên kết**. Giữ nguyên 14 công thức cũ, bổ sung 91 công thức biên soạn tham khảo tại nhà, tổng cộng **105 công thức**. Người dùng xác nhận dùng catalog Git; chỉnh sửa nằm riêng trong MySQL không được tự nhập. Tài khoản Better Auth cũ không tự chuyển sang Supabase Auth; tạo lại tài khoản bằng email trong ứng dụng mới.
 
 `npm run db:seed` tạo lại `supabase/seed.sql` từ `data/*.json`. Seed dùng `ON CONFLICT DO NOTHING`: chạy lại không ghi đè chỉnh sửa quản trị. Thay JSON không tự cập nhật dữ liệu đang chạy. Xem [nguồn và phạm vi dữ liệu](docs/DATA.md) và [yêu cầu giảng viên](docs/TEACHER-REQUIREMENTS.md).
+
+**Project Supabase đã chạy migration:** để thêm các công thức mới, chạy lại [seed](supabase/seed.sql) trong SQL Editor, không chạy lại migration tạo schema. Seed chỉ thêm hàng còn thiếu, giữ công thức đã chỉnh sửa hoặc đã ẩn. Món đối tác tạo thêm sau này vẫn cần được biên tập công thức riêng trong admin; không tự gán công thức của món khác.
 
 `npm test` dùng Node và PostgreSQL nhúng PGlite, không kết nối database của website. Bao gồm chính sách quyền theo người dùng, hồ sơ chưa duyệt, người lạ sửa hồ sơ, duyệt/công bố, xung đột, retry, ẩn/hiện và validation. Kiểm thử React render các route và escaping dữ liệu. Email, phiên Supabase thật và deployment cần kiểm tra thêm sau khi kết nối tài khoản dịch vụ.
 
