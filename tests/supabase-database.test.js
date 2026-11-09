@@ -149,7 +149,7 @@ test("recipe edits revoke old evidence, preserve declarations, and keep visibili
     await db.exec(await read("supabase/seed.sql"));
     const beforeUpgrade = await catalog(db);
     await db.exec(
-      await read("supabase/migrations/202611090001_recipe_versions.sql"),
+      await read("supabase/migrations/202611090002_catalog_lock_order.sql"),
     );
     assert.deepEqual(
       await catalog(db),
@@ -244,6 +244,64 @@ test("recipe edits revoke old evidence, preserve declarations, and keep visibili
       undefined,
     );
     assert.deepEqual(published.recipes[recipe.dish_id], changed);
+  } finally {
+    await db.close();
+  }
+});
+
+test("admin dish identity changes hide old recipes once and preserve unrelated edits", async () => {
+  const db = await setup();
+  try {
+    await db.exec(await read("supabase/seed.sql"));
+    await actor(db, admin);
+    for (const [id, change] of [
+      ["pho-bo", { name: "Bánh mì thay món cũ" }],
+      ["banh-mi", { cuisine: "nhat" }],
+    ]) {
+      let dish = (
+        await db.query("select * from public.dishes where id=$1", [id])
+      ).rows[0];
+      const getRecipe = async () =>
+        (
+          await db.query("select * from public.recipes where dish_id=$1", [id])
+        ).rows[0];
+      const original = await getRecipe();
+      const write = async (
+        data,
+        visible,
+        nonce = randomUUID(),
+        revision = dish.revision,
+      ) =>
+        (
+          await db.query(
+            "select public.save_catalog('dishes',$1,$2,$3,$4::jsonb,$5) as record",
+            [id, revision, nonce, JSON.stringify(data), visible],
+          )
+        ).rows[0].record;
+      dish = await write({ ...dish.data, desc: "Updated description" }, true);
+      dish = await write(dish.data, false);
+      dish = await write(dish.data, true);
+      assert.deepEqual(await getRecipe(), original);
+      const nonce = randomUUID(),
+        revision = dish.revision;
+      dish = await write({ ...dish.data, ...change }, true, nonce);
+      const hidden = await getRecipe();
+      assert.equal(hidden.is_visible, false);
+      assert.equal(hidden.revision, original.revision + 1);
+      assert.deepEqual(hidden.data, original.data);
+      assert.equal((await catalog(db)).recipes[id], undefined);
+      assert.deepEqual(await write(dish.data, true, nonce, revision), dish);
+      assert.deepEqual(
+        await getRecipe(),
+        hidden,
+        "Retry must not invalidate twice",
+      );
+      await assert.rejects(
+        write({ ...dish.data, name: "Stale edit" }, true, randomUUID(), revision),
+        (error) => error.code === "40001",
+      );
+      assert.deepEqual(await getRecipe(), hidden);
+    }
   } finally {
     await db.close();
   }

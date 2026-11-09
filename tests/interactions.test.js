@@ -297,6 +297,28 @@ test("landing page is visible before the catalog arrives and keeps retry and emp
   );
 });
 
+test("catalog loading preserves control focus and navigation still focuses main", async () => {
+  const router = createMemoryRouter(
+    [{ path: "*", element: e(components.App) }],
+    { initialEntries: ["/"] },
+  );
+  const element = e(RouterProvider, { router });
+  const view = await mount(element, { catalog: null, loading: true, error: "" });
+  mounts.at(-1).router = router;
+  view.container.querySelector(".spin-options").open = true;
+  const diet = field(view.container, "Chế độ ăn");
+  diet.focus();
+  assert.equal(document.activeElement, diet);
+  await view.render(element, { catalog, loading: false, error: "" });
+  assert.equal(document.activeElement, diet);
+  await click(view.container.querySelector('a[href="/cuisines"]'));
+  await act(async () => {
+    await vite.ssrLoadModule("/src/pages/CuisinesPage.jsx");
+  });
+  assert.equal(router.state.location.pathname, "/cuisines");
+  assert.equal(document.activeElement, view.container.querySelector("#main"));
+});
+
 test("diet and restaurant filters survive clicking through cuisine selection", async () => {
   const { container, router } = await mountRoutes("/");
   await fill(container, "Chế độ ăn", "vegetarian");

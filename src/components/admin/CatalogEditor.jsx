@@ -178,6 +178,9 @@ export default function CatalogEditor({ kind, row, model, onSaved, onClose }) {
           )}
           {kind === "dishes" && (
             <>
+              <p className="muted">
+                Đổi tên hoặc ẩm thực sẽ ẩn công thức cũ để kiểm tra lại.
+              </p>
               <div className="form-grid">
                 {field("name", "Tên món", {
                   required: true,

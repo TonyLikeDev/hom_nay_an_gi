@@ -55,7 +55,8 @@ function RouteFocus() {
     if (loading) return;
     const main = document.getElementById("main");
     main?.setAttribute("tabindex", "-1");
-    main?.focus({ preventScroll: true });
+    if (!main?.contains(document.activeElement))
+      main?.focus({ preventScroll: true });
     if (location.hash) {
       try {
         document

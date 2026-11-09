@@ -39,6 +39,7 @@ npm run preview
 1. Tạo **project Supabase mới**, tách khỏi database cũ. Dùng SQL Editor chạy lần lượt:
    - [Migration và quyền truy cập](supabase/migrations/202611070001_catalog.sql).
    - [Bảo vệ phiên bản công thức và căn cứ nhãn](supabase/migrations/202611090001_recipe_versions.sql).
+   - [Ẩn công thức khi admin đổi món và thống nhất thứ tự khóa](supabase/migrations/202611090002_catalog_lock_order.sql).
    - [Seed danh mục](supabase/seed.sql).
 2. Sao chép `.env.example` thành `.env.local` và điền **Project URL** cùng **publishable key**:
 
@@ -72,7 +73,7 @@ select id from auth.users where lower(email) = lower('EMAIL_CUA_BAN');
 - `vercel.json` đã có rewrite để các URL `/partner`, `/restaurant`, `/admin` tải lại trực tiếp được.
 - Cập nhật Site URL/Redirect URLs trong Supabase theo domain được cấp, rồi kiểm tra email xác nhận và đặt lại mật khẩu.
 
-Vercel chỉ host frontend; dữ liệu, đăng nhập và kiểm tra quyền nằm ở Supabase. Deploy không tự chạy migration hoặc seed. Migration chỉ chạy trên project mới sau khi đã kiểm tra, không thay thế hay xóa MySQL cũ.
+Vercel chỉ host frontend; dữ liệu, đăng nhập và kiểm tra quyền nằm ở Supabase. Deploy không tự chạy migration hoặc seed. Schema ban đầu chỉ chạy trên project mới; project đang dùng chỉ chạy migration nâng cấp còn thiếu. Các migration không thay thế hay xóa MySQL cũ.
 
 ## Dữ liệu và kiểm thử
 
@@ -83,6 +84,8 @@ Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm 
 **Project Supabase đã chạy migration:** để thêm các công thức mới, chạy lại [seed](supabase/seed.sql) trong SQL Editor, không chạy lại migration tạo schema. Seed chỉ thêm hàng còn thiếu, giữ công thức đã chỉnh sửa hoặc đã ẩn. Món đối tác tạo thêm sau này vẫn cần được biên tập công thức riêng trong admin; không tự gán công thức của món khác.
 
 **Cập nhật bản sửa audit:** trên project đã có dữ liệu, chỉ chạy [202611090001_recipe_versions.sql](supabase/migrations/202611090001_recipe_versions.sql) trong SQL Editor. Migration thay hai hàm ghi, không xóa dữ liệu danh mục. Từ đó, sửa nội dung công thức sẽ thu hồi căn cứ dinh dưỡng và nhãn chay đã rà soát; chỉ ẩn/hiện công thức không làm mất căn cứ. Khi duyệt lại món đã đổi tên hoặc ẩm thực, công thức cũ được giữ nhưng ẩn để biên tập lại; đổi giá hoặc địa chỉ quán không ẩn công thức. Những thay đổi đã xảy ra trước migration vẫn cần admin tự đối chiếu vì chưa lưu phiên bản công thức trong căn cứ cũ.
+
+**Cập nhật bản sửa review:** sau migration `202611090001`, chạy [202611090002_catalog_lock_order.sql](supabase/migrations/202611090002_catalog_lock_order.sql). Admin đổi tên hoặc ẩm thực cũng ẩn công thức cũ; sửa công thức và duyệt hồ sơ cùng khóa món trước công thức để tránh deadlock. Không chạy lại schema hoặc seed.
 
 `npm test` dùng Node và PostgreSQL nhúng PGlite, không kết nối database của website. Bao gồm chính sách quyền theo người dùng, hồ sơ chưa duyệt, người lạ sửa hồ sơ, duyệt/công bố, xung đột, retry, ẩn/hiện và validation. Kiểm thử React render các route và escaping dữ liệu; jsdom chạy tương tác thật với form, checkbox và điều hướng, gồm chủ quán gửi hồ sơ → admin duyệt trên database cô lập. Email, phiên Supabase thật và deployment cần kiểm tra thêm sau khi kết nối tài khoản dịch vụ.
 
