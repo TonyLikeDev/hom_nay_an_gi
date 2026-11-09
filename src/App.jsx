@@ -10,7 +10,7 @@ import {
 } from "react-router";
 import { useAuth, useCatalog } from "./providers.jsx";
 import { CatalogBoundary, Layout, Status } from "./components/ui.jsx";
-const HomePage = lazy(() => import("./pages/HomePage.jsx"));
+import HomePage from "./pages/HomePage.jsx";
 const CuisinesPage = lazy(() => import("./pages/CuisinesPage.jsx"));
 const DishesPage = lazy(() => import("./pages/DishesPage.jsx"));
 const ResultPage = lazy(() => import("./pages/ResultPage.jsx"));
@@ -93,6 +93,7 @@ export default function App() {
       >
         <RouteFocus />
         <Routes>
+          <Route index element={<HomePage />} />
           <Route
             element={
               <CatalogBoundary>
@@ -100,7 +101,6 @@ export default function App() {
               </CatalogBoundary>
             }
           >
-            <Route index element={<HomePage />} />
             <Route path="cuisines" element={<CuisinesPage />} />
             <Route path="dishes" element={<DishesPage />} />
             <Route path="result" element={<ResultPage />} />

@@ -22,7 +22,8 @@ export default function CuisinesPage() {
   const [spinning, setSpinning] = useState(false),
     [preview, setPreview] = useState(null),
     cancelPick = useRef(() => {});
-  const pool = filterDishes(catalog, parseFilters(params));
+  const filters = parseFilters(params),
+    pool = filterDishes(catalog, filters);
   const position = Math.max(
     0,
     pool.findIndex((d) => d.id === preview?.id),
@@ -60,12 +61,14 @@ export default function CuisinesPage() {
       <div className="cuisine-grid">
         {Object.entries(catalog.cuisines).map(([id, c]) => {
           const dish = catalog.dishes.find((d) => d.id === c.cover);
+          const query = queryFor(filters);
+          query.set("cuisine", id);
           return (
             <Link
               className="cuisine"
               data-cuisine={id}
               key={id}
-              to={"/result?cuisine=" + id}
+              to={"/result?" + query}
             >
               <span className="cuisine__photo">
                 <Image

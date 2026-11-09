@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import { useCatalog } from "../providers.jsx";
 import { photo } from "../lib/catalog.js";
@@ -20,6 +20,11 @@ export default function RecipePage() {
   const [servings, setServings] = useState(recipe?.servings || 2),
     [ingredients, setIngredients] = useState([]),
     [steps, setSteps] = useState([]);
+  useEffect(() => {
+    setServings(recipe?.servings || 2);
+    setIngredients([]);
+    setSteps([]);
+  }, [id, recipe]);
   if (!dish)
     return (
       <main id="main" className="page wrap">

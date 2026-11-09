@@ -355,8 +355,8 @@ export default function CatalogEditor({ kind, row, model, onSaved, onClose }) {
                 />
               </div>
               <p className="section-note">
-                Khi sửa công thức, nhãn ăn chay đã rà soát của phiên bản cũ sẽ
-                được thu hồi để kiểm tra lại.
+                Khi sửa công thức, nhãn ăn chay đã rà soát và căn cứ dinh dưỡng
+                của phiên bản cũ sẽ được thu hồi để kiểm tra lại.
               </p>
             </>
           )}

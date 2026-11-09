@@ -38,6 +38,7 @@ npm run preview
 
 1. Tạo **project Supabase mới**, tách khỏi database cũ. Dùng SQL Editor chạy lần lượt:
    - [Migration và quyền truy cập](supabase/migrations/202611070001_catalog.sql).
+   - [Bảo vệ phiên bản công thức và căn cứ nhãn](supabase/migrations/202611090001_recipe_versions.sql).
    - [Seed danh mục](supabase/seed.sql).
 2. Sao chép `.env.example` thành `.env.local` và điền **Project URL** cùng **publishable key**:
 
@@ -81,7 +82,9 @@ Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm 
 
 **Project Supabase đã chạy migration:** để thêm các công thức mới, chạy lại [seed](supabase/seed.sql) trong SQL Editor, không chạy lại migration tạo schema. Seed chỉ thêm hàng còn thiếu, giữ công thức đã chỉnh sửa hoặc đã ẩn. Món đối tác tạo thêm sau này vẫn cần được biên tập công thức riêng trong admin; không tự gán công thức của món khác.
 
-`npm test` dùng Node và PostgreSQL nhúng PGlite, không kết nối database của website. Bao gồm chính sách quyền theo người dùng, hồ sơ chưa duyệt, người lạ sửa hồ sơ, duyệt/công bố, xung đột, retry, ẩn/hiện và validation. Kiểm thử React render các route và escaping dữ liệu. Email, phiên Supabase thật và deployment cần kiểm tra thêm sau khi kết nối tài khoản dịch vụ.
+**Cập nhật bản sửa audit:** trên project đã có dữ liệu, chỉ chạy [202611090001_recipe_versions.sql](supabase/migrations/202611090001_recipe_versions.sql) trong SQL Editor. Migration thay hai hàm ghi, không xóa dữ liệu danh mục. Từ đó, sửa nội dung công thức sẽ thu hồi căn cứ dinh dưỡng và nhãn chay đã rà soát; chỉ ẩn/hiện công thức không làm mất căn cứ. Khi duyệt lại món đã đổi tên hoặc ẩm thực, công thức cũ được giữ nhưng ẩn để biên tập lại; đổi giá hoặc địa chỉ quán không ẩn công thức. Những thay đổi đã xảy ra trước migration vẫn cần admin tự đối chiếu vì chưa lưu phiên bản công thức trong căn cứ cũ.
+
+`npm test` dùng Node và PostgreSQL nhúng PGlite, không kết nối database của website. Bao gồm chính sách quyền theo người dùng, hồ sơ chưa duyệt, người lạ sửa hồ sơ, duyệt/công bố, xung đột, retry, ẩn/hiện và validation. Kiểm thử React render các route và escaping dữ liệu; jsdom chạy tương tác thật với form, checkbox và điều hướng, gồm chủ quán gửi hồ sơ → admin duyệt trên database cô lập. Email, phiên Supabase thật và deployment cần kiểm tra thêm sau khi kết nối tài khoản dịch vụ.
 
 ## Cấu trúc
 

@@ -10,7 +10,7 @@ import { Field, Icon } from "./ui.jsx";
 export default function SpinOptions({ params, setParams }) {
   const { catalog } = useCatalog(),
     filters = parseFilters(params),
-    count = filterDishes(catalog, filters).length;
+    count = catalog ? filterDishes(catalog, filters).length : null;
   const update = (change) => {
     const next = queryFor({ ...filters, ...change });
     setParams(next, { replace: true });
@@ -56,9 +56,11 @@ export default function SpinOptions({ params, setParams }) {
           uống chỉ áp dụng cho phiên bản có nguồn.
         </p>
       </div>
-      <p className="spin-options__status" role="status">
-        {count} món phù hợp
-      </p>
+      {count !== null && (
+        <p className="spin-options__status" role="status">
+          {count} món phù hợp
+        </p>
+      )}
     </details>
   );
 }

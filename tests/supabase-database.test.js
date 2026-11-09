@@ -2,11 +2,8 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
-import { PGlite } from "@electric-sql/pglite";
+import { setup, actor, owner, other, admin } from "./helpers/database.js";
 const read = (path) => readFile(new URL("../" + path, import.meta.url), "utf8");
-const owner = "10000000-0000-4000-8000-000000000001",
-  other = "10000000-0000-4000-8000-000000000002",
-  admin = "10000000-0000-4000-8000-000000000003";
 const payload = {
   name: "Quán thử",
   address: "1 Đường thử",
@@ -39,37 +36,6 @@ const menu = [
     imageUrl: "",
   },
 ];
-async function setup() {
-  const db = new PGlite();
-  await db.exec(`create schema auth; create role anon; create role authenticated;
- create table auth.users(id uuid primary key,email text,created_at timestamptz default now());
- create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
- grant usage on schema public,auth to anon,authenticated;`);
-  await db.exec(await read("supabase/migrations/202611070001_catalog.sql"));
-  await db.query(
-    "insert into auth.users(id,email) values($1,$2),($3,$4),($5,$6)",
-    [
-      owner,
-      "owner@example.com",
-      other,
-      "other@example.com",
-      admin,
-      "admin@example.com",
-    ],
-  );
-  await db.query("insert into private.admin_users(user_id) values($1)", [
-    admin,
-  ]);
-  return db;
-}
-async function actor(db, id) {
-  await db.exec("reset role");
-  await db.query("select set_config('request.jwt.claim.sub',$1,false)", [
-    id || "",
-  ]);
-  await db.exec("set role " + (id ? "authenticated" : "anon"));
-}
-
 test("recipe backfill adds missing recipes without overwriting admin edits or visibility", async () => {
   const db = await setup();
   try {
@@ -176,6 +142,174 @@ const save = (
     .then((r) => r.rows[0].record);
 const catalog = async (db) =>
   (await db.query("select public.get_catalog() as catalog")).rows[0].catalog;
+
+test("recipe edits revoke old evidence, preserve declarations, and keep visibility-only edits and retries safe", async () => {
+  const db = await setup();
+  try {
+    await db.exec(await read("supabase/seed.sql"));
+    const beforeUpgrade = await catalog(db);
+    await db.exec(
+      await read("supabase/migrations/202611090001_recipe_versions.sql"),
+    );
+    assert.deepEqual(
+      await catalog(db),
+      beforeUpgrade,
+      "Reapplying the upgrade must preserve existing data",
+    );
+    await actor(db, admin);
+    const getDish = async (id) =>
+      (await db.query("select * from public.dishes where id=$1", [id])).rows[0];
+    const recipe = (
+      await db.query("select * from public.recipes where dish_id=$1", [
+        "ca-phe-dac-san",
+      ])
+    ).rows[0];
+    const originalDish = await getDish(recipe.dish_id);
+    assert.ok(originalDish.data.nutritionReviews.length);
+    const write = async (revision, data, visible, request = randomUUID()) =>
+      (
+        await db.query(
+          "select public.save_catalog('recipes',$1,$2,$3,$4::jsonb,$5) as record",
+          [recipe.dish_id, revision, request, JSON.stringify(data), visible],
+        )
+      ).rows[0].record;
+    const hidden = await write(recipe.revision, recipe.data, false);
+    assert.deepEqual(await getDish(recipe.dish_id), originalDish);
+    const shown = await write(hidden.revision, recipe.data, true);
+    assert.deepEqual(await getDish(recipe.dish_id), originalDish);
+    const changed = structuredClone(recipe.data);
+    changed.ingredients.push({ name: "Đường thêm", amount: 100, unit: "g" });
+    const nonce = randomUUID();
+    const saved = await write(shown.revision, changed, true, nonce);
+    const updatedDish = await getDish(recipe.dish_id);
+    assert.equal(updatedDish.data.nutritionProfile, undefined);
+    assert.equal(updatedDish.data.nutritionReviews, undefined);
+    assert.deepEqual(
+      updatedDish.data.vegetarianReview,
+      originalDish.data.vegetarianReview?.status === "reviewed"
+        ? undefined
+        : originalDish.data.vegetarianReview,
+    );
+    assert.equal(
+      (await write(shown.revision, changed, true, nonce)).revision,
+      saved.revision,
+    );
+    assert.deepEqual(
+      await getDish(recipe.dish_id),
+      updatedDish,
+      "A retry must not invalidate evidence twice",
+    );
+    const declaration = await getDish("bun-chay");
+    assert.equal(declaration.data.vegetarianReview.status, "source-declared");
+    const declaredRecipe = (
+      await db.query("select * from public.recipes where dish_id='bun-chay'")
+    ).rows[0];
+    await db.query(
+      "select public.save_catalog('recipes',$1,$2,$3,$4::jsonb,true)",
+      [
+        "bun-chay",
+        declaredRecipe.revision,
+        randomUUID(),
+        JSON.stringify({ ...declaredRecipe.data, tip: "New cooking tip" }),
+      ],
+    );
+    assert.deepEqual(
+      await getDish("bun-chay"),
+      declaration,
+      "Restaurant source declarations are independent of recipe verification",
+    );
+    const reviewed = await getDish("bruschetta");
+    assert.equal(reviewed.data.vegetarianReview.status, "reviewed");
+    const reviewedRecipe = (
+      await db.query("select * from public.recipes where dish_id='bruschetta'")
+    ).rows[0];
+    await db.query(
+      "select public.save_catalog('recipes',$1,$2,$3,$4::jsonb,false)",
+      [
+        "bruschetta",
+        reviewedRecipe.revision,
+        randomUUID(),
+        JSON.stringify(reviewedRecipe.data),
+      ],
+    );
+    assert.deepEqual(
+      await getDish("bruschetta"),
+      reviewed,
+      "Hiding an unchanged recipe must preserve its review",
+    );
+    await actor(db, null);
+    const published = await catalog(db);
+    assert.equal(
+      published.dishes.find((d) => d.id === recipe.dish_id).nutritionReviews,
+      undefined,
+    );
+    assert.deepEqual(published.recipes[recipe.dish_id], changed);
+  } finally {
+    await db.close();
+  }
+});
+
+test("owner dish identity changes hide old recipes while price and restaurant edits preserve them", async () => {
+  const db = await setup();
+  try {
+    const id = randomUUID(),
+      items = structuredClone(menu);
+    await actor(db, owner);
+    let record = await save(db, id, 0, payload, items);
+    const approve = async () => {
+      await actor(db, admin);
+      record = (
+        await db.query(
+          "select to_jsonb(public.review_submission($1,$2,true,'')) as record",
+          [id, record.revision],
+        )
+      ).rows[0].record;
+    };
+    await approve();
+    const recipe = JSON.parse(await read("data/recipes.json"))["pho-bo"];
+    const ids = items.map((item) => "d-" + id + "-" + item.id);
+    for (const dishId of ids)
+      await db.query(
+        "select public.save_catalog('recipes',$1,0,$2,$3::jsonb,true)",
+        [dishId, randomUUID(), JSON.stringify(recipe)],
+      );
+    const edit = async (data = payload) => {
+      await actor(db, owner);
+      record = await save(db, id, record.revision, data, items);
+      await approve();
+    };
+    items[0].price += 1000;
+    await edit({ ...payload, address: "New restaurant address" });
+    for (const dishId of ids)
+      assert.deepEqual((await catalog(db)).recipes[dishId], recipe);
+    items[0].name = "Bánh mì thay cho món cũ";
+    items[1].cuisine = "nhat";
+    await edit();
+    for (const dishId of ids) {
+      const stored = (
+        await db.query("select * from public.recipes where dish_id=$1", [
+          dishId,
+        ])
+      ).rows[0];
+      assert.equal(stored.is_visible, false);
+      assert.equal(stored.revision, 2);
+      assert.deepEqual(
+        stored.data,
+        recipe,
+        "Keep hidden recipe data for admin review",
+      );
+    }
+    await actor(db, null);
+    const published = await catalog(db);
+    assert.ok(
+      published.dishes.some((d) => d.id === ids[0] && d.name === items[0].name),
+    );
+    for (const dishId of ids)
+      assert.equal(published.recipes[dishId], undefined);
+  } finally {
+    await db.close();
+  }
+});
 
 test(
   "Supabase SQL: ownership, private submissions, approval, live links, conflicts and public visibility",

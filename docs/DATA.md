@@ -28,4 +28,4 @@ Quản trị viên tự đối chiếu đúng chủ thể, chi nhánh, nguồn, 
 
 Contact email, người đại diện và ghi chú duyệt nằm trong bảng hồ sơ chỉ chủ hồ sơ và admin được đọc. Số điện thoại của quán là thông tin công khai sau khi duyệt. Lịch sử thay đổi giữ ở schema `private`, không cho frontend truy cập.
 
-Link giao đồ ăn phải thuộc `food.grab.com` hoặc `shopeefood.vn` và đúng chi nhánh. Nút tìm món chung chỉ mở nền tảng; chọn tỉnh/thành theo danh sách 63 đơn vị cũ không gửi vị trí hoặc thiết lập địa chỉ giao hàng. Website không tạo đơn, thu tiền hoặc điều phối shipper.
+Link giao đồ ăn phải thuộc `food.grab.com` hoặc `shopeefood.vn` và đúng chi nhánh. Nút tìm món chung mở nền tảng ngay; người dùng thiết lập địa chỉ giao hàng trên nền tảng. Website không tạo đơn, thu tiền hoặc điều phối shipper.

@@ -17,7 +17,7 @@ const read = async (name) =>
 test("extracted owner and admin forms render with their shared fields and labels", async () => {
   const vite = await createServer({
     mode: "test",
-    server: { middlewareMode: true, hmr: false, watch: null },
+    server: { middlewareMode: true, hmr: false, ws: false, watch: null },
     appType: "custom",
   });
   try {
@@ -105,7 +105,7 @@ test(
   async () => {
     const vite = await createServer({
       mode: "test",
-      server: { middlewareMode: true, hmr: false, watch: null },
+      server: { middlewareMode: true, hmr: false, ws: false, watch: null },
       appType: "custom",
     });
     try {
