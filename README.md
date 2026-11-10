@@ -11,7 +11,7 @@
 - Yêu thích lưu trên thiết bị, giữ nguyên khóa và ID của bản cũ.
 - **Chủ quán:** đăng ký email, xác nhận email, đăng nhập, quên/đổi mật khẩu, thêm nhiều quán, gửi thực đơn và theo dõi duyệt.
 - **Quản trị:** duyệt/từ chối hồ sơ, sửa/ẩn món, quán, liên kết, công thức và căn cứ nhãn; xem tài khoản theo trang.
-- Nút GrabFood/ShopeeFood trên trang kết quả mở trang tìm đúng tên món (ShopeeFood tìm tại Đà Nẵng). Link đúng chi nhánh xuất hiện trên trang quán khi có; chưa tích hợp đặt hàng, thanh toán hay vận chuyển.
+- Nút GrabFood/ShopeeFood trên trang kết quả mở trang tìm đúng tên món (ShopeeFood tìm tại Đà Nẵng). Link đúng chi nhánh xuất hiện trên trang quán khi có, nếu chưa có thì mở trang tìm tên quán; chưa tích hợp đặt hàng, thanh toán hay vận chuyển.
 
 Luồng hợp tác: **tạo tài khoản → xác nhận email → gửi quán và thực đơn → quản trị viên đối chiếu → công bố**. Khi chủ quán sửa hồ sơ đã duyệt, phiên bản công khai trước đó được giữ đến khi bản mới được duyệt. Liên hệ riêng và ghi chú duyệt không được xuất ra danh mục công khai.
 
@@ -77,7 +77,7 @@ Vercel chỉ host frontend; dữ liệu, đăng nhập và kiểm tra quyền n�
 
 ## Dữ liệu và kiểm thử
 
-Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm và 109 liên kết**. Giữ nguyên 14 công thức cũ, bổ sung 91 công thức biên soạn tham khảo tại nhà, tổng cộng **105 công thức**. Người dùng xác nhận dùng catalog Git; chỉnh sửa nằm riêng trong MySQL không được tự nhập. Tài khoản Better Auth cũ không tự chuyển sang Supabase Auth; tạo lại tài khoản bằng email trong ứng dụng mới.
+Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm và 109 liên kết**. Ngày 10/11/2026 bổ sung 52 quán tìm thấy trên GrabFood/ShopeeFood, tổng **157 địa điểm, 167 liên kết**; 101/105 món có quán. Giữ nguyên 14 công thức cũ, bổ sung 91 công thức biên soạn tham khảo tại nhà, tổng cộng **105 công thức**. Người dùng xác nhận dùng catalog Git; chỉnh sửa nằm riêng trong MySQL không được tự nhập. Tài khoản Better Auth cũ không tự chuyển sang Supabase Auth; tạo lại tài khoản bằng email trong ứng dụng mới.
 
 `npm run db:seed` tạo lại `supabase/seed.sql` từ `data/*.json`. Seed dùng `ON CONFLICT DO NOTHING`: chạy lại không ghi đè chỉnh sửa quản trị. Thay JSON không tự cập nhật dữ liệu đang chạy. Xem [nguồn và phạm vi dữ liệu](docs/DATA.md) và [yêu cầu giảng viên](docs/TEACHER-REQUIREMENTS.md).
 

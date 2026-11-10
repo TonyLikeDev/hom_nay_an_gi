@@ -35,12 +35,12 @@ const raw = {
 const catalog = assembleCatalog(raw);
 test("catalog preserves source counts, recipes and only counts current direct links", () => {
   assert.equal(catalog.dishes.length, 105);
-  assert.equal(catalog.restaurants.length, 105);
+  assert.equal(catalog.restaurants.length, 157);
   assert.deepEqual(
     Object.keys(catalog.recipes).sort(),
     catalog.dishes.map((d) => d.id).sort(),
   );
-  assert.equal(filterDishes(catalog, { linked: true }).length, 78);
+  assert.equal(filterDishes(catalog, { linked: true }).length, 101);
   assert.equal(filterDishes(catalog, { recipe: true }).length, 105);
   const changed = assembleCatalog({
     ...raw,

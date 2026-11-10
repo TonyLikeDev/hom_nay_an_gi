@@ -753,6 +753,470 @@
       "type": "dish",
       "offering": "Kem xôi dừa",
       "evidence": "Kem Xôi Dừa Mã Lai"
+    },
+    {
+      "dishId": "bun-cha",
+      "restaurantId": "pf-001",
+      "type": "dish",
+      "offering": "Bún chả",
+      "sourceUrl": "https://shopeefood.vn/da-nang/bun-cha-quat-278-ngu-hanh-son",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "onigiri",
+      "restaurantId": "pf-002",
+      "type": "dish",
+      "offering": "Cơm nắm onigiri",
+      "sourceUrl": "https://shopeefood.vn/da-nang/a-ngon-com-nam-onigiri",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "kimbap",
+      "restaurantId": "pf-003",
+      "type": "dish",
+      "offering": "Kimbap",
+      "sourceUrl": "https://shopeefood.vn/da-nang/kimbap-da-nang-shop-online",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "kimbap",
+      "restaurantId": "pf-004",
+      "type": "dish",
+      "offering": "Kimbap cơm cuộn rong biển",
+      "sourceUrl": "https://shopeefood.vn/da-nang/nuna-kimbap-%EB%88%84%EB%82%98-%EA%B9%80%EB%B0%A5-kimbap-com-cuon-rong-bien-duong-ba-huyen-thanh-quan-phuong-my-an.djfxmj",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mapo-tofu",
+      "restaurantId": "pf-005",
+      "type": "dish",
+      "offering": "Đậu hủ sốt tứ xuyên",
+      "sourceUrl": "https://shopeefood.vn/da-nang/hun-khoi-buffet-nuong-tu-chon",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pho-bo",
+      "restaurantId": "pf-006",
+      "type": "dish",
+      "offering": "Phở bò",
+      "sourceUrl": "https://shopeefood.vn/da-nang/pho-bac-quoc-dan",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pho-bo",
+      "restaurantId": "pf-007",
+      "type": "dish",
+      "offering": "Phở bò",
+      "sourceUrl": "https://shopeefood.vn/da-nang/pho-thin-60-pasteur",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-trang-thit-heo",
+      "restaurantId": "pf-008",
+      "type": "dish",
+      "offering": "Bánh tráng cuốn thịt heo",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-trang-thit-heo-ba-huong-2-thang-9",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-trang-thit-heo",
+      "restaurantId": "pf-009",
+      "type": "dish",
+      "offering": "Bánh tráng cuốn thịt heo",
+      "sourceUrl": "https://shopeefood.vn/da-nang/quan-mau-2-banh-trang-cuon-thit-heo-do-thuc-tinh",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pizza-pho-mai",
+      "restaurantId": "pf-010",
+      "type": "dish",
+      "offering": "Pizza 4 phomai",
+      "sourceUrl": "https://shopeefood.vn/da-nang/pizza-pi-51-an-thuong-21",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "com-tam",
+      "restaurantId": "pf-011",
+      "type": "dish",
+      "offering": "Cơm tấm sườn cốt lết / sườn cọng / ba chỉ / bò nướng",
+      "sourceUrl": "https://shopeefood.vn/da-nang/com-tam-op-let-1940-89-yen-bai",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "com-tam",
+      "restaurantId": "pf-012",
+      "type": "dish",
+      "offering": "Cơm tấm sườn nướng",
+      "sourceUrl": "https://shopeefood.vn/da-nang/com-tam-63-331-ha-huy-tap",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "udon",
+      "restaurantId": "pf-013",
+      "type": "dish",
+      "offering": "Udon bò / gà / nấm, udon xào, udon lạnh",
+      "sourceUrl": "https://shopeefood.vn/da-nang/mi-udon-ten-le-hong-phong",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "udon",
+      "restaurantId": "pf-014",
+      "type": "dish",
+      "offering": "Udon",
+      "sourceUrl": "https://shopeefood.vn/da-nang/sanuki-udon-135-nguyen-van-linh",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "com-ca-ri",
+      "restaurantId": "pf-014",
+      "type": "dish",
+      "offering": "Combo Cơm cà ri thịt heo chiên xù + Pepsi",
+      "sourceUrl": "https://shopeefood.vn/da-nang/sanuki-udon-135-nguyen-van-linh",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "canh-kim-chi",
+      "restaurantId": "pf-015",
+      "type": "dish",
+      "offering": "Canh Kim Chi",
+      "sourceUrl": "https://shopeefood.vn/da-nang/siwon-tiem-an-han-quoc-do-an.mqesfw",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "tteokbokki",
+      "restaurantId": "pf-015",
+      "type": "dish",
+      "offering": "Tteokbokki kèm bánh gạo, chả cá, xúc xích, bắp su, trứng gà",
+      "sourceUrl": "https://shopeefood.vn/da-nang/siwon-tiem-an-han-quoc-do-an.mqesfw",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "canh-kim-chi",
+      "restaurantId": "pf-016",
+      "type": "dish",
+      "offering": "Combo thịt nướng kèm canh kim chi",
+      "sourceUrl": "https://shopeefood.vn/da-nang/sodam-bbq-thit-nuong-06-nai-nam.joc4yc",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "com-chien-duong-chau",
+      "restaurantId": "pf-017",
+      "type": "dish",
+      "offering": "Cơm chiên Dương Châu",
+      "sourceUrl": "https://shopeefood.vn/da-nang/tiem-an-cho-lon-ong-ich-khiem",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "xoi-xoai",
+      "restaurantId": "pf-018",
+      "type": "dish",
+      "offering": "Xôi Xoài Lớn",
+      "sourceUrl": "https://shopeefood.vn/da-nang/xoi-co-lam-xoi-xoai-da-nang",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "bruschetta",
+      "restaurantId": "pf-019",
+      "type": "dish",
+      "offering": "Bruschetta Pomodoro / Bolognese / Guacamole",
+      "sourceUrl": "https://shopeefood.vn/da-nang/pasta-e-basta",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-mi",
+      "restaurantId": "pf-020",
+      "type": "dish",
+      "offering": "Bánh mì",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-mi-phuong-da-nang-ngo-quyen",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-mi",
+      "restaurantId": "pf-021",
+      "type": "dish",
+      "offering": "Bánh mì thịt nướng / trứng ốp la",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-mi-xiu-51-tran-bach-dang",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "nem-lui",
+      "restaurantId": "pf-022",
+      "type": "dish",
+      "offering": "Nem lụi",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-xeo-mai-lao-bang-38-mai-lao-bang",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "sushi",
+      "restaurantId": "pf-023",
+      "type": "dish",
+      "offering": "Sushi",
+      "sourceUrl": "https://shopeefood.vn/da-nang/japa-sushi-187-duong-30-4",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "sushi",
+      "restaurantId": "pf-024",
+      "type": "dish",
+      "offering": "Sushi, sushi rolls",
+      "sourceUrl": "https://food.grab.com/vn/vi/restaurant/yes-sushi-ho%C3%A0ng-di%E1%BB%87u-delivery/5-C23FJBVKERBUJX",
+      "evidence": "Có trên GrabFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "dimsum",
+      "restaurantId": "pf-025",
+      "type": "dish",
+      "offering": "Dimsum",
+      "sourceUrl": "https://shopeefood.vn/da-nang/xoi-chien-dimsum-lui-nuong-gia-lai-nhim-12",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pad-thai",
+      "restaurantId": "pf-026",
+      "type": "dish",
+      "offering": "Pad Thai Hải Sản",
+      "sourceUrl": "https://shopeefood.vn/da-nang/thai-market-restaurant-tang-4-vincom-plaza",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "tom-yum",
+      "restaurantId": "pf-026",
+      "type": "dish",
+      "offering": "Tom yum hải sản",
+      "sourceUrl": "https://shopeefood.vn/da-nang/thai-market-restaurant-tang-4-vincom-plaza",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pizza-margherita",
+      "restaurantId": "pf-027",
+      "type": "dish",
+      "offering": "Margherita",
+      "sourceUrl": "https://shopeefood.vn/da-nang/thang-pizza-pizza-lo-cui",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pizza-margherita",
+      "restaurantId": "pf-028",
+      "type": "dish",
+      "offering": "Margherita",
+      "sourceUrl": "https://food.grab.com/vn/vi/restaurant/al-fresco-s-tttm-vincom-%C4%91%C3%A0-n%E1%BA%B5ng-delivery/AWkT2CzpZXYdMpch2-tL",
+      "evidence": "Có trên GrabFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mi-y-carbonara",
+      "restaurantId": "pf-028",
+      "type": "dish",
+      "offering": "Spaghetti Carbonara",
+      "sourceUrl": "https://food.grab.com/vn/vi/restaurant/al-fresco-s-tttm-vincom-%C4%91%C3%A0-n%E1%BA%B5ng-delivery/AWkT2CzpZXYdMpch2-tL",
+      "evidence": "Có trên GrabFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "lasagna",
+      "restaurantId": "pf-028",
+      "type": "dish",
+      "offering": "Lasagna",
+      "sourceUrl": "https://food.grab.com/vn/vi/restaurant/al-fresco-s-tttm-vincom-%C4%91%C3%A0-n%E1%BA%B5ng-delivery/AWkT2CzpZXYdMpch2-tL",
+      "evidence": "Có trên GrabFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "pasta-y",
+      "restaurantId": "pf-028",
+      "type": "dish",
+      "offering": "Lasagna",
+      "sourceUrl": "https://food.grab.com/vn/vi/restaurant/al-fresco-s-tttm-vincom-%C4%91%C3%A0-n%E1%BA%B5ng-delivery/AWkT2CzpZXYdMpch2-tL",
+      "evidence": "Có trên GrabFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-xeo",
+      "restaurantId": "pf-029",
+      "type": "dish",
+      "offering": "Bánh xèo",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-xeo-ba-thuy-344-trung-nu-vuong",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "bun-mam-thit-quay",
+      "restaurantId": "pf-030",
+      "type": "dish",
+      "offering": "Bún mắm thịt heo quay",
+      "sourceUrl": "https://shopeefood.vn/da-nang/bun-mam-ba-dong",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "bun-mam-thit-quay",
+      "restaurantId": "pf-031",
+      "type": "dish",
+      "offering": "Bún mắm đặc biệt",
+      "sourceUrl": "https://shopeefood.vn/da-nang/bun-mam-ghien",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-canh",
+      "restaurantId": "pf-032",
+      "type": "dish",
+      "offering": "Bánh canh cua",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-canh-cua-so-1-da-nang",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "banh-canh",
+      "restaurantId": "pf-033",
+      "type": "dish",
+      "offering": "Bánh canh chả cua",
+      "sourceUrl": "https://shopeefood.vn/da-nang/banh-canh-cha-cua-nam-loc-hue-o-nhung-432-ton-dan",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "ramen",
+      "restaurantId": "pf-034",
+      "type": "dish",
+      "offering": "Ramen",
+      "sourceUrl": "https://shopeefood.vn/da-nang/ajiichi-ramen-nhat-vi",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mi-hoanh-thanh",
+      "restaurantId": "pf-035",
+      "type": "dish",
+      "offering": "Mì/hủ tiếu hoành thánh",
+      "sourceUrl": "https://shopeefood.vn/da-nang/mi-hing-ky-hu-tieu-hoanh-thanh-sui-cao-le-thanh-nghi",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mi-hoanh-thanh",
+      "restaurantId": "pf-036",
+      "type": "dish",
+      "offering": "Mì hoành thánh xá xíu",
+      "sourceUrl": "https://shopeefood.vn/da-nang/an-ky-mi-gia-mi-keo-hoanh-thanh-my-da-dong-12.ex7tqs",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "tom-yum",
+      "restaurantId": "pf-037",
+      "type": "dish",
+      "offering": "Lẩu tom yum chay 2 người",
+      "sourceUrl": "https://shopeefood.vn/da-nang/quan-chay-trieu-an-806-ton-duc-thang",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mi-y-carbonara",
+      "restaurantId": "pf-038",
+      "type": "dish",
+      "offering": "Carbonara pasta with bacon",
+      "sourceUrl": "https://shopeefood.vn/da-nang/bratbrot-pizza-xuc-xich-duc-29-vu-van-dung",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mi-quang",
+      "restaurantId": "pf-039",
+      "type": "dish",
+      "offering": "Mì Quảng",
+      "sourceUrl": "https://shopeefood.vn/da-nang/mi-quang-huong-que-phan-thanh",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "mi-quang",
+      "restaurantId": "pf-040",
+      "type": "dish",
+      "offering": "Mì Quảng",
+      "sourceUrl": "https://shopeefood.vn/da-nang/mi-quang-nhung-nguyen-tat-thanh",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "bun-bo",
+      "restaurantId": "pf-041",
+      "type": "dish",
+      "offering": "Bún bò",
+      "sourceUrl": "https://shopeefood.vn/da-nang/bun-bo-ba-dieu",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "met-cuon",
+      "restaurantId": "pf-042",
+      "type": "dish",
+      "offering": "Mẹt cuốn thường",
+      "sourceUrl": "https://shopeefood.vn/da-nang/trang-food-banh-cuon-binh-dinh",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "oc-hut",
+      "restaurantId": "pf-043",
+      "type": "dish",
+      "offering": "Ốc hút Huế",
+      "sourceUrl": "https://shopeefood.vn/da-nang/miu-miu-oc-hut-hue-ca-phe-muoi",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "oc-hut",
+      "restaurantId": "pf-044",
+      "type": "dish",
+      "offering": "Ốc hút xứ Quảng ăn kèm bánh tráng",
+      "sourceUrl": "https://shopeefood.vn/da-nang/tiem-xiu-k109-09-pham-nhu-xuong",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "che-sau-rieng",
+      "restaurantId": "pf-045",
+      "type": "dish",
+      "offering": "Chè Thái kèm sầu riêng riêng",
+      "sourceUrl": "https://shopeefood.vn/da-nang/che-thai-lien-dien-bien-phu",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "che-sau-rieng",
+      "restaurantId": "pf-046",
+      "type": "dish",
+      "offering": "Chè sầu riêng thạch, trái cây tươi, nước cốt dừa",
+      "sourceUrl": "https://shopeefood.vn/da-nang/che-thai-na-na",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "ga-ran",
+      "restaurantId": "pf-047",
+      "type": "dish",
+      "offering": "Gà rán Hàn Quốc",
+      "sourceUrl": "https://shopeefood.vn/da-nang/korean-best-chicken-ga-ran-han-quoc-81-dong-da.kguaqq",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "ga-ran",
+      "restaurantId": "pf-048",
+      "type": "dish",
+      "offering": "Gà rán Hàn Quốc",
+      "sourceUrl": "https://food.grab.com/vn/vi/restaurant/chicky-licky-g%C3%A0-r%C3%A1n-h%C3%A0n-qu%E1%BB%91c-59-d%C5%A9ng-s%C4%A9-thanh-kh%C3%AA-delivery/5-C6WFN7VGGN5WE2",
+      "evidence": "Có trên GrabFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "vit-quay",
+      "restaurantId": "pf-049",
+      "type": "dish",
+      "offering": "Vịt Gà Quay Lu Bắc Kinh",
+      "sourceUrl": "https://shopeefood.vn/da-nang/nhat-long-quan-vit-ga-quay-lu-bac-kinh-142-khuc-hao",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "bun-cha-ca",
+      "restaurantId": "pf-050",
+      "type": "dish",
+      "offering": "Bún chả cá",
+      "sourceUrl": "https://shopeefood.vn/da-nang/bun-cha-ca-huong-que-33-luong-dinh-cua",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "com-ga",
+      "restaurantId": "pf-051",
+      "type": "dish",
+      "offering": "Cơm gà xé / cơm gà đùi, cánh",
+      "sourceUrl": "https://shopeefood.vn/da-nang/com-ga-trang-le-thanh-nghi",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
+    },
+    {
+      "dishId": "com-ga",
+      "restaurantId": "pf-052",
+      "type": "dish",
+      "offering": "Cơm gà",
+      "sourceUrl": "https://shopeefood.vn/da-nang/com-ga-lan-trung-nu-vuong",
+      "evidence": "Có trên ShopeeFood (tìm ngày 10/11/2026); chưa xác nhận với quán"
     }
   ]
 }

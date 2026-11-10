@@ -37,6 +37,15 @@ export function safeHttps(value, hosts) {
     return "";
   }
 }
+// Search pages confirmed by hand 10/11/2026; ShopeeFood searches one city and the catalog is Đà Nẵng.
+export const deliverySearch = {
+  grab: (text) => {
+    const q = encodeURIComponent(text);
+    return `https://food.grab.com/vn/vi/restaurants?lng=vi&search=${q}&support-deeplink=true&searchParameter=${q}`;
+  },
+  shopee: (text) =>
+    `https://shopeefood.vn/da-nang/danh-sach-dia-diem-giao-tan-noi?q=${encodeURIComponent(text)}`,
+};
 export function photo(dish, width = 640, height = 480) {
   if (!dish) return placeholder;
   if (dish.imageUrl?.startsWith("/images/") && !dish.imageUrl.includes(".."))

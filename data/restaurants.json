@@ -2871,6 +2871,1385 @@
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 106
       }
+    },
+    {
+      "id": "pf-001",
+      "name": "Bún Chả Quạt - 278 Ngũ Hành Sơn",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "278 Ngũ Hành Sơn",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1742893368398-128bded9c656?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/bun-cha-quat-278-ngu-hanh-son",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bun-cha-quat-278-ngu-hanh-son"
+    },
+    {
+      "id": "pf-002",
+      "name": "À Ngon - Cơm Nắm Onigiri",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "93 Thích Quảng Đức, Quận Liên Chiểu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1757961047498-198b406685ed?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/a-ngon-com-nam-onigiri",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/a-ngon-com-nam-onigiri"
+    },
+    {
+      "id": "pf-003",
+      "name": "Kimbap Đà Nẵng - Shop Online",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Chiều"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "27/11 Nguyễn Trường Tộ, P. Bình Hiên, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1608731002187-d3448d224d18?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/kimbap-da-nang-shop-online",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/kimbap-da-nang-shop-online"
+    },
+    {
+      "id": "pf-004",
+      "name": "Nuna Kimbap 누나 김밥 - Kimbap Cơm Cuộn Rong Biển - Đường Bà Huyện Thanh Quan - Shop Online",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Chiều"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "94 Bà Huyện Thanh Quan, P. Mỹ An, Quận Ngũ Hành Sơn, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1608731002187-d3448d224d18?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/nuna-kimbap-%EB%88%84%EB%82%98-%EA%B9%80%EB%B0%A5-kimbap-com-cuon-rong-bien-duong-ba-huyen-thanh-quan-phuong-my-an.djfxmj",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/nuna-kimbap-%EB%88%84%EB%82%98-%EA%B9%80%EB%B0%A5-kimbap-com-cuon-rong-bien-duong-ba-huyen-thanh-quan-phuong-my-an.djfxmj"
+    },
+    {
+      "id": "pf-005",
+      "name": "Hun Khói - Buffet Nướng Tự Chọn",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "11 Nguyễn Hoàng, P. Hải Châu 2, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1788603930622-636954e00065?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/hun-khoi-buffet-nuong-tu-chon",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/hun-khoi-buffet-nuong-tu-chon"
+    },
+    {
+      "id": "pf-006",
+      "name": "Phở Bắc Quốc Dân",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "103 Lê Lợi, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1766050586763-723571af4dde?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/pho-bac-quoc-dan",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/pho-bac-quoc-dan"
+    },
+    {
+      "id": "pf-007",
+      "name": "Phở Thìn - 60 Pasteur",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "60 Pasteur, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1766050586763-723571af4dde?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/pho-thin-60-pasteur",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/pho-thin-60-pasteur"
+    },
+    {
+      "id": "pf-008",
+      "name": "Bánh Tráng Thịt Heo Bà Hường - 2 Tháng 9",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "460 Đường 2 tháng 9, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1534422298391-e4f8c172dddb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-trang-thit-heo-ba-huong-2-thang-9",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-trang-thit-heo-ba-huong-2-thang-9"
+    },
+    {
+      "id": "pf-009",
+      "name": "Quán Mậu 2- Bánh Tráng Cuốn Thịt Heo - Đỗ Thúc Tịnh",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "Số 47 Đỗ Thúc Tịnh, P. Khuê Trung, Quận Cẩm Lệ, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1534422298391-e4f8c172dddb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/quan-mau-2-banh-trang-cuon-thit-heo-do-thuc-tinh",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/quan-mau-2-banh-trang-cuon-thit-heo-do-thuc-tinh"
+    },
+    {
+      "id": "pf-010",
+      "name": "Pizza Pi - 51 An Thượng 21",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "51 An Thượng 21",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=75",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/pizza-pi-51-an-thuong-21",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/pizza-pi-51-an-thuong-21"
+    },
+    {
+      "id": "pf-011",
+      "name": "Cơm Tấm Ốp Lết 1940 - 89 Yên Bái",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "89 Yên Bái, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1597311280719-b6bb2ca37f62?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/com-tam-op-let-1940-89-yen-bai",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/com-tam-op-let-1940-89-yen-bai"
+    },
+    {
+      "id": "pf-012",
+      "name": "Cơm Tấm 63 - 331 Hà Huy Tập",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "331 Hà Huy Tập, Thanh Khê Đông",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1597311280719-b6bb2ca37f62?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/com-tam-63-331-ha-huy-tap",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/com-tam-63-331-ha-huy-tap"
+    },
+    {
+      "id": "pf-013",
+      "name": "Mì Udon Ten - Lê Hồng Phong",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "70 Lê Hồng Phong, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1761984336917-615bc6f7d4fa?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/mi-udon-ten-le-hong-phong",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/mi-udon-ten-le-hong-phong"
+    },
+    {
+      "id": "pf-014",
+      "name": "SANUKI UDON - 135 Nguyễn Văn Linh",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "135 Nguyễn Văn Linh, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1761984336917-615bc6f7d4fa?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/sanuki-udon-135-nguyen-van-linh",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/sanuki-udon-135-nguyen-van-linh"
+    },
+    {
+      "id": "pf-015",
+      "name": "Tiệm Ăn Hàn Quốc Siwon - 86 Nguyễn Chí Thanh",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "86 Nguyễn Chí Thanh, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1760228865341-675704c22a5b?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/siwon-tiem-an-han-quoc-do-an.mqesfw",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/siwon-tiem-an-han-quoc-do-an.mqesfw"
+    },
+    {
+      "id": "pf-016",
+      "name": "SODAM BBQ - Thịt Nướng - 06 Nại Nam",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "06 Nại Nam, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1760228865341-675704c22a5b?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/sodam-bbq-thit-nuong-06-nai-nam.joc4yc",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/sodam-bbq-thit-nuong-06-nai-nam.joc4yc"
+    },
+    {
+      "id": "pf-017",
+      "name": "Tiệm Ăn Chợ Lớn - Ông Ích Khiêm",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "267 Ông Ích Khiêm, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/tiem-an-cho-lon-ong-ich-khiem",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/tiem-an-cho-lon-ong-ich-khiem"
+    },
+    {
+      "id": "pf-018",
+      "name": "Xôi Cô Lam - Xôi Xoài Đà Nẵng",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "123 Hải Hồ, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1705234384751-84081009588e?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/xoi-co-lam-xoi-xoai-da-nang",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/xoi-co-lam-xoi-xoai-da-nang"
+    },
+    {
+      "id": "pf-019",
+      "name": "Pasta E Basta",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Chiều"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "Số 18 An Thượng 32, P. Mỹ An, Quận Ngũ Hành Sơn, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1786918517795-c3abeee741c2?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/pasta-e-basta",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/pasta-e-basta"
+    },
+    {
+      "id": "pf-020",
+      "name": "Bánh Mì Phượng Đà Nẵng - Ngô Quyền",
+      "category": "Bánh",
+      "originalCategory": "Bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "912A Ngô Quyền, P. An Hải Bắc, Quận Sơn Trà, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1600454309261-3dc9b7597637?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-mi-phuong-da-nang-ngo-quyen",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-mi-phuong-da-nang-ngo-quyen"
+    },
+    {
+      "id": "pf-021",
+      "name": "Bánh Mì Xíu - 51 Trần Bạch Đằng",
+      "category": "Bánh",
+      "originalCategory": "Bánh",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "51 Trần Bạch Đằng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1600454309261-3dc9b7597637?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-mi-xiu-51-tran-bach-dang",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-mi-xiu-51-tran-bach-dang"
+    },
+    {
+      "id": "pf-022",
+      "name": "Bánh Xèo Mai Lão Bạng - 38 Mai Lão Bạng",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "38 Mai Lão Bạng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1565299585323-38d6b0865b47.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-xeo-mai-lao-bang-38-mai-lao-bang",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-xeo-mai-lao-bang-38-mai-lao-bang"
+    },
+    {
+      "id": "pf-023",
+      "name": "JAPA SUSHI - 187 Đường 30/4",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "187 Đường 30 Tháng 4, P. Hòa Cường Bắc, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/japa-sushi-187-duong-30-4",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/japa-sushi-187-duong-30-4"
+    },
+    {
+      "id": "pf-024",
+      "name": "Yes Sushi - Hoàng Diệu",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "103 Hoàng Diệu, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://food.grab.com/vn/vi/restaurant/yes-sushi-ho%C3%A0ng-di%E1%BB%87u-delivery/5-C23FJBVKERBUJX",
+        "checkedAt": "2026-11-10"
+      },
+      "grabFoodUrl": "https://food.grab.com/vn/vi/restaurant/yes-sushi-ho%C3%A0ng-di%E1%BB%87u-delivery/5-C23FJBVKERBUJX"
+    },
+    {
+      "id": "pf-025",
+      "name": "Xôi Chiên, Dimsum & Lụi Nướng Gia Lai - Nhím 12",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Chiều"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "35D Núi Thành, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1763994679303-fa1f6a7bf687?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/xoi-chien-dimsum-lui-nuong-gia-lai-nhim-12",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/xoi-chien-dimsum-lui-nuong-gia-lai-nhim-12"
+    },
+    {
+      "id": "pf-026",
+      "name": "Thai Market Restaurant - Tầng 4, Vincom Plaza",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "Tầng 4, Vincom Plaza, Sơn Trà, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1637806930600-37fa8892069d?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/thai-market-restaurant-tang-4-vincom-plaza",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/thai-market-restaurant-tang-4-vincom-plaza"
+    },
+    {
+      "id": "pf-027",
+      "name": "Thang Pizza - Pizza Lò Củi",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "30 Lê Lộ, P. Mỹ An, Quận Ngũ Hành Sơn, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/thang-pizza-pizza-lo-cui",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/thang-pizza-pizza-lo-cui"
+    },
+    {
+      "id": "pf-028",
+      "name": "Al Fresco's - TTTM Vincom Đà Nẵng",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "TTTM Vincom Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://food.grab.com/vn/vi/restaurant/al-fresco-s-tttm-vincom-%C4%91%C3%A0-n%E1%BA%B5ng-delivery/AWkT2CzpZXYdMpch2-tL",
+        "checkedAt": "2026-11-10"
+      },
+      "grabFoodUrl": "https://food.grab.com/vn/vi/restaurant/al-fresco-s-tttm-vincom-%C4%91%C3%A0-n%E1%BA%B5ng-delivery/AWkT2CzpZXYdMpch2-tL"
+    },
+    {
+      "id": "pf-029",
+      "name": "Bánh Xèo Bà Thuý - 344 Trưng Nữ Vương",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "344 Trưng Nữ Vương, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1788927783922-8b1299701b45?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-xeo-ba-thuy-344-trung-nu-vuong",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-xeo-ba-thuy-344-trung-nu-vuong"
+    },
+    {
+      "id": "pf-030",
+      "name": "Bún Mắm Bà Đông",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "145 Huỳnh Thúc Kháng, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/bun-mam-ba-dong",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bun-mam-ba-dong"
+    },
+    {
+      "id": "pf-031",
+      "name": "Bún Mắm Ghiền",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "26 Phan Văn Trị, Cẩm Lệ, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1546069901-ba9599a7e63c.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/bun-mam-ghien",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bun-mam-ghien"
+    },
+    {
+      "id": "pf-032",
+      "name": "Bánh Canh Cua - Số 1 Đà Nẵng",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "95E Bùi Tá Hán, P. Khuê Mỹ, Quận Ngũ Hành Sơn, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-canh-cua-so-1-da-nang",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-canh-cua-so-1-da-nang"
+    },
+    {
+      "id": "pf-033",
+      "name": "Bánh Canh Chả Cua, Nậm & Lọc Huế - O Nhung - 432 Tôn Đản",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "432 Tôn Đản, Cẩm Lệ, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/banh-canh-cha-cua-nam-loc-hue-o-nhung-432-ton-dan",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-canh-cha-cua-nam-loc-hue-o-nhung-432-ton-dan"
+    },
+    {
+      "id": "pf-034",
+      "name": "Ajiichi Ramen - Nhất Vị",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "79 Lê Quang Đạo, P. Mỹ An, Quận Ngũ Hành Sơn, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1779453873118-0321c47aa1fd?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/ajiichi-ramen-nhat-vi",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/ajiichi-ramen-nhat-vi"
+    },
+    {
+      "id": "pf-035",
+      "name": "MÌ HÍNG KÝ - Hủ Tiếu, Hoành Thánh & Sủi Cảo - Lê Thanh Nghị",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "227 Lê Thanh Nghị, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1746183055178-e4d5889140f0?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/mi-hing-ky-hu-tieu-hoanh-thanh-sui-cao-le-thanh-nghi",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/mi-hing-ky-hu-tieu-hoanh-thanh-sui-cao-le-thanh-nghi"
+    },
+    {
+      "id": "pf-036",
+      "name": "Ân Ký Mì Gia - Mì Kéo & Hoành Thánh - Mỹ Đa Đông 12",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "3 Mỹ Đa Đông 12, Ngũ Hành Sơn, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1746183055178-e4d5889140f0?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/an-ky-mi-gia-mi-keo-hoanh-thanh-my-da-dong-12.ex7tqs",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/an-ky-mi-gia-mi-keo-hoanh-thanh-my-da-dong-12.ex7tqs"
+    },
+    {
+      "id": "pf-037",
+      "name": "Quán Chay Triệu An - 806 Tôn Đức Thắng",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "806 Tôn Đức Thắng, Liên Chiểu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1761037994516-502ed10932b0?auto=format&fit=crop&w=600&h=400&q=70&crop=focalpoint&fp-x=.5&fp-y=.8&fp-z=1.4",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/quan-chay-trieu-an-806-ton-duc-thang",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/quan-chay-trieu-an-806-ton-duc-thang"
+    },
+    {
+      "id": "pf-038",
+      "name": "BratBrot - German Food & Beer Restaurant",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "29 Vũ Văn Dũng, P. An Hải Tây, Quận Sơn Trà, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/bratbrot-pizza-xuc-xich-duc-29-vu-van-dung",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bratbrot-pizza-xuc-xich-duc-29-vu-van-dung"
+    },
+    {
+      "id": "pf-039",
+      "name": "Mì Quảng Hương Quê - Phan Thanh",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "78 Phan Thanh, Thanh Khê, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/mi-quang-huong-que-phan-thanh",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/mi-quang-huong-que-phan-thanh"
+    },
+    {
+      "id": "pf-040",
+      "name": "Mì Quảng Nhung - Nguyễn Tất Thành",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "135 Nguyễn Tất Thành, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1569718212165-3a8278d5f624.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/mi-quang-nhung-nguyen-tat-thanh",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/mi-quang-nhung-nguyen-tat-thanh"
+    },
+    {
+      "id": "pf-041",
+      "name": "Bún Bò Bà Diệu",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "2 Trường Thi 1, P. Hòa Thuận Tây, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1582878826629-29b7ad1cdc43.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/bun-bo-ba-dieu",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bun-bo-ba-dieu"
+    },
+    {
+      "id": "pf-042",
+      "name": "Trang Food - Bánh Cuốn Bình Định - 159 Huỳnh Tấn Phát",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "159 Huỳnh Tấn Phát, Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/dn-018.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/trang-food-banh-cuon-binh-dinh",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/trang-food-banh-cuon-binh-dinh"
+    },
+    {
+      "id": "pf-043",
+      "name": "Miu Miu - Ốc Hút Huế & Cà Phê Muối",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "435 Điện Biên Phủ, Thanh Khê, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1565557623262-b51c2513a641.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/miu-miu-oc-hut-hue-ca-phe-muoi",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/miu-miu-oc-hut-hue-ca-phe-muoi"
+    },
+    {
+      "id": "pf-044",
+      "name": "Tiệm Xíu - K109/09 Phạm Như Xương",
+      "category": "Ăn vặt",
+      "originalCategory": "Ăn vặt",
+      "suggestedMeals": [
+        "Sáng",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "K109/09 Phạm Như Xương, Liên Chiểu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1565557623262-b51c2513a641.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/tiem-xiu-k109-09-pham-nhu-xuong",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/tiem-xiu-k109-09-pham-nhu-xuong"
+    },
+    {
+      "id": "pf-045",
+      "name": "Chè Liên Đà Nẵng - Chè Sầu Liên - Điện Biên Phủ",
+      "category": "Cà phê & nước",
+      "originalCategory": "Cà phê & nước",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "320 Điện Biên Phủ, P. Chính Gián, Quận Thanh Khê, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1563805042-7684c019e1cb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/che-thai-lien-dien-bien-phu",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/che-thai-lien-dien-bien-phu"
+    },
+    {
+      "id": "pf-046",
+      "name": "Chè Thái Na Na",
+      "category": "Cà phê & nước",
+      "originalCategory": "Cà phê & nước",
+      "suggestedMeals": [
+        "Trưa",
+        "Chiều",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "K183/5 Hoàng Diệu, P. Nam Dương, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1563805042-7684c019e1cb.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/che-thai-na-na",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/che-thai-na-na"
+    },
+    {
+      "id": "pf-047",
+      "name": "Korean Best Chicken - Gà Rán Hàn Quốc - 81 Đống Đa",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "81 Đống Đa, Hải Châu",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1766589221562-e16eeacca795?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/korean-best-chicken-ga-ran-han-quoc-81-dong-da.kguaqq",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/korean-best-chicken-ga-ran-han-quoc-81-dong-da.kguaqq"
+    },
+    {
+      "id": "pf-048",
+      "name": "Chicky Licky - Gà rán Hàn Quốc - 59 Dũng Sĩ Thanh Khê",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Chiều",
+        "Tối",
+        "Khuya"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "59 Dũng Sĩ Thanh Khê, Thanh Khê",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1766589221562-e16eeacca795?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://food.grab.com/vn/vi/restaurant/chicky-licky-g%C3%A0-r%C3%A1n-h%C3%A0n-qu%E1%BB%91c-59-d%C5%A9ng-s%C4%A9-thanh-kh%C3%AA-delivery/5-C6WFN7VGGN5WE2",
+        "checkedAt": "2026-11-10"
+      },
+      "grabFoodUrl": "https://food.grab.com/vn/vi/restaurant/chicky-licky-g%C3%A0-r%C3%A1n-h%C3%A0n-qu%E1%BB%91c-59-d%C5%A9ng-s%C4%A9-thanh-kh%C3%AA-delivery/5-C6WFN7VGGN5WE2"
+    },
+    {
+      "id": "pf-049",
+      "name": "Nhất Long Quán - Vịt Gà Quay Lu Bắc Kinh - 142 Khúc Hạo",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "142 Khúc Hạo, P. Nại Hiên Đông, Quận Sơn Trà, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "url": "https://images.unsplash.com/photo-1765441012353-10fb4701a276?auto=format&fit=crop&w=600&h=400&q=70",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/nhat-long-quan-vit-ga-quay-lu-bac-kinh-142-khuc-hao",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/nhat-long-quan-vit-ga-quay-lu-bac-kinh-142-khuc-hao"
+    },
+    {
+      "id": "pf-050",
+      "name": "Bún Chả Cá Hương Quê - 33 Lương Định Của",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Sáng",
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "33 Lương Định Của, Cẩm Lệ",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1582878826629-29b7ad1cdc43.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/bun-cha-ca-huong-que-33-luong-dinh-cua",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bun-cha-ca-huong-que-33-luong-dinh-cua"
+    },
+    {
+      "id": "pf-051",
+      "name": "Cơm Gà Trang - Lê Thanh Nghị",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "195 Lê Thanh Nghị, P. Hòa Cường Bắc, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1598515214211-89d3c73ae83b.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/com-ga-trang-le-thanh-nghi",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/com-ga-trang-le-thanh-nghi"
+    },
+    {
+      "id": "pf-052",
+      "name": "Cơm Gà Lan - Trưng Nữ Vương",
+      "category": "Món chính",
+      "originalCategory": "Món chính",
+      "suggestedMeals": [
+        "Trưa",
+        "Tối"
+      ],
+      "priceLabel": "",
+      "priceTier": "",
+      "address": "520 Trưng Nữ Vương, P. Hòa Thuận Đông, Quận Hải Châu, Đà Nẵng",
+      "area": "Đà Nẵng",
+      "verification": "platform-listing",
+      "photo": {
+        "local": "/images/restaurants/photo-1598515214211-89d3c73ae83b.jpg",
+        "kind": "illustration",
+        "sourceLabel": "Ảnh minh họa món, không phải ảnh của quán"
+      },
+      "source": {
+        "type": "platform-listing",
+        "url": "https://shopeefood.vn/da-nang/com-ga-lan-trung-nu-vuong",
+        "checkedAt": "2026-11-10"
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/com-ga-lan-trung-nu-vuong"
     }
   ]
 }

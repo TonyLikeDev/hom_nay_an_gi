@@ -424,8 +424,8 @@ test(
       await actor(db, null);
       const seed = await catalog(db);
       assert.equal(seed.dishes.length, 105);
-      assert.equal(seed.restaurants.length, 105);
-      assert.equal(seed.links.length, 109);
+      assert.equal(seed.restaurants.length, 157);
+      assert.equal(seed.links.length, 167);
       assert.equal(Object.keys(seed.recipes).length, 105);
       await assert.rejects(
         db.query("select * from public.restaurant_submissions"),
@@ -503,7 +503,7 @@ test(
       );
       assert.equal(
         (await catalog(db)).restaurants.length,
-        105,
+        157,
         "Pending records stay private",
       );
       await actor(db, other);
@@ -542,7 +542,7 @@ test(
       const published = await catalog(db),
         rid = "r-" + id,
         did = "d-" + id + "-" + menu[0].id;
-      assert.equal(published.restaurants.length, 106);
+      assert.equal(published.restaurants.length, 158);
       assert.ok(published.dishes.some((d) => d.id === did));
       const venue = published.restaurants.find((r) => r.id === rid);
       assert.equal(venue.contactEmail, undefined);

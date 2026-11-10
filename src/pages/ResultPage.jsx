@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router";
 import { useCatalog } from "../providers.jsx";
 import {
   MEALS,
+  deliverySearch,
   filterDishes,
   mapsUrl,
   parseFilters,
@@ -110,7 +111,6 @@ export default function ResultPage() {
       </main>
     );
   const shown = preview || dish,
-    search = encodeURIComponent(dish.name),
     associations = catalog.links.filter((l) => l.dishId === dish.id),
     exact = associations.filter((l) => l.type === "dish"),
     related = exact.length ? exact : associations;
@@ -165,17 +165,16 @@ export default function ResultPage() {
             <div className="result__next">
               <h2>Đặt món qua nền tảng</h2>
               <div className="delivery-options__links">
-                {/* Search pages confirmed by hand 10/11/2026; ShopeeFood searches one city and the catalog is Đà Nẵng. */}
                 {[
                   [
                     "grabfood-green.png",
                     "GrabFood",
-                    `https://food.grab.com/vn/vi/restaurants?lng=vi&search=${search}&support-deeplink=true&searchParameter=${search}`,
+                    deliverySearch.grab(dish.name),
                   ],
                   [
                     "shopeefood.png",
                     "ShopeeFood",
-                    `https://shopeefood.vn/da-nang/danh-sach-dia-diem-giao-tan-noi?q=${search}`,
+                    deliverySearch.shopee(dish.name),
                   ],
                 ].map(([img, label, href]) => (
                   <External

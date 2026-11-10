@@ -8,6 +8,10 @@ Bản migration giữ nguyên 105 món, 105 mục địa điểm, 109 liên kế
 
 78/105 món ban đầu có liên kết quán trực tiếp. Sau lần bổ sung công thức, toàn bộ 105 món/đồ uống trong danh mục Git có công thức tham khảo. Liên kết `related` chỉ là món cùng nhóm; không xác nhận quán bán đúng biến thể. Không suy giá từng món từ khoảng giá của quán. Bữa gợi ý không phải giờ mở cửa hoặc tình trạng còn món.
 
+## Quán tìm trên GrabFood/ShopeeFood
+
+52 quán `pf-*` (`verification: platform-listing`) được thêm ngày 10/11/2026 bằng cách tìm từng món trên hai nền tảng tại Đà Nẵng. Mỗi quán có link nền tảng, tên và địa chỉ như kết quả tìm kiếm hiển thị, món bán được đối chiếu theo tên hoặc thực đơn trong kết quả. Chưa mở trực tiếp được trang nền tảng, chưa xác nhận với quán; giá, giờ mở cửa và tình trạng nhận đơn có thể đã đổi. Ảnh là ảnh minh họa của món, không phải ảnh của quán. Bibimbap, cà ri xanh, gà xào húng quế và risotto nấm chưa tìm được quán có địa chỉ rõ.
+
 ## Hình ảnh
 
 Hầu hết ảnh là minh họa từ các URL Unsplash có trong workbook; không phải ảnh xác minh của quán. Ba ảnh nguồn chính thức được ghi trong metadata: Madame Lân (`https://madamelan.vn/`), Pizza 4P's Indochina (`https://pizza4ps.com/vn/location/944/?lang=vietnamese`) và Bếp Cuốn (`https://bepcuon.net/`). Ảnh tải từ website chính thức không tự cấp quyền xuất bản lại. Cần kiểm tra giấy phép/được chủ sở hữu cho phép trước khi phát hành công khai, hoặc thay bằng ảnh có quyền sử dụng rõ ràng.

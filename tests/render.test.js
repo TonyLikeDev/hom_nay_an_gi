@@ -217,6 +217,10 @@ test(
         ).includes("Cập nhật mật khẩu"),
       );
       const ordering = structuredClone(base);
+      // Only dn-053 under pho-bo, so other venues' real order links don't mask the fallback.
+      ordering.links = ordering.links.filter(
+        (l) => l.dishId !== "pho-bo" || l.restaurantId === "dn-053",
+      );
       const restaurant = ordering.restaurants.find((r) => r.id === "dn-053");
       assert.ok(restaurant);
       restaurant.grabFoodUrl =
@@ -239,8 +243,18 @@ test(
       restaurant.grabFoodUrl = "https://food.grab.com.attacker.example/test";
       restaurant.shopeeFoodUrl = "javascript:alert(1)";
       const fallback = await render("/result?dish=pho-bo", ordering);
-      assert.ok(fallback.includes('href="https://food.grab.com/vn/vi/"'));
-      assert.ok(fallback.includes('href="https://shopeefood.vn/"'));
+      // Searches the restaurant name without its bracketed dish ("Phở Thìn Đà Nẵng (Phở bò tái lăn)").
+      const q = encodeURIComponent("Phở Thìn Đà Nẵng");
+      assert.ok(
+        fallback.includes(
+          `href="https://food.grab.com/vn/vi/restaurants?lng=vi&amp;search=${q}&amp;support-deeplink=true&amp;searchParameter=${q}"`,
+        ),
+      );
+      assert.ok(
+        fallback.includes(
+          `href="https://shopeefood.vn/da-nang/danh-sach-dia-diem-giao-tan-noi?q=${q}"`,
+        ),
+      );
       assert.ok(fallback.includes("đối chiếu địa chỉ"));
       assert.ok(!fallback.includes("attacker.example"));
       assert.ok(!fallback.includes("javascript:"));

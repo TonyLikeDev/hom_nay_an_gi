@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import {
   CUISINES,
   MEALS,
+  deliverySearch,
   mapsUrl,
   money,
   nutritionTags,
@@ -307,11 +308,13 @@ export function DishCard({ dish }) {
   );
 }
 export function RestaurantOrder({ restaurant }) {
+  // Imported names carry a dish in brackets, e.g. "Phở Thìn Đà Nẵng (Phở bò tái lăn)".
+  const name = restaurant.name.replace(/\s*\([^)]*\)/g, "").trim() || restaurant.name;
   const platforms = [
     [
       "GrabFood",
       safeHttps(restaurant.grabFoodUrl, ["food.grab.com"]),
-      "https://food.grab.com/vn/vi/",
+      deliverySearch.grab(name),
     ],
     [
       "ShopeeFood",
@@ -319,7 +322,7 @@ export function RestaurantOrder({ restaurant }) {
         "shopeefood.vn",
         "www.shopeefood.vn",
       ]),
-      "https://shopeefood.vn/",
+      deliverySearch.shopee(name),
     ],
   ];
   return (
@@ -339,7 +342,7 @@ export function RestaurantOrder({ restaurant }) {
         ))}
         <p className="section-note">
           {platforms.some(([, direct]) => !direct)
-            ? `“Tìm trên” mở trang nền tảng. Tìm ${restaurant.name} và đối chiếu địa chỉ ${restaurant.address}.`
+            ? `“Tìm trên” mở kết quả tìm ${name} trên nền tảng; đối chiếu địa chỉ ${restaurant.address} trước khi đặt.`
             : "Kiểm tra đúng chi nhánh, món, giá và phí giao hàng trước khi đặt trên nền tảng."}
         </p>
       </div>
