@@ -11,7 +11,7 @@
 - Yêu thích lưu trên thiết bị, giữ nguyên khóa và ID của bản cũ.
 - **Chủ quán:** đăng ký email, xác nhận email, đăng nhập, quên/đổi mật khẩu, thêm nhiều quán, gửi thực đơn và theo dõi duyệt.
 - **Quản trị:** duyệt/từ chối hồ sơ, sửa/ẩn món, quán, liên kết, công thức và căn cứ nhãn; xem tài khoản theo trang.
-- Link GrabFood/ShopeeFood đúng chi nhánh xuất hiện trên trang quán khi có; chưa tích hợp đặt hàng, thanh toán hay vận chuyển.
+- Nút GrabFood/ShopeeFood trên trang kết quả mở trang tìm đúng tên món (ShopeeFood tìm tại Đà Nẵng). Link đúng chi nhánh xuất hiện trên trang quán khi có; chưa tích hợp đặt hàng, thanh toán hay vận chuyển.
 
 Luồng hợp tác: **tạo tài khoản → xác nhận email → gửi quán và thực đơn → quản trị viên đối chiếu → công bố**. Khi chủ quán sửa hồ sơ đã duyệt, phiên bản công khai trước đó được giữ đến khi bản mới được duyệt. Liên hệ riêng và ghi chú duyệt không được xuất ra danh mục công khai.
 
@@ -81,7 +81,7 @@ Nguồn migration là catalog đã commit: **105 món, 105 mục địa điểm 
 
 `npm run db:seed` tạo lại `supabase/seed.sql` từ `data/*.json`. Seed dùng `ON CONFLICT DO NOTHING`: chạy lại không ghi đè chỉnh sửa quản trị. Thay JSON không tự cập nhật dữ liệu đang chạy. Xem [nguồn và phạm vi dữ liệu](docs/DATA.md) và [yêu cầu giảng viên](docs/TEACHER-REQUIREMENTS.md).
 
-**Project Supabase đã chạy migration:** để thêm các công thức mới, chạy lại [seed](supabase/seed.sql) trong SQL Editor, không chạy lại migration tạo schema. Seed chỉ thêm hàng còn thiếu, giữ công thức đã chỉnh sửa hoặc đã ẩn. Món đối tác tạo thêm sau này vẫn cần được biên tập công thức riêng trong admin; không tự gán công thức của món khác.
+**Project Supabase đã chạy migration:** để thêm các công thức mới, chạy lại [seed](supabase/seed.sql) trong SQL Editor, không chạy lại migration tạo schema. Seed chỉ thêm hàng còn thiếu, giữ công thức đã chỉnh sửa hoặc đã ẩn. Seed cũng bổ sung link GrabFood/ShopeeFood còn thiếu cho quán nhập ban đầu; link admin đã đặt hoặc đã xóa được giữ nguyên. Món đối tác tạo thêm sau này vẫn cần được biên tập công thức riêng trong admin; không tự gán công thức của món khác.
 
 **Cập nhật bản sửa audit:** trên project đã có dữ liệu, chỉ chạy [202611090001_recipe_versions.sql](supabase/migrations/202611090001_recipe_versions.sql) trong SQL Editor. Migration thay hai hàm ghi, không xóa dữ liệu danh mục. Từ đó, sửa nội dung công thức sẽ thu hồi căn cứ dinh dưỡng và nhãn chay đã rà soát; chỉ ẩn/hiện công thức không làm mất căn cứ. Khi duyệt lại món đã đổi tên hoặc ẩm thực, công thức cũ được giữ nhưng ẩn để biên tập lại; đổi giá hoặc địa chỉ quán không ẩn công thức. Những thay đổi đã xảy ra trước migration vẫn cần admin tự đối chiếu vì chưa lưu phiên bản công thức trong căn cứ cũ.
 

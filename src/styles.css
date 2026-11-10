@@ -1208,80 +1208,6 @@ body[data-cuisine] {
   }
 }
 
-/* ---------- Chọn khu vực trước khi mở nền tảng ---------- */
-.delivery-dialog {
-  width: min(520px, calc(100% - 2rem));
-  max-height: calc(100dvh - 2rem);
-  margin: auto;
-  padding: 0;
-  overflow-y: auto;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--surface);
-  color: var(--ink);
-}
-.delivery-dialog::backdrop {
-  background: rgb(19 20 22 / 65%);
-}
-.delivery-dialog[open] {
-  animation: delivery-enter 0.2s var(--ease);
-}
-.delivery-dialog__body {
-  padding: clamp(1.25rem, 4vw, 2rem);
-}
-.delivery-dialog h2 {
-  font-size: clamp(1.5rem, 5vw, 2rem);
-  line-height: 1.2;
-  overflow-wrap: anywhere;
-}
-.delivery-dialog form {
-  margin-top: 1.25rem;
-}
-.delivery-dialog label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  font-size: 0.9375rem;
-}
-.delivery-dialog input {
-  width: 100%;
-  min-width: 0;
-  min-height: 48px;
-  padding: 0.625rem 0.875rem;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--bg);
-  color: var(--ink);
-  font: inherit;
-  caret-color: var(--accent);
-}
-.delivery-dialog input::placeholder {
-  color: var(--muted);
-  opacity: 1;
-}
-@keyframes delivery-enter {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@media (max-width: 600px) {
-  .delivery-dialog {
-    width: 100%;
-    max-height: 90dvh;
-    margin: auto 0 0;
-    border-radius: 20px 20px 0 0;
-    border-bottom: 0;
-  }
-  .delivery-dialog__body {
-    padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
-  }
-}
-
 /* ---------- Công thức: đọc và thao tác trong bếp ---------- */
 .recipe-facts {
   display: grid;
@@ -2308,14 +2234,6 @@ textarea {
 }
 .result-restaurants {
   margin-top: 1rem;
-}
-.delivery-dialog__body {
-  display: grid;
-  gap: 1rem;
-  padding: 1.5rem;
-}
-.delivery-dialog__body > button {
-  justify-self: end;
 }
 .venue-hero {
   display: grid;

@@ -20,7 +20,6 @@ import {
   SaveButton,
   Status,
 } from "../components/ui.jsx";
-import DeliveryDialog from "../components/DeliveryDialog.jsx";
 
 export default function ResultPage() {
   const { catalog } = useCatalog(),
@@ -39,7 +38,6 @@ export default function ResultPage() {
   const [id, setId] = useState(() => explicit || pickDish(pool, last())?.id),
     [busy, setBusy] = useState(false),
     [preview, setPreview] = useState(null),
-    [delivery, setDelivery] = useState(null),
     cancelPick = useRef(() => {});
   const dish = catalog.dishes.find((d) => d.id === id);
   useEffect(() => {
@@ -112,6 +110,7 @@ export default function ResultPage() {
       </main>
     );
   const shown = preview || dish,
+    search = encodeURIComponent(dish.name),
     associations = catalog.links.filter((l) => l.dishId === dish.id),
     exact = associations.filter((l) => l.type === "dish"),
     related = exact.length ? exact : associations;
@@ -166,31 +165,40 @@ export default function ResultPage() {
             <div className="result__next">
               <h2>Đặt món qua nền tảng</h2>
               <div className="delivery-options__links">
+                {/* Search pages confirmed by hand 10/11/2026; ShopeeFood searches one city and the catalog is Đà Nẵng. */}
                 {[
-                  ["grab", "grabfood-green.png", "GrabFood"],
-                  ["shopee", "shopeefood.png", "ShopeeFood"],
-                ].map(([key, img, label]) => (
-                  <button
+                  [
+                    "grabfood-green.png",
+                    "GrabFood",
+                    `https://food.grab.com/vn/vi/restaurants?lng=vi&search=${search}&support-deeplink=true&searchParameter=${search}`,
+                  ],
+                  [
+                    "shopeefood.png",
+                    "ShopeeFood",
+                    `https://shopeefood.vn/da-nang/danh-sach-dia-diem-giao-tan-noi?q=${search}`,
+                  ],
+                ].map(([img, label, href]) => (
+                  <External
                     className="btn delivery-link"
-                    type="button"
-                    key={key}
-                    disabled={busy}
-                    onClick={() => setDelivery(key)}
+                    key={label}
+                    href={href}
+                    aria-label={`Tìm ${dish.name} trên ${label}`}
                   >
                     <span className="delivery-link__brand">
                       <img
                         src={"/images/brands/" + img}
                         width="100"
                         height="30"
-                        alt={label}
+                        alt=""
                       />
                     </span>
                     <Icon name="arrow" />
-                  </button>
+                  </External>
                 ))}
               </div>
               <p className="delivery-options__note">
-                Bạn chọn địa chỉ, xác nhận món và thanh toán trên nền tảng.
+                Mở kết quả tìm món trên nền tảng; bạn chọn địa chỉ, quán và
+                thanh toán ở đó.
               </p>
               {catalog.recipes[dish.id] ? (
                 <Link
@@ -245,13 +253,6 @@ export default function ResultPage() {
             Khám phá các quán →
           </Link>
         </section>
-      )}
-      {delivery && (
-        <DeliveryDialog
-          dish={dish}
-          platform={delivery}
-          onClose={() => setDelivery(null)}
-        />
       )}
     </main>
   );

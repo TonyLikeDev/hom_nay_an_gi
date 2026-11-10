@@ -28,4 +28,4 @@ Quản trị viên tự đối chiếu đúng chủ thể, chi nhánh, nguồn, 
 
 Contact email, người đại diện và ghi chú duyệt nằm trong bảng hồ sơ chỉ chủ hồ sơ và admin được đọc. Số điện thoại của quán là thông tin công khai sau khi duyệt. Lịch sử thay đổi giữ ở schema `private`, không cho frontend truy cập.
 
-Link giao đồ ăn phải thuộc `food.grab.com` hoặc `shopeefood.vn` và đúng chi nhánh. Nút tìm món chung mở nền tảng ngay; người dùng thiết lập địa chỉ giao hàng trên nền tảng. Website không tạo đơn, thu tiền hoặc điều phối shipper.
+Link giao đồ ăn phải thuộc `food.grab.com` hoặc `shopeefood.vn` và đúng chi nhánh. 12 quán ban đầu có link chi nhánh, tìm trên hai nền tảng ngày 10/11/2026 và đối chiếu tên quán với số nhà/tên đường trong kết quả tìm kiếm; chưa mở trực tiếp được trang nền tảng và chưa được quán xác nhận. Một số quán đang tạm ngưng nhận đơn lúc kiểm tra. Nút trên trang kết quả mở trang tìm tên món của nền tảng (ShopeeFood tìm tại Đà Nẵng); người dùng thiết lập địa chỉ giao hàng trên nền tảng. Website không tạo đơn, thu tiền hoặc điều phối shipper.

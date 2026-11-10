@@ -25,6 +25,12 @@ for (const id of Object.keys(recipes))
   assert.ok(food.DISHES.some((d) => d.id === id));
 for (const dish of food.DISHES)
   assert.ok(Object.hasOwn(recipes, dish.id), `Missing recipe: ${dish.id}`);
+const orderKeys = ["grabFoodUrl", "shopeeFoodUrl"];
+const orderLinks = venues.restaurants.flatMap((r) =>
+  orderKeys.some((k) => r[k])
+    ? [{ id: r.id, ...Object.fromEntries(orderKeys.filter((k) => r[k]).map((k) => [k, r[k]])) }]
+    : [],
+);
 const literal = (value) =>
   "'" + JSON.stringify(value).replaceAll("'", "''") + "'::jsonb";
 const rows = (table, records, columns, select) =>
@@ -32,6 +38,10 @@ const rows = (table, records, columns, select) =>
 const sql =
   "-- Committed reference catalog, not verified partner menus. Never overwrites existing rows.\nbegin;\n" +
   rows("restaurants", venues.restaurants, "id,data", "item->>'id',item") +
+  // Rows seeded before order links existed get them; keys an admin already set or cleared are kept.
+  `update public.restaurants r set data=r.data||((item-'id')-array(select jsonb_object_keys(r.data))),revision=r.revision+1,updated_at=now()
+from jsonb_array_elements(${literal(orderLinks)}) item
+where r.id=item->>'id' and (item-'id')-array(select jsonb_object_keys(r.data))<>'{}'::jsonb;\n` +
   rows(
     "dishes",
     food.DISHES,

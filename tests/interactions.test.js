@@ -383,30 +383,23 @@ test("a recipe history jump resets servings, ingredient checks and completed ste
   assert.equal(container.querySelector("progress").value, 0);
 });
 
-test("delivery opens without selecting a region and still copies the dish name", async () => {
+test("delivery links open each platform's search for the shown dish", async () => {
   const { container } = await mountRoutes("/result?dish=pho-bo");
-  const copied = [];
-  Object.defineProperty(dom.window.navigator, "clipboard", {
-    configurable: true,
-    value: { writeText: async (text) => copied.push(text) },
-  });
-  await click(container.querySelector(".delivery-link"));
-  const dialog = container.querySelector("dialog[open]");
-  assert.ok(dialog);
-  assert.equal(dialog.querySelector("select"), null);
-  assert.equal(
-    dialog.querySelector('a[href="https://food.grab.com/vn/vi/"]').target,
-    "_blank",
+  const name = catalog.dishes.find((dish) => dish.id === "pho-bo").name,
+    q = encodeURIComponent(name);
+  const links = [...container.querySelectorAll(".delivery-link")];
+  assert.deepEqual(
+    links.map((a) => a.href),
+    [
+      `https://food.grab.com/vn/vi/restaurants?lng=vi&search=${q}&support-deeplink=true&searchParameter=${q}`,
+      `https://shopeefood.vn/da-nang/danh-sach-dia-diem-giao-tan-noi?q=${q}`,
+    ],
   );
-  await click(
-    [...dialog.querySelectorAll("button")].find(
-      (button) => button.textContent.trim() === "Sao chép tên món",
-    ),
+  assert.deepEqual(
+    links.map((a) => a.getAttribute("aria-label")),
+    ["Tìm " + name + " trên GrabFood", "Tìm " + name + " trên ShopeeFood"],
   );
-  assert.deepEqual(copied, [
-    catalog.dishes.find((dish) => dish.id === "pho-bo").name,
-  ]);
-  assert.ok(dialog.textContent.includes("Đã sao chép tên món"));
+  assert.ok(links.every((a) => a.target === "_blank" && a.rel.includes("noopener")));
 });
 
 test("owner submission and admin approval work through the actual forms and database permissions", async () => {

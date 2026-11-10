@@ -65,6 +65,45 @@ test("recipe backfill adds missing recipes without overwriting admin edits or vi
   }
 });
 
+test("seed adds order links to existing restaurants without overwriting admin choices", async () => {
+  const db = await setup();
+  try {
+    const seed = await read("supabase/seed.sql");
+    const [missing, cleared] = JSON.parse(
+      await read("data/restaurants.json"),
+    ).restaurants.filter((r) => r.grabFoodUrl);
+    assert.ok(cleared, "needs two restaurants with GrabFood links");
+    await db.exec(seed);
+    // Simulate a row seeded before links existed, and one where an admin removed the link.
+    await db.query(
+      "update public.restaurants set data=data-'grabFoodUrl'-'shopeeFoodUrl',revision=1 where id=$1",
+      [missing.id],
+    );
+    await db.query(
+      `update public.restaurants set data=jsonb_set(data,'{grabFoodUrl}','""'),revision=1 where id=$1`,
+      [cleared.id],
+    );
+    await db.exec(seed);
+    await db.exec(seed);
+    const row = async (id) =>
+      (
+        await db.query(
+          "select data,revision from public.restaurants where id=$1",
+          [id],
+        )
+      ).rows[0];
+    const filled = await row(missing.id);
+    assert.equal(filled.data.grabFoodUrl, missing.grabFoodUrl);
+    assert.equal(filled.data.shopeeFoodUrl, missing.shopeeFoodUrl);
+    assert.equal(filled.revision, 2);
+    const kept = await row(cleared.id);
+    assert.equal(kept.data.grabFoodUrl, "");
+    assert.equal(kept.revision, 1);
+  } finally {
+    await db.close();
+  }
+});
+
 test("test restaurant SQL creates only an owner draft and safely preserves edits on rerun", async () => {
   const db = await setup();
   const sql = await read("supabase/test-restaurant.sql");

@@ -57,7 +57,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 3
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/bun-cha-ca-nguyen-chi-thanh"
     },
     {
       "id": "dn-003",
@@ -85,7 +86,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 4
-      }
+      },
+      "grabFoodUrl": "https://food.grab.com/vn/vi/restaurant/b%C3%BAn-ch%E1%BA%A3-c%C3%A1-b%C3%A0-l%E1%BB%AF-h%C3%B9ng-v%C6%B0%C6%A1ng-delivery/5-CYM3UFUTL2EELJ"
     },
     {
       "id": "dn-004",
@@ -167,7 +169,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 7
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-xeo-ba-duong"
     },
     {
       "id": "dn-007",
@@ -276,7 +279,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 11
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/com-ga-a-hai-phan-chau-trinh"
     },
     {
       "id": "dn-011",
@@ -660,7 +664,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 25
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/banh-trang-kep-di-hoa"
     },
     {
       "id": "dn-025",
@@ -742,7 +747,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 28
-      }
+      },
+      "grabFoodUrl": "https://food.grab.com/vn/vi/restaurant/ch%C3%A8-li%C3%AAn-ho%C3%A0ng-di%E1%BB%87u-delivery/5-C7EVAVEWTTDUCN"
     },
     {
       "id": "dn-028",
@@ -769,7 +775,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 29
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/che-xuan-trang-le-duan"
     },
     {
       "id": "dn-029",
@@ -1257,7 +1264,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 47
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/hai-san-be-man"
     },
     {
       "id": "dn-047",
@@ -1770,7 +1778,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 66
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/nam-hien-banh-xeo-tom-nhay"
     },
     {
       "id": "dn-066",
@@ -1962,7 +1971,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 73
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/roots-plant-based-cafe-do-an-thuan-chay-26-27-tran-bach-dang"
     },
     {
       "id": "dn-073",
@@ -2398,7 +2408,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 89
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/quan-chay-thuy"
     },
     {
       "id": "dn-089",
@@ -2560,7 +2571,8 @@
       "source": {
         "file": "data  hơn 100 món ăn,nước uống , quán bánh ,ăn vặ....xlsx",
         "row": 95
-      }
+      },
+      "shopeeFoodUrl": "https://shopeefood.vn/da-nang/goi-ca-thanh-huong-dac-san-da-nang"
     },
     {
       "id": "dn-095",
